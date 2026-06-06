@@ -212,7 +212,7 @@
       "config": {
         "id": "topicVisual",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/handoff-context-ledger.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/handoff-context-ledger.svg",
         "alt": "Infografía para Handoffs",
         "width": 1200,
         "height": 720,
@@ -229,7 +229,7 @@
       "config": {
         "id": "topicVisualModalRootImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/handoff-context-ledger.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/handoff-context-ledger.svg",
         "alt": "Infografía para Handoffs",
         "width": 1200,
         "height": 720,
@@ -313,7 +313,7 @@
       "config": {
         "id": "topicMascotImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-guide-workflows.webp",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/lynx-guide-workflows.webp",
         "alt": "Lynx Pardelle explicando Handoffs",
         "width": 1200,
         "height": 720,
@@ -330,7 +330,7 @@
       "config": {
         "id": "topicMascotModalRootImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-guide-workflows.webp",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/lynx-guide-workflows.webp",
         "alt": "Lynx Pardelle explicando Handoffs",
         "width": 1200,
         "height": 720,
@@ -4522,7 +4522,7 @@
       "config": {
         "id": "mascotStudyImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-sticker-05-tablet.png",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/lynx-sticker-05-tablet.png",
         "alt": "Sticker de Lynx Pardelle repasando Handoffs",
         "width": 1200,
         "height": 720,

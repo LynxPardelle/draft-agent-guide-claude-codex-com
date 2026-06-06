@@ -212,7 +212,7 @@
       "config": {
         "id": "topicVisual",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/skills-cases-router.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/skills-cases-router.svg",
         "alt": "Infografía para Skills recomendados",
         "width": 1200,
         "height": 720,
@@ -229,7 +229,7 @@
       "config": {
         "id": "topicVisualModalRootImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/skills-cases-router.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/skills-cases-router.svg",
         "alt": "Infografía para Skills recomendados",
         "width": 1200,
         "height": 720,
@@ -313,7 +313,7 @@
       "config": {
         "id": "topicMascotImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-guide-skills.webp",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/lynx-guide-skills.webp",
         "alt": "Lynx Pardelle explicando Skills recomendados",
         "width": 1200,
         "height": 720,
@@ -330,7 +330,7 @@
       "config": {
         "id": "topicMascotModalRootImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-guide-skills.webp",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/lynx-guide-skills.webp",
         "alt": "Lynx Pardelle explicando Skills recomendados",
         "width": 1200,
         "height": 720,
@@ -4781,7 +4781,7 @@
       "config": {
         "id": "mascotStudyImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-sticker-06-thumbs-up.png",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/lynx-sticker-06-thumbs-up.png",
         "alt": "Sticker de Lynx Pardelle repasando Skills recomendados",
         "width": 1200,
         "height": 720,

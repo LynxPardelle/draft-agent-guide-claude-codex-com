@@ -212,7 +212,7 @@
       "config": {
         "id": "topicVisual",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/schema-validation-contract.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/schema-validation-contract.svg",
         "alt": "Infografía para Schemas",
         "width": 1200,
         "height": 720,
@@ -229,7 +229,7 @@
       "config": {
         "id": "topicVisualModalRootImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/schema-validation-contract.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/schema-validation-contract.svg",
         "alt": "Infografía para Schemas",
         "width": 1200,
         "height": 720,
@@ -313,7 +313,7 @@
       "config": {
         "id": "topicMascotImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-guide-schemas.webp",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/lynx-guide-schemas.webp",
         "alt": "Lynx Pardelle explicando Schemas",
         "width": 1200,
         "height": 720,
@@ -330,7 +330,7 @@
       "config": {
         "id": "topicMascotModalRootImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-guide-schemas.webp",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/lynx-guide-schemas.webp",
         "alt": "Lynx Pardelle explicando Schemas",
         "width": 1200,
         "height": 720,
@@ -4653,7 +4653,7 @@
       "config": {
         "id": "mascotStudyImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-sticker-11-checklist.png",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/lynx-sticker-11-checklist.png",
         "alt": "Sticker de Lynx Pardelle repasando Schemas",
         "width": 1200,
         "height": 720,

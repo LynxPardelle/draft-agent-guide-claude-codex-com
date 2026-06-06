@@ -212,7 +212,7 @@
       "config": {
         "id": "topicVisual",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/repo-workflow-closeout.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/repo-workflow-closeout.svg",
         "alt": "Infografía para Repo workflow",
         "width": 1200,
         "height": 720,
@@ -229,7 +229,7 @@
       "config": {
         "id": "topicVisualModalRootImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/repo-workflow-closeout.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/repo-workflow-closeout.svg",
         "alt": "Infografía para Repo workflow",
         "width": 1200,
         "height": 720,
@@ -313,7 +313,7 @@
       "config": {
         "id": "topicMascotImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-guide-codex-qa.webp",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/lynx-guide-codex-qa.webp",
         "alt": "Lynx Pardelle explicando Repo workflow",
         "width": 1200,
         "height": 720,
@@ -330,7 +330,7 @@
       "config": {
         "id": "topicMascotModalRootImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-guide-codex-qa.webp",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/lynx-guide-codex-qa.webp",
         "alt": "Lynx Pardelle explicando Repo workflow",
         "width": 1200,
         "height": 720,
@@ -4522,7 +4522,7 @@
       "config": {
         "id": "mascotStudyImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-sticker-04-laptop.png",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/lynx-sticker-04-laptop.png",
         "alt": "Sticker de Lynx Pardelle repasando Repo workflow",
         "width": 1200,
         "height": 720,
