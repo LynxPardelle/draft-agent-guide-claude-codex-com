@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "domain": "agent-guide-claude-codex.com",
+  "pageId": "allPages",
+  "variables": {
+    "brand": {
+      "displayName": "Ruta Claude/Codex para agentes"
+    },
+    "ui": {
+      "loadingCurtain": {
+        "enabled": true,
+        "title": "Ruta Claude/Codex",
+        "subtitle": "Herramienta web de estudio",
+        "background": "#f4f6f8",
+        "foreground": "#0f1720",
+        "accent": "#2d8a7a",
+        "minVisibleMs": 0,
+        "exitDurationMs": 260
+      }
+    }
+  }
+}

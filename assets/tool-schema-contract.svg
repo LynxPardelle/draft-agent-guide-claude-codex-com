@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Contrato de tool schema</title>
+  <desc id="desc">Diagrama de entradas, validacion, permisos, errores, salida y aprobacion humana para una herramienta de agente.</desc>
+  <rect width="1200" height="720" rx="36" fill="#ffffff"/>
+  <rect x="54" y="54" width="1092" height="612" rx="28" fill="#f7f5ee" stroke="#101316" stroke-width="3"/>
+  <text x="92" y="122" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="850" fill="#101316">Tool schema como contrato</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="18" fill="#101316">
+    <rect x="92" y="198" width="194" height="110" rx="20" fill="#eaf8ff" stroke="#c8d9e1"/>
+    <text x="124" y="244" font-weight="850">Entrada</text>
+    <text x="124" y="278" font-size="16" fill="#44515c">campos claros</text>
+    <path d="M304 253 H392" stroke="#44515c" stroke-width="4" stroke-linecap="round"/>
+    <path d="M380 237 L404 253 L380 269" fill="none" stroke="#44515c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="420" y="198" width="194" height="110" rx="20" fill="#dff7e8" stroke="#b9dbc5"/>
+    <text x="452" y="244" font-weight="850">Validacion</text>
+    <text x="452" y="278" font-size="16" fill="#44515c">tipos y limites</text>
+    <path d="M632 253 H720" stroke="#44515c" stroke-width="4" stroke-linecap="round"/>
+    <path d="M708 237 L732 253 L708 269" fill="none" stroke="#44515c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="748" y="198" width="194" height="110" rx="20" fill="#fff4e6" stroke="#e7cfae"/>
+    <text x="780" y="244" font-weight="850">Permisos</text>
+    <text x="780" y="278" font-size="16" fill="#44515c">minimo acceso</text>
+    <path d="M517 330 V402" stroke="#44515c" stroke-width="4" stroke-linecap="round"/>
+    <path d="M501 390 L517 414 L533 390" fill="none" stroke="#44515c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="330" y="430" width="194" height="110" rx="20" fill="#fff1f2" stroke="#e8bdc5"/>
+    <text x="362" y="476" font-weight="850">Errores</text>
+    <text x="362" y="510" font-size="16" fill="#44515c">fallos previstos</text>
+    <path d="M548 485 H636" stroke="#44515c" stroke-width="4" stroke-linecap="round"/>
+    <path d="M624 469 L648 485 L624 501" fill="none" stroke="#44515c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="664" y="430" width="194" height="110" rx="20" fill="#ffffff" stroke="#d1d8dc"/>
+    <text x="696" y="476" font-weight="850">Salida</text>
+    <text x="696" y="510" font-size="16" fill="#44515c">JSON auditable</text>
+  </g>
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="188" y="594" width="824" height="46" rx="16" fill="#101820"/>
+    <text x="224" y="624" font-size="18" font-weight="760" fill="#d9e6ed">Accion sensible = confirmacion humana antes de ejecutar.</text>
+  </g>
+</svg>

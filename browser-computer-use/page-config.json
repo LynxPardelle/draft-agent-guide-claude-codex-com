@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "domain": "agent-guide-claude-codex.com",
+  "pageId": "browser-computer-use",
+  "rootIds": [
+    "skipToMainLink",
+    "studyPage"
+  ],
+  "modalRootIds": [
+    "topicVisualModalRoot",
+    "topicMascotModalRoot"
+  ],
+  "metadata": {
+    "status": "study-draft",
+    "source": "Sintesis propia basada en aprendizaje revisado y documentacion publica relacionada.",
+    "publicationSafety": "Review privacy, links, permissions, and sensitive material before publication."
+  },
+  "seo": {
+    "title": "Browser QA | Claude/Codex Agent Lab",
+    "description": "La validación visual necesita abrir la app, interactuar y mirar consola, capturas de QA, overflow, estados y errores de recursos. Build no prueba experiencia de usuario.",
+    "robots": "noindex,nofollow",
+    "canonical": "https://agent-guide-claude-codex.com/browser-computer-use"
+  },
+  "analytics": {
+    "sectionIds": [
+      "hero",
+      "conceptos",
+      "ejemplo",
+      "practica",
+      "fuentes"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

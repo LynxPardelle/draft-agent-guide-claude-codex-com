@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Agentic evaluation harness</title>
+  <desc id="desc">Evaluation harness with cases, rubric, trace, judge, regression and release gate.</desc>
+  <rect width="1200" height="720" rx="28" fill="#eef8fb"/>
+  <rect x="80" y="74" width="1040" height="548" rx="28" fill="#ffffff" stroke="#102638" stroke-width="6"/>
+  <text x="120" y="140" font-family="Arial, sans-serif" font-size="48" font-weight="800" fill="#111820">Agentic eval harness</text>
+  <text x="120" y="182" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#536171">Evaluate output, process, tools and safety</text>
+  <g font-family="Arial, sans-serif" font-weight="800" text-anchor="middle">
+    <rect x="130" y="280" width="170" height="92" rx="18" fill="#dff3ff" stroke="#7bb8d5"/>
+    <text x="215" y="335" font-size="24" fill="#12324a">Cases</text>
+    <rect x="355" y="280" width="170" height="92" rx="18" fill="#d7f3e4" stroke="#91c8a7"/>
+    <text x="440" y="335" font-size="24" fill="#12324a">Rubric</text>
+    <rect x="580" y="280" width="170" height="92" rx="18" fill="#fff0d8" stroke="#e0b56a"/>
+    <text x="665" y="335" font-size="24" fill="#12324a">Trace</text>
+    <rect x="805" y="280" width="170" height="92" rx="18" fill="#f5e5f0" stroke="#d7a9c7"/>
+    <text x="890" y="335" font-size="24" fill="#12324a">Judge</text>
+  </g>
+  <g stroke="#102638" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M300 326h55"/>
+    <path d="M525 326h55"/>
+    <path d="M750 326h55"/>
+    <path d="M330 430h520"/>
+    <path d="M330 430v55h520v-55"/>
+  </g>
+  <rect x="240" y="500" width="260" height="70" rx="16" fill="#102638"/>
+  <text x="370" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="800" fill="#ffffff">Regression set</text>
+  <rect x="560" y="500" width="260" height="70" rx="16" fill="#102638"/>
+  <text x="690" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="800" fill="#ffffff">Release gate</text>
+</svg>

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "domain": "agent-guide-claude-codex.com",
+  "pageId": "claude-code-codex",
+  "rootIds": [
+    "skipToMainLink",
+    "studyPage"
+  ],
+  "modalRootIds": [
+    "topicVisualModalRoot",
+    "topicMascotModalRoot"
+  ],
+  "metadata": {
+    "status": "study-draft",
+    "source": "Sintesis propia basada en aprendizaje revisado y documentacion publica relacionada.",
+    "publicationSafety": "Review privacy, links, permissions, and sensitive material before publication."
+  },
+  "seo": {
+    "title": "Claude Code / Codex | Claude/Codex Agent Lab",
+    "description": "Los agentes de código son útiles cuando trabajan con reglas del repo, inspección del proyecto, cambios pequeños y verificación real. El valor no es escribir código rápido: es cerrar con evidencia, respetar cambios ajenos y reportar límites.",
+    "robots": "noindex,nofollow",
+    "canonical": "https://agent-guide-claude-codex.com/claude-code-codex"
+  },
+  "analytics": {
+    "sectionIds": [
+      "hero",
+      "conceptos",
+      "ejemplo",
+      "practica",
+      "fuentes"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

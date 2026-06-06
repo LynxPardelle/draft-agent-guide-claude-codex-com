@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Router workflow o agente</title>
+  <desc id="desc">Decision entre workflow, agente e hibrido segun incertidumbre, riesgo y evaluacion.</desc>
+  <rect width="1200" height="720" rx="36" fill="#f6f2ea"/>
+  <rect x="58" y="58" width="1084" height="604" rx="28" fill="none" stroke="#101820" stroke-width="5"/>
+  <text x="96" y="126" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="800" fill="#102a43">Workflow, agente o híbrido</text>
+  <text x="98" y="166" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#496274">Pon autonomía solo donde la incertidumbre lo justifica.</text>
+  <defs><marker id="arrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto"><path d="M0 0 L14 7 L0 14z" fill="#102a43"/></marker></defs>
+  <rect x="100" y="252" width="250" height="118" rx="18" fill="#dff2ff" stroke="#8ec5e5" stroke-width="3"/>
+  <text x="130" y="302" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="800" fill="#102a43">Camino conocido</text>
+  <text x="130" y="336" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#435768">usa workflow fijo</text>
+  <rect x="470" y="252" width="250" height="118" rx="18" fill="#d9f7e8" stroke="#8ccfb1" stroke-width="3"/>
+  <text x="500" y="302" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="800" fill="#102a43">Incertidumbre</text>
+  <text x="500" y="336" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#435768">usa agente limitado</text>
+  <rect x="840" y="252" width="250" height="118" rx="18" fill="#fff0dc" stroke="#e6b16e" stroke-width="3"/>
+  <text x="870" y="302" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="800" fill="#102a43">Riesgo alto</text>
+  <text x="870" y="336" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#435768">gate humano</text>
+  <path d="M350 311 H462" stroke="#102a43" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M720 311 H832" stroke="#102a43" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="214" y="468" width="280" height="104" rx="18" fill="#fff" stroke="#ccd7df" stroke-width="3"/>
+  <text x="244" y="510" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="800" fill="#102a43">Evaluación</text>
+  <text x="244" y="544" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#435768">criterio antes de aceptar</text>
+  <rect x="584" y="468" width="280" height="104" rx="18" fill="#102a43"/>
+  <text x="614" y="510" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="800" fill="#dff2ff">Handoff</text>
+  <text x="614" y="544" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#f6f2ea">opciones y evidencia</text>
+  <path d="M596 370 V458" stroke="#102a43" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M965 370 V520 H874" stroke="#102a43" stroke-width="5" fill="none" marker-end="url(#arrow)"/>
+</svg>

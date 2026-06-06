@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "domain": "agent-guide-claude-codex.com",
+  "pageId": "seguridad-publicacion",
+  "rootIds": [
+    "skipToMainLink",
+    "studyPage"
+  ],
+  "modalRootIds": [
+    "topicVisualModalRoot",
+    "topicMascotModalRoot"
+  ],
+  "metadata": {
+    "status": "study-draft",
+    "source": "Sintesis propia basada en aprendizaje revisado y documentacion publica relacionada.",
+    "publicationSafety": "Review privacy, links, permissions, and sensitive material before publication."
+  },
+  "seo": {
+    "title": "Seguridad | Claude/Codex Agent Lab",
+    "description": "Antes de hacer público un draft hay que asumir exposición: sin secretos, sin PII, sin capturas con identidad/cuenta, con auditoría pública y con recursos públicos saneados.",
+    "robots": "noindex,nofollow",
+    "canonical": "https://agent-guide-claude-codex.com/seguridad-publicacion"
+  },
+  "analytics": {
+    "sectionIds": [
+      "hero",
+      "conceptos",
+      "ejemplo",
+      "practica",
+      "fuentes"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

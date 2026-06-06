@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "domain": "agent-guide-claude-codex.com",
+  "pageId": "handoffs-coordinacion",
+  "rootIds": [
+    "skipToMainLink",
+    "studyPage"
+  ],
+  "modalRootIds": [
+    "topicVisualModalRoot",
+    "topicMascotModalRoot"
+  ],
+  "metadata": {
+    "status": "study-draft",
+    "source": "Sintesis propia basada en aprendizaje revisado y documentacion publica relacionada.",
+    "publicationSafety": "Review privacy, links, permissions, and sensitive material before publication."
+  },
+  "seo": {
+    "title": "Handoffs | Claude/Codex Agent Lab",
+    "description": "Un buen handoff permite continuar sin repetir investigación: tarea, scope, restricciones, archivos tocados, validación y riesgos pendientes.",
+    "robots": "noindex,nofollow",
+    "canonical": "https://agent-guide-claude-codex.com/handoffs-coordinacion"
+  },
+  "analytics": {
+    "sectionIds": [
+      "hero",
+      "conceptos",
+      "ejemplo",
+      "practica",
+      "fuentes"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

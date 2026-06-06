@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "domain": "agent-guide-claude-codex.com",
+  "pageId": "playbooks",
+  "variables": {
+    "ui": {
+      "modals": {
+        "_default": {
+          "size": "lg",
+          "variant": "dialog",
+          "closeOnBackdrop": true,
+          "showCloseButton": true,
+          "showAccentBar": false,
+          "ariaLabel": "Imagen ampliada",
+          "containerClasses": "ank-position-fixed ank-inset-0 ank-display-flex ank-pointerEvents-none ank-zIndex-1000",
+          "containerDialogClasses": "ank-alignItems-center ank-justifyContent-center ank-padding-18px",
+          "panelClasses": "modal-panel ank-pointerEvents-auto ank-display-flex ank-flexDirection-column ank-maxWidth-92vw ank-maxHeight-86vh ank-overflow-auto ank-padding-18px ank-bg-bgColor ank-color-titleColor ank-border-1px__solid__borderColor ank-borderRadius-16px ank-boxShadow-0__18px__60px__rgbaSD0COM0COM0COM0_25ED",
+          "panelDialogClasses": "ank-position-relative",
+          "panelMotionClasses": "modal-anim-scaleIn",
+          "closeButtonClasses": "modal-close ank-bg-bgColor ank-border-1px__solid__borderColor ank-color-titleColor ank-fontSize-1_2rem ank-cursor-pointer ank-position-absolute ank-top-8px ank-right-8px ank-width-36px ank-height-36px ank-borderRadius-999px ank-display-flex ank-alignItems-center ank-justifyContent-center"
+        },
+        "topicVisual-image": {
+          "size": "lg",
+          "variant": "dialog",
+          "closeOnBackdrop": true,
+          "showCloseButton": true,
+          "showAccentBar": false,
+          "ariaLabel": "Imagen ampliada: Infografía para Playbooks"
+        },
+        "topicMascot-image": {
+          "size": "lg",
+          "variant": "dialog",
+          "closeOnBackdrop": true,
+          "showCloseButton": true,
+          "showAccentBar": false,
+          "ariaLabel": "Imagen ampliada: Lynx Pardelle explicando Playbooks"
+        }
+      }
+    }
+  }
+}

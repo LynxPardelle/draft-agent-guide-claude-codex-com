@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "domain": "agent-guide-claude-codex.com",
+  "pageId": "prompting",
+  "rootIds": [
+    "skipToMainLink",
+    "studyPage"
+  ],
+  "modalRootIds": [
+    "topicVisualModalRoot",
+    "topicMascotModalRoot"
+  ],
+  "metadata": {
+    "status": "study-draft",
+    "source": "Sintesis propia basada en aprendizaje revisado y documentacion publica relacionada.",
+    "publicationSafety": "Review privacy, links, permissions, and sensitive material before publication."
+  },
+  "seo": {
+    "title": "Prompting | Claude/Codex Agent Lab",
+    "description": "Prompting útil no es escribir más: es estructurar prioridad, datos, restricciones y evaluación para que el modelo no confunda intención con libertad total.",
+    "robots": "noindex,nofollow",
+    "canonical": "https://agent-guide-claude-codex.com/prompting"
+  },
+  "analytics": {
+    "sectionIds": [
+      "hero",
+      "conceptos",
+      "ejemplo",
+      "practica",
+      "fuentes"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

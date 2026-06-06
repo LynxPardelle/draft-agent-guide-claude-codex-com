@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Tablero de subagentes</title>
+  <desc id="desc">Coordinador, subagentes read-only y evaluador con evidencia.</desc>
+  <rect width="1200" height="620" rx="34" fill="#f7f4ec"/>
+  <rect x="72" y="58" width="1056" height="504" rx="30" fill="#fff" stroke="#101820" stroke-width="5"/>
+  <text x="112" y="122" font-family="Arial, sans-serif" font-size="42" font-weight="800" fill="#102a43">Subagentes</text>
+  <text x="112" y="158" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#52616b">Paralelo en tareas, centralizado en decision final</text>
+  <g font-family="Arial, sans-serif" fill="#102a43" font-weight="800">
+    <rect x="470" y="212" width="260" height="92" rx="20" fill="#111820"/>
+    <text x="508" y="250" font-size="26" fill="#fff">Coordinador</text>
+    <text x="508" y="278" font-size="17" fill="#d5edf8">integra y decide</text>
+    <rect x="116" y="382" width="236" height="94" rx="18" fill="#dff3ff" stroke="#7bbde0" stroke-width="3"/>
+    <text x="144" y="422" font-size="24">Contenido</text>
+    <text x="144" y="450" font-size="16">fuentes y gaps</text>
+    <rect x="424" y="382" width="236" height="94" rx="18" fill="#ddf7e9" stroke="#82c79d" stroke-width="3"/>
+    <text x="452" y="422" font-size="24">Visual QA</text>
+    <text x="452" y="450" font-size="16">layout y mobile</text>
+    <rect x="732" y="382" width="236" height="94" rx="18" fill="#fff1dc" stroke="#dda965" stroke-width="3"/>
+    <text x="760" y="422" font-size="24">Evaluador</text>
+    <text x="760" y="450" font-size="16">evidencia final</text>
+  </g>
+  <g stroke="#102a43" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M560 304L236 382"/>
+    <path d="M600 304L542 382"/>
+    <path d="M640 304L850 382"/>
+  </g>
+</svg>

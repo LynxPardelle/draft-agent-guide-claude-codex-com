@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "domain": "agent-guide-claude-codex.com",
+  "pageId": "evaluaciones-agenticas",
+  "rootIds": [
+    "skipToMainLink",
+    "studyPage"
+  ],
+  "modalRootIds": [
+    "topicVisualModalRoot",
+    "topicMascotModalRoot"
+  ],
+  "metadata": {
+    "status": "study-draft",
+    "source": "Sintesis propia basada en aprendizaje revisado y documentacion publica relacionada.",
+    "publicationSafety": "Review privacy, links, permissions, and sensitive material before publication."
+  },
+  "seo": {
+    "title": "Evals agenticas | Claude/Codex Agent Lab",
+    "description": "Más allá de quizzes: evaluar agentes implica casos, rubricas, regresiones, juez humano o modelo, y criterios que detecten fallos de razonamiento, seguridad y ejecución.",
+    "robots": "noindex,nofollow",
+    "canonical": "https://agent-guide-claude-codex.com/evaluaciones-agenticas"
+  },
+  "analytics": {
+    "sectionIds": [
+      "hero",
+      "conceptos",
+      "ejemplo",
+      "practica",
+      "fuentes"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

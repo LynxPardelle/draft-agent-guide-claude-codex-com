@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Agent playbook library</title>
+  <desc id="desc">Library of playbooks for research, implementation, QA, publication and handoff.</desc>
+  <rect width="1200" height="720" rx="28" fill="#f8f4ea"/>
+  <rect x="90" y="82" width="1020" height="536" rx="28" fill="#ffffff" stroke="#102638" stroke-width="6"/>
+  <text x="130" y="150" font-family="Arial, sans-serif" font-size="48" font-weight="800" fill="#111820">Playbook library</text>
+  <text x="130" y="192" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#536171">Reusable sequences for agent work</text>
+  <g font-family="Arial, sans-serif" font-weight="800" fill="#12324a">
+    <rect x="145" y="245" width="210" height="135" rx="18" fill="#dff3ff" stroke="#7bb8d5"/>
+    <text x="175" y="300" font-size="26">Research</text>
+    <text x="175" y="334" font-size="17">sources and gaps</text>
+    <rect x="405" y="245" width="210" height="135" rx="18" fill="#d7f3e4" stroke="#91c8a7"/>
+    <text x="435" y="300" font-size="26">Build</text>
+    <text x="435" y="334" font-size="17">edit and validate</text>
+    <rect x="665" y="245" width="210" height="135" rx="18" fill="#fff0d8" stroke="#e0b56a"/>
+    <text x="695" y="300" font-size="26">QA</text>
+    <text x="695" y="334" font-size="17">browser and links</text>
+    <rect x="275" y="430" width="210" height="135" rx="18" fill="#f5e5f0" stroke="#d7a9c7"/>
+    <text x="305" y="485" font-size="26">Publish</text>
+    <text x="305" y="519" font-size="17">safety gate</text>
+    <rect x="535" y="430" width="210" height="135" rx="18" fill="#e8eef5" stroke="#b5c4d4"/>
+    <text x="565" y="485" font-size="26">Handoff</text>
+    <text x="565" y="519" font-size="17">continue work</text>
+  </g>
+  <path d="M355 312h50M615 312h50M770 380l-155 65M405 380l140 65" stroke="#102638" stroke-width="5" stroke-linecap="round"/>
+  <rect x="820" y="430" width="120" height="135" rx="18" fill="#102638"/>
+  <text x="880" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#ffffff">Stop</text>
+  <text x="880" y="519" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#dff3ff">if risk</text>
+</svg>

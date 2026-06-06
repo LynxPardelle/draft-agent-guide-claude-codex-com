@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">RAG contextual con evaluacion</title>
+  <desc id="desc">Ciclo de pregunta, busquedas, chunks, citas, respuesta y evaluacion de groundedness.</desc>
+  <rect width="1200" height="620" rx="34" fill="#f7f4ec"/>
+  <rect x="70" y="56" width="1060" height="508" rx="30" fill="#ffffff" stroke="#101820" stroke-width="5"/>
+  <text x="110" y="122" font-family="Arial, sans-serif" font-size="44" font-weight="800" fill="#102a43">RAG contextual</text>
+  <text x="110" y="158" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#52616b">Recupera evidencia, no relleno de contexto</text>
+  <g font-family="Arial, sans-serif" font-weight="800" fill="#102a43">
+    <rect x="124" y="232" width="180" height="88" rx="17" fill="#dff3ff" stroke="#7bbde0" stroke-width="3"/>
+    <text x="154" y="276" font-size="26">Pregunta</text>
+    <rect x="388" y="232" width="180" height="88" rx="17" fill="#ddf7e9" stroke="#82c79d" stroke-width="3"/>
+    <text x="418" y="276" font-size="26">Busquedas</text>
+    <rect x="652" y="232" width="180" height="88" rx="17" fill="#fff1dc" stroke="#dda965" stroke-width="3"/>
+    <text x="682" y="276" font-size="26">Chunks</text>
+    <rect x="916" y="232" width="180" height="88" rx="17" fill="#dff3ff" stroke="#7bbde0" stroke-width="3"/>
+    <text x="946" y="276" font-size="26">Respuesta</text>
+    <rect x="388" y="416" width="444" height="76" rx="18" fill="#111820"/>
+    <text x="430" y="462" font-size="26" fill="#ffffff">Evaluar groundedness y citas</text>
+  </g>
+  <g stroke="#102a43" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M304 276h84"/>
+    <path d="M568 276h84"/>
+    <path d="M832 276h84"/>
+    <path d="M1006 320v78c0 44-36 78-78 78H832"/>
+    <path d="M388 476H244c-44 0-78-34-78-78v-78"/>
+    <path d="M368 258l20 18-20 18"/>
+    <path d="M632 258l20 18-20 18"/>
+    <path d="M896 258l20 18-20 18"/>
+  </g>
+  <text x="156" y="382" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#52616b">Si no hay evidencia, declarar vacio.</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de biblioteca de aprendizaje</title>
+  <desc id="desc">Diagrama que separa recursos publicos, sintesis propia, practicas y seguridad de publicacion.</desc>
+  <rect width="1200" height="620" rx="34" fill="#f7f4ec"/>
+  <rect x="58" y="54" width="1084" height="508" rx="28" fill="#ffffff" stroke="#101820" stroke-width="5"/>
+  <text x="92" y="120" font-family="Arial, sans-serif" font-size="44" font-weight="800" fill="#102a43">Biblioteca de aprendizaje</text>
+  <text x="92" y="158" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#52616b">De fuente publica a practica verificable</text>
+  <g font-family="Arial, sans-serif" font-weight="800" font-size="28" fill="#102a43">
+    <rect x="92" y="224" width="210" height="118" rx="18" fill="#dff3ff" stroke="#7bbde0" stroke-width="3"/>
+    <text x="122" y="274">Fuentes</text>
+    <text x="122" y="306" font-size="18" font-weight="700">docs y cursos</text>
+    <rect x="390" y="224" width="210" height="118" rx="18" fill="#ddf7e9" stroke="#82c79d" stroke-width="3"/>
+    <text x="420" y="274">Sintesis</text>
+    <text x="420" y="306" font-size="18" font-weight="700">lenguaje propio</text>
+    <rect x="688" y="224" width="210" height="118" rx="18" fill="#fff1dc" stroke="#dda965" stroke-width="3"/>
+    <text x="718" y="274">Practica</text>
+    <text x="718" y="306" font-size="18" font-weight="700">ejemplo y quiz</text>
+    <rect x="986" y="224" width="112" height="118" rx="18" fill="#ffe4ea" stroke="#d68a9a" stroke-width="3"/>
+    <text x="1012" y="274">Gate</text>
+    <text x="1012" y="306" font-size="18" font-weight="700">publico</text>
+  </g>
+  <g stroke="#102a43" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M302 283H390"/>
+    <path d="M600 283H688"/>
+    <path d="M898 283H986"/>
+    <path d="M370 265l20 18-20 18"/>
+    <path d="M668 265l20 18-20 18"/>
+    <path d="M966 265l20 18-20 18"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#102a43">
+    <rect x="92" y="410" width="474" height="92" rx="16" fill="#eef8ff" stroke="#9fcde7"/>
+    <text x="118" y="448" font-size="25" font-weight="800">Criterio de uso</text>
+    <text x="118" y="477" font-size="18" font-weight="700">Cada recurso debe producir una accion de estudio.</text>
+    <rect x="614" y="410" width="484" height="92" rx="16" fill="#f3f8ef" stroke="#afd7a4"/>
+    <text x="640" y="448" font-size="25" font-weight="800">Criterio de seguridad</text>
+    <text x="640" y="477" font-size="18" font-weight="700">Sin datos privados, sesiones ni rutas internas.</text>
+  </g>
+</svg>

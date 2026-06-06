@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "pageId": "default",
+  "domain": "agent-guide-claude-codex.com",
+  "rootIds": [
+    "skipToMainLink",
+    "studyPage"
+  ],
+  "modalRootIds": [
+    "infoLoopModalRoot",
+    "infoEvalModalRoot",
+    "infoRagModalRoot",
+    "infoMatrixModalRoot",
+    "infoSkillStackModalRoot",
+    "infoSchemaContractModalRoot"
+  ],
+  "metadata": {
+    "status": "study-draft",
+    "source": "Sintesis propia basada en aprendizaje revisado y documentacion publica relacionada.",
+    "publicationSafety": "Review privacy, links, permissions, and sensitive material before publication."
+  },
+  "seo": {
+    "title": "Claude/Codex Agent Lab",
+    "description": "Dashboard de estudio para practicar agentes, workflows, prompting, evaluaciones, tool use, RAG, MCP, Claude Code y Codex.",
+    "keywords": [
+      "Claude",
+      "Codex",
+      "agentes de IA",
+      "workflows",
+      "MCP",
+      "RAG",
+      "evaluaciones",
+      "tool use",
+      "Claude Code"
+    ],
+    "robots": "noindex,nofollow",
+    "canonical": "https://agent-guide-claude-codex.com/",
+    "openGraph": {
+      "title": "Claude/Codex Agent Lab",
+      "description": "Dashboard practico de estudio en espanol para aprender trabajo con agentes y herramientas.",
+      "url": "https://agent-guide-claude-codex.com/",
+      "type": "website"
+    },
+    "twitter": {
+      "title": "Claude/Codex Agent Lab",
+      "description": "Dashboard practico de estudio en espanol para aprender trabajo con agentes y herramientas.",
+      "card": "summary"
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LearningResource",
+        "name": "Claude/Codex Agent Lab",
+        "description": "Dashboard de estudio para aprender agentes, workflows, tool use, RAG, MCP y evaluaciones.",
+        "learningResourceType": "Study guide",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "ruta",
+      "modulos",
+      "comparador",
+      "laboratorio",
+      "flashcards",
+      "infografias",
+      "seguridad",
+      "fuentes"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Matriz 4D de fluidez AI</title>
+  <desc id="desc">Matriz de delegacion, descripcion, discernimiento y diligencia aplicada a agentes.</desc>
+  <rect width="1200" height="620" rx="34" fill="#eef8ff"/>
+  <rect x="72" y="56" width="1056" height="504" rx="30" fill="#ffffff" stroke="#101820" stroke-width="5"/>
+  <text x="112" y="122" font-family="Arial, sans-serif" font-size="42" font-weight="800" fill="#102a43">Fluidez 4D aplicada</text>
+  <text x="112" y="160" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#52616b">Cuatro decisiones antes de dar autonomia</text>
+  <g font-family="Arial, sans-serif" fill="#102a43">
+    <rect x="112" y="228" width="230" height="118" rx="22" fill="#dff3ff" stroke="#7bbde0" stroke-width="3"/>
+    <text x="138" y="278" font-size="27" font-weight="800">Delegar</text>
+    <text x="138" y="309" font-size="17" font-weight="700">alcance permitido</text>
+    <rect x="402" y="228" width="230" height="118" rx="22" fill="#ddf7e9" stroke="#82c79d" stroke-width="3"/>
+    <text x="428" y="278" font-size="27" font-weight="800">Describir</text>
+    <text x="428" y="309" font-size="17" font-weight="700">contexto y limites</text>
+    <rect x="692" y="228" width="230" height="118" rx="22" fill="#fff1dc" stroke="#dda965" stroke-width="3"/>
+    <text x="718" y="278" font-size="27" font-weight="800">Discernir</text>
+    <text x="718" y="309" font-size="17" font-weight="700">evidencia minima</text>
+    <rect x="402" y="418" width="230" height="96" rx="20" fill="#111820"/>
+    <text x="428" y="456" font-size="26" font-weight="800" fill="#ffffff">Diligencia</text>
+    <text x="428" y="486" font-size="17" font-weight="700" fill="#d5edf8">revision por riesgo</text>
+  </g>
+  <g stroke="#102a43" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M342 287H402"/>
+    <path d="M632 287H692"/>
+    <path d="M517 346V418"/>
+    <path d="M382 269l20 18-20 18"/>
+    <path d="M672 269l20 18-20 18"/>
+    <path d="M497 398l20 20 20-20"/>
+  </g>
+  <rect x="714" y="410" width="280" height="104" rx="18" fill="#f7f4ec" stroke="#d6cdbd" stroke-width="3"/>
+  <text x="742" y="448" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#102a43">Regla practica</text>
+  <text x="742" y="478" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#52616b">Mayor impacto:</text>
+  <text x="742" y="504" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#52616b">menor autonomia.</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Matriz de eleccion de herramientas</title>
+  <desc id="desc">Matriz para elegir entre Claude chat, Claude Code, Codex, MCP, browser y evaluaciones.</desc>
+  <rect width="1200" height="720" rx="36" fill="#ffffff"/>
+  <rect x="48" y="48" width="1104" height="624" rx="28" fill="#f7f5ee" stroke="#111820" stroke-width="3"/>
+  <text x="86" y="112" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="850" fill="#111820">Matriz de decision: ¿que usar?</text>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="120" y="184" font-size="18" font-weight="800" fill="#44515c">Herramienta</text>
+    <text x="365" y="184" font-size="18" font-weight="800" fill="#44515c">Mejor cuando...</text>
+    <text x="800" y="184" font-size="18" font-weight="800" fill="#44515c">Verificacion minima</text>
+    <g font-size="17" fill="#111820">
+      <rect x="94" y="210" width="1012" height="62" rx="14" fill="#ffffff" stroke="#d1d8dc"/>
+      <text x="120" y="248" font-weight="800">Claude chat</text><text x="365" y="248">razonar, redactar, comparar opciones</text><text x="800" y="248">citas, supuestos, revision humana</text>
+      <rect x="94" y="286" width="1012" height="62" rx="14" fill="#eaf8ff" stroke="#d1d8dc"/>
+      <text x="120" y="324" font-weight="800">Claude Code</text><text x="365" y="324">editar repos con contexto de proyecto</text><text x="800" y="324">diff, tests, review</text>
+      <rect x="94" y="362" width="1012" height="62" rx="14" fill="#ffffff" stroke="#d1d8dc"/>
+      <text x="120" y="400" font-weight="800">Codex</text><text x="365" y="400">inspeccionar, implementar y validar localmente</text><text x="800" y="400">build, browser QA, evidencia</text>
+      <rect x="94" y="438" width="1012" height="62" rx="14" fill="#dff7e8" stroke="#d1d8dc"/>
+      <text x="120" y="476" font-weight="800">MCP</text><text x="365" y="476">estandarizar contexto, tools y prompts</text><text x="800" y="476">inspector, permisos, roots</text>
+      <rect x="94" y="514" width="1012" height="62" rx="14" fill="#fff4e6" stroke="#d1d8dc"/>
+      <text x="120" y="552" font-weight="800">Browser / evals</text><text x="365" y="552">probar UI, flujos y regresiones</text><text x="800" y="552">screenshots, graders, criterios</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "domain": "agent-guide-claude-codex.com",
+  "pageId": "rag",
+  "rootIds": [
+    "skipToMainLink",
+    "studyPage"
+  ],
+  "modalRootIds": [
+    "topicVisualModalRoot",
+    "topicMascotModalRoot"
+  ],
+  "metadata": {
+    "status": "study-draft",
+    "source": "Sintesis propia basada en aprendizaje revisado y documentacion publica relacionada.",
+    "publicationSafety": "Review privacy, links, permissions, and sensitive material before publication."
+  },
+  "seo": {
+    "title": "RAG | Claude/Codex Agent Lab",
+    "description": "RAG sirve para responder con evidencia recuperada, no para rellenar contexto. El trabajo real es elegir corpus, recuperar fragmentos útiles, separar fuente de inferencia, citar y reconocer cuando no hay evidencia suficiente.",
+    "robots": "noindex,nofollow",
+    "canonical": "https://agent-guide-claude-codex.com/rag"
+  },
+  "analytics": {
+    "sectionIds": [
+      "hero",
+      "conceptos",
+      "ejemplo",
+      "practica",
+      "fuentes"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

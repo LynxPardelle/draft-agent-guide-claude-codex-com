@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">QA dogfood audit loop</title>
+  <desc id="desc">Audit loop: risk, test, finding, fix, rerun, evidence.</desc>
+  <rect width="1200" height="720" rx="28" fill="#eef8fb"/>
+  <rect x="80" y="74" width="1040" height="548" rx="26" fill="#ffffff" stroke="#102638" stroke-width="6"/>
+  <text x="120" y="140" font-family="Arial, sans-serif" font-size="48" font-weight="800" fill="#111820">Dogfood QA loop</text>
+  <text x="120" y="182" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#536171">Find, fix, rerun and record evidence</text>
+  <g font-family="Arial, sans-serif" font-weight="800" text-anchor="middle">
+    <circle cx="600" cy="360" r="88" fill="#102638"/>
+    <text x="600" y="350" font-size="26" fill="#ffffff">Audit</text>
+    <text x="600" y="382" font-size="18" fill="#dff3ff">with evidence</text>
+    <rect x="180" y="210" width="190" height="82" rx="16" fill="#dff3ff" stroke="#7bb8d5"/>
+    <text x="275" y="260" font-size="24" fill="#12324a">Risk</text>
+    <rect x="605" y="175" width="190" height="82" rx="16" fill="#d7f3e4" stroke="#91c8a7"/>
+    <text x="700" y="225" font-size="24" fill="#12324a">Test</text>
+    <rect x="830" y="330" width="190" height="82" rx="16" fill="#fff0d8" stroke="#e0b56a"/>
+    <text x="925" y="380" font-size="24" fill="#12324a">Finding</text>
+    <rect x="605" y="525" width="190" height="82" rx="16" fill="#f5e5f0" stroke="#d7a9c7"/>
+    <text x="700" y="575" font-size="24" fill="#12324a">Fix</text>
+    <rect x="180" y="430" width="190" height="82" rx="16" fill="#e8eef5" stroke="#b5c4d4"/>
+    <text x="275" y="480" font-size="24" fill="#12324a">Rerun</text>
+  </g>
+  <path d="M365 245C465 185 530 185 610 210M790 240C850 260 890 285 920 330M920 415C880 500 815 540 795 555M605 565C500 555 430 520 365 475M275 430C240 360 245 310 275 292" fill="none" stroke="#102638" stroke-width="6" stroke-linecap="round"/>
+  <rect x="205" y="635" width="790" height="38" rx="12" fill="#102638"/>
+  <text x="600" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#ffffff">If you changed it after QA, rerun the QA.</text>
+</svg>

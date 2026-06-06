@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Handoff context ledger</title>
+  <desc id="desc">A handoff ledger with objective, scope, validation, risks and next action.</desc>
+  <rect width="1200" height="720" rx="28" fill="#f8f4ea"/>
+  <rect x="80" y="78" width="1040" height="544" rx="26" fill="#ffffff" stroke="#102638" stroke-width="6"/>
+  <text x="120" y="140" font-family="Arial, sans-serif" font-size="48" font-weight="800" fill="#111820">Handoff ledger</text>
+  <text x="120" y="182" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#536171">Continuity without rediscovery</text>
+  <g font-family="Arial, sans-serif" font-weight="800" fill="#12324a">
+    <rect x="120" y="235" width="285" height="105" rx="18" fill="#dff3ff" stroke="#9dcde4"/>
+    <text x="150" y="278" font-size="28">Objective</text>
+    <text x="150" y="312" font-size="18">what must be done</text>
+    <rect x="455" y="235" width="285" height="105" rx="18" fill="#d7f3e4" stroke="#9acfb0"/>
+    <text x="485" y="278" font-size="28">Scope</text>
+    <text x="485" y="312" font-size="18">files and limits</text>
+    <rect x="790" y="235" width="285" height="105" rx="18" fill="#fff0d8" stroke="#e0b56a"/>
+    <text x="820" y="278" font-size="28">Validation</text>
+    <text x="820" y="312" font-size="18">commands and QA</text>
+    <rect x="255" y="400" width="285" height="105" rx="18" fill="#f5e5f0" stroke="#d7a9c7"/>
+    <text x="285" y="443" font-size="28">Risks</text>
+    <text x="285" y="477" font-size="18">not tested yet</text>
+    <rect x="590" y="400" width="285" height="105" rx="18" fill="#102638"/>
+    <text x="620" y="443" font-size="28" fill="#ffffff">Next action</text>
+    <text x="620" y="477" font-size="18" fill="#dff3ff">resume here</text>
+  </g>
+  <path d="M405 288h50M740 288h50M540 452h50" stroke="#102638" stroke-width="5" stroke-linecap="round"/>
+  <rect x="170" y="545" width="860" height="46" rx="14" fill="#eef8fb" stroke="#9dcde4"/>
+  <text x="205" y="575" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#12324a">Add a new timestamped note. Do not rewrite prior coordination.</text>
+</svg>

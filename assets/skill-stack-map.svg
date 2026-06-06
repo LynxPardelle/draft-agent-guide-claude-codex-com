@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa para elegir skills</title>
+  <desc id="desc">Diagrama para elegir un lead skill, soportes y validacion segun el tipo de tarea.</desc>
+  <rect width="1200" height="720" rx="36" fill="#ffffff"/>
+  <rect x="54" y="54" width="1092" height="612" rx="28" fill="#f7f5ee" stroke="#101316" stroke-width="3"/>
+  <text x="92" y="124" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="850" fill="#101316">Stack de skills: minimo suficiente</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="20" fill="#101316">
+    <g>
+      <rect x="92" y="188" width="210" height="120" rx="22" fill="#eaf8ff" stroke="#c8d9e1"/>
+      <text x="122" y="236" font-weight="850">1. Tarea</text>
+      <text x="122" y="272" font-size="17" fill="#44515c">UI, repo, QA,</text>
+      <text x="122" y="298" font-size="17" fill="#44515c">seguridad o docs</text>
+    </g>
+    <path d="M322 248 H430" stroke="#44515c" stroke-width="4" stroke-linecap="round"/>
+    <path d="M418 232 L442 248 L418 264" fill="none" stroke="#44515c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g>
+      <rect x="458" y="166" width="286" height="164" rx="24" fill="#dff7e8" stroke="#b9dbc5"/>
+      <text x="494" y="218" font-weight="850">2. Lead skill</text>
+      <text x="494" y="255" font-size="17" fill="#44515c">Define proceso:</text>
+      <text x="494" y="281" font-size="17" fill="#44515c">planning, frontend,</text>
+      <text x="494" y="307" font-size="17" fill="#44515c">debugging o review</text>
+    </g>
+    <path d="M764 248 H870" stroke="#44515c" stroke-width="4" stroke-linecap="round"/>
+    <path d="M858 232 L882 248 L858 264" fill="none" stroke="#44515c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g>
+      <rect x="900" y="188" width="210" height="120" rx="22" fill="#fff4e6" stroke="#e7cfae"/>
+      <text x="930" y="236" font-weight="850">3. Soportes</text>
+      <text x="930" y="272" font-size="17" fill="#44515c">Solo si el riesgo</text>
+      <text x="930" y="298" font-size="17" fill="#44515c">lo justifica</text>
+    </g>
+  </g>
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="178" y="406" width="844" height="150" rx="24" fill="#101820"/>
+    <text x="220" y="466" font-size="28" font-weight="850" fill="#ffffff">Gate de cierre</text>
+    <text x="220" y="512" font-size="19" font-weight="700" fill="#d9e6ed">El skill no termina el trabajo: exige evidencia, build, browser QA, review o auditoria.</text>
+    <circle cx="930" cy="478" r="48" fill="#eaf8ff"/>
+    <path d="M908 478 l16 16 l32 -38" fill="none" stroke="#101820" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

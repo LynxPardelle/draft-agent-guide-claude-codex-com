@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Pila de contexto y memoria</title>
+  <desc id="desc">Diagrama que ordena reglas, fuentes, evidencia y memoria durable.</desc>
+  <rect width="1200" height="620" rx="34" fill="#f7f4ec"/>
+  <rect x="76" y="58" width="1052" height="504" rx="30" fill="#ffffff" stroke="#101820" stroke-width="5"/>
+  <text x="116" y="122" font-family="Arial, sans-serif" font-size="44" font-weight="800" fill="#102a43">Contexto sin ruido</text>
+  <text x="116" y="158" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#52616b">Lo durable manda, la evidencia prueba y lo privado se excluye</text>
+  <g font-family="Arial, sans-serif" font-weight="800" fill="#102a43">
+    <rect x="190" y="224" width="820" height="76" rx="16" fill="#111820"/>
+    <text x="228" y="272" font-size="28" fill="#ffffff">Reglas activas</text>
+    <text x="670" y="272" font-size="18" fill="#d5edf8">instrucciones y limites</text>
+    <rect x="230" y="316" width="740" height="76" rx="16" fill="#dff3ff" stroke="#7bbde0" stroke-width="3"/>
+    <text x="268" y="364" font-size="28">Fuentes de contenido</text>
+    <text x="690" y="364" font-size="18">docs y archivos leidos</text>
+    <rect x="270" y="408" width="660" height="76" rx="16" fill="#fff1dc" stroke="#dda965" stroke-width="3"/>
+    <text x="308" y="456" font-size="28">Evidencia temporal</text>
+    <text x="676" y="456" font-size="18">build, QA y capturas</text>
+  </g>
+  <g stroke="#102a43" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M600 300v16"/>
+    <path d="M600 392v16"/>
+  </g>
+  <rect x="116" y="504" width="972" height="36" rx="12" fill="#ddf7e9"/>
+  <text x="148" y="528" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#102a43">Memoria durable: solo decisiones reutilizables, sin secretos ni datos privados.</text>
+</svg>

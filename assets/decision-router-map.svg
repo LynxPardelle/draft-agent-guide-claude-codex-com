@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Decision router map</title>
+  <desc id="desc">Routing matrix for choosing chat, code agent, tools, browser QA, evals, subagents or human review.</desc>
+  <rect width="1200" height="720" rx="28" fill="#eef8fb"/>
+  <rect x="80" y="72" width="1040" height="552" rx="28" fill="#ffffff" stroke="#102638" stroke-width="6"/>
+  <text x="120" y="138" font-family="Arial, sans-serif" font-size="48" font-weight="800" fill="#111820">Decision router</text>
+  <text x="120" y="180" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#536171">Choose the smallest tool that can prove the result</text>
+  <circle cx="600" cy="360" r="90" fill="#102638"/>
+  <text x="600" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#ffffff">Task</text>
+  <text x="600" y="383" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#dff3ff">risk + evidence</text>
+  <g font-family="Arial, sans-serif" font-weight="800" text-anchor="middle">
+    <rect x="135" y="240" width="190" height="70" rx="16" fill="#dff3ff" stroke="#7bb8d5"/>
+    <text x="230" y="284" font-size="22" fill="#12324a">Chat</text>
+    <rect x="135" y="420" width="190" height="70" rx="16" fill="#d7f3e4" stroke="#91c8a7"/>
+    <text x="230" y="464" font-size="22" fill="#12324a">Code agent</text>
+    <rect x="435" y="520" width="190" height="70" rx="16" fill="#fff0d8" stroke="#e0b56a"/>
+    <text x="530" y="564" font-size="22" fill="#12324a">MCP tools</text>
+    <rect x="725" y="520" width="190" height="70" rx="16" fill="#f5e5f0" stroke="#d7a9c7"/>
+    <text x="820" y="564" font-size="22" fill="#12324a">Browser QA</text>
+    <rect x="885" y="240" width="190" height="70" rx="16" fill="#e8eef5" stroke="#b5c4d4"/>
+    <text x="980" y="284" font-size="22" fill="#12324a">Evals</text>
+    <rect x="885" y="420" width="190" height="70" rx="16" fill="#ffe1e1" stroke="#ff9b9b"/>
+    <text x="980" y="464" font-size="22" fill="#4b1111">Human</text>
+  </g>
+  <g stroke="#102638" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M325 275l190 75"/>
+    <path d="M325 455l190-75"/>
+    <path d="M560 450l-55 70"/>
+    <path d="M650 450l95 70"/>
+    <path d="M690 350l195-75"/>
+    <path d="M690 380l195 75"/>
+  </g>
+  <rect x="360" y="205" width="300" height="46" rx="14" fill="#102638"/>
+  <text x="510" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#ffffff">Stop if risk is sensitive</text>
+</svg>

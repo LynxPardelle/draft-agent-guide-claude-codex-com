@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Sistema de estudio con flashcards</title>
+  <desc id="desc">Tarjetas que pasan por recuerdo activo, autoevaluacion, cola de repeticion y practica.</desc>
+  <rect width="1200" height="720" rx="36" fill="#f6f2ea"/>
+  <rect x="58" y="58" width="1084" height="604" rx="28" fill="none" stroke="#101820" stroke-width="5"/>
+  <text x="96" y="126" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="800" fill="#102a43">Flashcards para decidir mejor</text>
+  <text x="98" y="166" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#496274">Recuerda, aplica, califica y vuelve al módulo débil.</text>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <rect x="120" y="248" width="230" height="120" rx="18" fill="#dff2ff" stroke="#8ec5e5" stroke-width="3"/><text x="150" y="298" font-size="27" font-weight="800" fill="#102a43">Recall</text><text x="150" y="332" font-size="18" font-weight="700" fill="#435768">responde sin mirar</text>
+    <rect x="430" y="248" width="230" height="120" rx="18" fill="#d9f7e8" stroke="#8ccfb1" stroke-width="3"/><text x="460" y="298" font-size="27" font-weight="800" fill="#102a43">Aplicación</text><text x="460" y="332" font-size="18" font-weight="700" fill="#435768">caso real</text>
+    <rect x="740" y="248" width="230" height="120" rx="18" fill="#fff0dc" stroke="#e6b16e" stroke-width="3"/><text x="770" y="298" font-size="27" font-weight="800" fill="#102a43">Score</text><text x="770" y="332" font-size="18" font-weight="700" fill="#435768">verde, amarillo, rojo</text>
+    <rect x="250" y="468" width="300" height="112" rx="18" fill="#fff" stroke="#ccd7df" stroke-width="3"/><text x="280" y="512" font-size="26" font-weight="800" fill="#102a43">Retry queue</text><text x="280" y="546" font-size="18" font-weight="700" fill="#435768">repetir lo débil</text>
+    <rect x="650" y="468" width="300" height="112" rx="18" fill="#102a43"/><text x="680" y="512" font-size="26" font-weight="800" fill="#dff2ff">Volver al módulo</text><text x="680" y="546" font-size="18" font-weight="700" fill="#f6f2ea">práctica de 10 minutos</text>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa simple de evaluación</title>
+  <desc id="desc">Diagrama didáctico para evaluar agentes: casos, rúbrica, prueba, decisión, regresión y gate.</desc>
+  <rect width="1200" height="720" rx="34" fill="#f7fbff"/>
+  <rect x="52" y="46" width="1096" height="628" rx="30" fill="#101820" stroke="#101820" stroke-width="4"/>
+
+  <text x="92" y="122" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="900">Evaluar antes de confiar</text>
+  <text x="94" y="168" fill="#cfe4f3" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700">Una buena eval termina con veredicto, evidencia y siguiente acción.</text>
+
+  <g font-family="Inter, Arial, sans-serif" font-weight="900" fill="#101820">
+    <rect x="92" y="238" width="220" height="128" rx="22" fill="#eaf8ff" stroke="#97c7dd" stroke-width="2"/>
+    <text x="132" y="294" font-size="32">Casos</text>
+    <text x="132" y="332" font-size="18" font-weight="700" fill="#425462">entradas reales</text>
+
+    <rect x="362" y="238" width="220" height="128" rx="22" fill="#dff7e8" stroke="#93d4af" stroke-width="2"/>
+    <text x="402" y="294" font-size="32">Rúbrica</text>
+    <text x="402" y="332" font-size="18" font-weight="700" fill="#425462">criterios claros</text>
+
+    <rect x="632" y="238" width="220" height="128" rx="22" fill="#fff4e6" stroke="#dfbc8a" stroke-width="2"/>
+    <text x="672" y="294" font-size="32">Prueba</text>
+    <text x="672" y="332" font-size="18" font-weight="700" fill="#425462">salida + razón</text>
+
+    <rect x="902" y="238" width="206" height="128" rx="22" fill="#ffffff" stroke="#c6d4df" stroke-width="2"/>
+    <text x="936" y="294" font-size="32">Decisión</text>
+    <text x="936" y="332" font-size="18" font-weight="700" fill="#425462">acepta o corrige</text>
+  </g>
+
+  <g stroke="#dff1ff" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M312 302h50"/>
+    <path d="M582 302h50"/>
+    <path d="M852 302h50"/>
+  </g>
+  <g fill="#dff1ff">
+    <path d="M350 288l20 14-20 14z"/>
+    <path d="M620 288l20 14-20 14z"/>
+    <path d="M890 288l20 14-20 14z"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="92" y="452" width="322" height="112" rx="22" fill="#18242c" stroke="#85c8f7" stroke-width="3"/>
+    <text x="124" y="496" fill="#ffffff" font-size="28" font-weight="900">Regresión</text>
+    <text x="124" y="532" fill="#cfe4f3" font-size="20" font-weight="700">Repite casos viejos.</text>
+
+    <rect x="444" y="452" width="322" height="112" rx="22" fill="#ffffff" stroke="#85c8f7" stroke-width="3"/>
+    <text x="476" y="496" fill="#101820" font-size="28" font-weight="900">Gate crítico</text>
+    <text x="476" y="532" fill="#425462" font-size="20" font-weight="700">Privacidad y seguridad.</text>
+
+    <rect x="796" y="452" width="312" height="112" rx="22" fill="#dff7e8" stroke="#9fd7b8" stroke-width="3"/>
+    <text x="828" y="496" fill="#101820" font-size="28" font-weight="900">Iteración</text>
+    <text x="828" y="532" fill="#425462" font-size="20" font-weight="700">Corrige y vuelve a probar.</text>
+  </g>
+
+  <rect x="92" y="604" width="1016" height="42" rx="16" fill="#eaf8ff"/>
+  <text x="124" y="633" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="850">Si falla un criterio crítico, no publiques: ajusta prompt, tool o contexto.</text>
+</svg>

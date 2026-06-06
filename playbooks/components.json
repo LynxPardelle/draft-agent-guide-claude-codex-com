@@ -1,0 +1,5831 @@
+{
+  "version": 1,
+  "domain": "agent-guide-claude-codex.com",
+  "pageId": "playbooks",
+  "components": [
+    {
+      "id": "topicLabel",
+      "type": "text",
+      "config": {
+        "id": "topicLabel",
+        "tag": "p",
+        "text": "Playbooks",
+        "styles": {
+          "margin": "0",
+          "width": "fit-content",
+          "textTransform": "uppercase",
+          "letterSpacing": "0.10em",
+          "fontSize": "0.72rem",
+          "lineHeight": "1.2",
+          "fontWeight": "900",
+          "color": "#7b3f24",
+          "border": "0",
+          "borderRadius": "0",
+          "padding": "0",
+          "background": "transparent",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicTitle",
+      "type": "text",
+      "config": {
+        "id": "topicTitle",
+        "tag": "h1",
+        "text": "Playbooks de trabajo con agentes",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "clamp(2.1rem, 5vw, 4.3rem)",
+          "lineHeight": "0.96",
+          "fontWeight": "950",
+          "letterSpacing": "0",
+          "maxWidth": "15ch",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicSummary",
+      "type": "text",
+      "config": {
+        "id": "topicSummary",
+        "tag": "p",
+        "text": "Colección de secuencias repetibles para pasar de idea a ejecución: investigación, implementación, QA, publicación y documentación.",
+        "styles": {
+          "margin": "0",
+          "color": "#35424c",
+          "fontSize": "1.05rem",
+          "lineHeight": "1.58",
+          "fontWeight": "620",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "maxWidth": "780px"
+        }
+      }
+    },
+    {
+      "id": "backHomeLink",
+      "type": "link",
+      "config": {
+        "id": "backHomeLink",
+        "href": "/?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Volver al inicio",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#ffffff",
+          "background": "#101316",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#101316"
+        }
+      }
+    },
+    {
+      "id": "labLink",
+      "type": "link",
+      "config": {
+        "id": "labLink",
+        "href": "/laboratorios?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Practicar en laboratorios",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "flashcardsLink",
+      "type": "link",
+      "config": {
+        "id": "flashcardsLink",
+        "href": "/flashcards?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Repasar flashcards",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicHeroActions",
+      "type": "container",
+      "config": {
+        "id": "topicHeroActions",
+        "tag": "div",
+        "components": [
+          "backHomeLink",
+          "labLink",
+          "flashcardsLink"
+        ],
+        "styles": {
+          "display": "flex",
+          "flexWrap": "wrap",
+          "gap": "10px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicHero",
+      "type": "container",
+      "config": {
+        "id": "topicHero",
+        "tag": "div",
+        "components": [
+          "topicLabel",
+          "topicTitle",
+          "topicSummary",
+          "topicHeroActions"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "clamp(24px,4vw,36px)",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "alignContent": "start"
+        }
+      }
+    },
+    {
+      "id": "topicVisual",
+      "type": "media",
+      "config": {
+        "id": "topicVisual",
+        "tag": "image",
+        "src": "/drafts/agent-guide-claude-codex.com/assets/agent-playbook-library.svg",
+        "alt": "Infografía para Playbooks",
+        "width": 1200,
+        "height": 720,
+        "loading": "eager",
+        "fetchPriority": "auto",
+        "decoding": "async",
+        "sizes": "(max-width: 768px) 100vw, 48vw",
+        "classes": "topicVisualImage"
+      }
+    },
+    {
+      "id": "topicVisualModalRootImage",
+      "type": "media",
+      "config": {
+        "id": "topicVisualModalRootImage",
+        "tag": "image",
+        "src": "/drafts/agent-guide-claude-codex.com/assets/agent-playbook-library.svg",
+        "alt": "Infografía para Playbooks",
+        "width": 1200,
+        "height": 720,
+        "loading": "eager",
+        "fetchPriority": "auto",
+        "decoding": "async",
+        "sizes": "(max-width: 768px) 100vw, 48vw",
+        "classes": "lightboxImage"
+      }
+    },
+    {
+      "id": "topicVisualModalRootCaption",
+      "type": "text",
+      "config": {
+        "id": "topicVisualModalRootCaption",
+        "tag": "figcaption",
+        "text": "Infografía para Playbooks",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "textAlign": "center"
+        }
+      }
+    },
+    {
+      "id": "topicVisualModalRoot",
+      "type": "container",
+      "condition": "all:modalRefId,topicVisual-image",
+      "config": {
+        "id": "topicVisualModalRoot",
+        "tag": "figure",
+        "components": [
+          "topicVisualModalRootImage",
+          "topicVisualModalRootCaption"
+        ],
+        "styles": {
+          "margin": "0",
+          "display": "grid",
+          "gap": "12px",
+          "width": "min(92vw, 1040px)",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicVisualOpenImage",
+      "type": "button",
+      "eventInstructions": "openModal:topicVisual-image,topicVisual,image_lightbox,topic",
+      "config": {
+        "id": "topicVisualOpenImage",
+        "label": "",
+        "components": [
+          "topicVisual"
+        ],
+        "styles": {
+          "display": "block",
+          "width": "100%",
+          "padding": "0",
+          "margin": "0",
+          "border": "0",
+          "background": "transparent",
+          "cursor": "zoom-in",
+          "textAlign": "left",
+          "borderRadius": "12px"
+        },
+        "ariaLabel": "Ampliar imagen: Infografía para Playbooks",
+        "classes": "imageLightboxButton"
+      }
+    },
+    {
+      "id": "topicMascotImage",
+      "type": "media",
+      "config": {
+        "id": "topicMascotImage",
+        "tag": "image",
+        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-guide-workflows.webp",
+        "alt": "Lynx Pardelle explicando Playbooks",
+        "width": 1200,
+        "height": 720,
+        "loading": "eager",
+        "fetchPriority": "auto",
+        "decoding": "async",
+        "sizes": "(max-width: 768px) 100vw, 48vw",
+        "classes": "infographicImage"
+      }
+    },
+    {
+      "id": "topicMascotModalRootImage",
+      "type": "media",
+      "config": {
+        "id": "topicMascotModalRootImage",
+        "tag": "image",
+        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-guide-workflows.webp",
+        "alt": "Lynx Pardelle explicando Playbooks",
+        "width": 1200,
+        "height": 720,
+        "loading": "eager",
+        "fetchPriority": "auto",
+        "decoding": "async",
+        "sizes": "(max-width: 768px) 100vw, 48vw",
+        "classes": "lightboxImage"
+      }
+    },
+    {
+      "id": "topicMascotModalRootCaption",
+      "type": "text",
+      "config": {
+        "id": "topicMascotModalRootCaption",
+        "tag": "figcaption",
+        "text": "Lynx Pardelle explicando Playbooks",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "textAlign": "center"
+        }
+      }
+    },
+    {
+      "id": "topicMascotModalRoot",
+      "type": "container",
+      "condition": "all:modalRefId,topicMascot-image",
+      "config": {
+        "id": "topicMascotModalRoot",
+        "tag": "figure",
+        "components": [
+          "topicMascotModalRootImage",
+          "topicMascotModalRootCaption"
+        ],
+        "styles": {
+          "margin": "0",
+          "display": "grid",
+          "gap": "12px",
+          "width": "min(92vw, 1040px)",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicMascotOpenImage",
+      "type": "button",
+      "eventInstructions": "openModal:topicMascot-image,topicMascot,image_lightbox,topic",
+      "config": {
+        "id": "topicMascotOpenImage",
+        "label": "",
+        "components": [
+          "topicMascotImage"
+        ],
+        "styles": {
+          "display": "block",
+          "width": "100%",
+          "padding": "0",
+          "margin": "0",
+          "border": "0",
+          "background": "transparent",
+          "cursor": "zoom-in",
+          "textAlign": "left",
+          "borderRadius": "12px"
+        },
+        "ariaLabel": "Ampliar imagen: Lynx Pardelle explicando Playbooks",
+        "classes": "imageLightboxButton"
+      }
+    },
+    {
+      "id": "outcomesTitle",
+      "type": "text",
+      "config": {
+        "id": "outcomesTitle",
+        "tag": "h2",
+        "text": "Qué debes poder hacer",
+        "styles": {
+          "margin": "0 0 12px",
+          "color": "#101316",
+          "fontSize": "clamp(1.65rem, 3vw, 2.55rem)",
+          "lineHeight": "1.05",
+          "fontWeight": "930",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard0Title",
+      "type": "text",
+      "config": {
+        "id": "outcomesGridCard0Title",
+        "tag": "h3",
+        "text": "Elegir receta",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard0Desc",
+      "type": "text",
+      "config": {
+        "id": "outcomesGridCard0Desc",
+        "tag": "p",
+        "text": "Selecciona un playbook por objetivo: investigar, implementar, validar, publicar, documentar o delegar.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard0",
+      "type": "container",
+      "config": {
+        "id": "outcomesGridCard0",
+        "tag": "article",
+        "components": [
+          "outcomesGridCard0Title",
+          "outcomesGridCard0Desc"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard1Title",
+      "type": "text",
+      "config": {
+        "id": "outcomesGridCard1Title",
+        "tag": "h3",
+        "text": "Mantener secuencia",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard1Desc",
+      "type": "text",
+      "config": {
+        "id": "outcomesGridCard1Desc",
+        "tag": "p",
+        "text": "Ejecuta pasos en orden para evitar saltarte contexto, límites, validación o cierre.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard1",
+      "type": "container",
+      "config": {
+        "id": "outcomesGridCard1",
+        "tag": "article",
+        "components": [
+          "outcomesGridCard1Title",
+          "outcomesGridCard1Desc"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard2Title",
+      "type": "text",
+      "config": {
+        "id": "outcomesGridCard2Title",
+        "tag": "h3",
+        "text": "Adaptar al riesgo",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard2Desc",
+      "type": "text",
+      "config": {
+        "id": "outcomesGridCard2Desc",
+        "tag": "p",
+        "text": "Un playbook no es burocracia fija: aumenta o reduce QA según impacto, privacidad y reversibilidad.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard2",
+      "type": "container",
+      "config": {
+        "id": "outcomesGridCard2",
+        "tag": "article",
+        "components": [
+          "outcomesGridCard2Title",
+          "outcomesGridCard2Desc"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard3Title",
+      "type": "text",
+      "config": {
+        "id": "outcomesGridCard3Title",
+        "tag": "h3",
+        "text": "Convertir aprendizaje en hábito",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard3Desc",
+      "type": "text",
+      "config": {
+        "id": "outcomesGridCard3Desc",
+        "tag": "p",
+        "text": "Usa recetas repetibles hasta que pedir evidencia, validar y cerrar con riesgo residual sea automático.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard3",
+      "type": "container",
+      "config": {
+        "id": "outcomesGridCard3",
+        "tag": "article",
+        "components": [
+          "outcomesGridCard3Title",
+          "outcomesGridCard3Desc"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGrid",
+      "type": "container",
+      "config": {
+        "id": "outcomesGrid",
+        "tag": "div",
+        "components": [
+          "outcomesGridCard0",
+          "outcomesGridCard1",
+          "outcomesGridCard2",
+          "outcomesGridCard3"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 260px), 1fr))",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesPanel",
+      "type": "container",
+      "config": {
+        "id": "outcomesPanel",
+        "tag": "div",
+        "components": [
+          "outcomesTitle",
+          "outcomesGrid"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "20px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsTitle",
+      "type": "text",
+      "config": {
+        "id": "stepsTitle",
+        "tag": "h2",
+        "text": "Secuencia de práctica",
+        "styles": {
+          "margin": "0 0 12px",
+          "color": "#101316",
+          "fontSize": "clamp(1.65rem, 3vw, 2.55rem)",
+          "lineHeight": "1.05",
+          "fontWeight": "930",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard0Title",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard0Title",
+        "tag": "h3",
+        "text": "Objetivo",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard0Desc",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard0Desc",
+        "tag": "p",
+        "text": "Define qué quieres lograr y elige el playbook más cercano.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard0",
+      "type": "container",
+      "config": {
+        "id": "stepsGridCard0",
+        "tag": "article",
+        "components": [
+          "stepsGridCard0Title",
+          "stepsGridCard0Desc"
+        ],
+        "styles": {
+          "background": "#dff7e8",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard1Title",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard1Title",
+        "tag": "h3",
+        "text": "Entradas",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard1Desc",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard1Desc",
+        "tag": "p",
+        "text": "Reúne fuentes, permisos, contexto, restricciones y criterio antes de actuar.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard1",
+      "type": "container",
+      "config": {
+        "id": "stepsGridCard1",
+        "tag": "article",
+        "components": [
+          "stepsGridCard1Title",
+          "stepsGridCard1Desc"
+        ],
+        "styles": {
+          "background": "#dff7e8",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard2Title",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard2Title",
+        "tag": "h3",
+        "text": "Ejecución",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard2Desc",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard2Desc",
+        "tag": "p",
+        "text": "Sigue pasos mínimos; no saltes a edición o publicación por prisa.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard2",
+      "type": "container",
+      "config": {
+        "id": "stepsGridCard2",
+        "tag": "article",
+        "components": [
+          "stepsGridCard2Title",
+          "stepsGridCard2Desc"
+        ],
+        "styles": {
+          "background": "#dff7e8",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard3Title",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard3Title",
+        "tag": "h3",
+        "text": "Verificación",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard3Desc",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard3Desc",
+        "tag": "p",
+        "text": "Ejecuta el check que demuestra el resultado y repítelo después de corregir.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard3",
+      "type": "container",
+      "config": {
+        "id": "stepsGridCard3",
+        "tag": "article",
+        "components": [
+          "stepsGridCard3Title",
+          "stepsGridCard3Desc"
+        ],
+        "styles": {
+          "background": "#dff7e8",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard4Title",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard4Title",
+        "tag": "h3",
+        "text": "Cierre",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard4Desc",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard4Desc",
+        "tag": "p",
+        "text": "Documenta evidencia, decisiones, pendientes y cuándo usar otro playbook.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard4",
+      "type": "container",
+      "config": {
+        "id": "stepsGridCard4",
+        "tag": "article",
+        "components": [
+          "stepsGridCard4Title",
+          "stepsGridCard4Desc"
+        ],
+        "styles": {
+          "background": "#dff7e8",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGrid",
+      "type": "container",
+      "config": {
+        "id": "stepsGrid",
+        "tag": "div",
+        "components": [
+          "stepsGridCard0",
+          "stepsGridCard1",
+          "stepsGridCard2",
+          "stepsGridCard3",
+          "stepsGridCard4"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 260px), 1fr))",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsPanel",
+      "type": "container",
+      "config": {
+        "id": "stepsPanel",
+        "tag": "div",
+        "components": [
+          "stepsTitle",
+          "stepsGrid"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "20px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "overviewGrid",
+      "type": "container",
+      "config": {
+        "id": "overviewGrid",
+        "tag": "div",
+        "components": [
+          "outcomesPanel",
+          "stepsPanel"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 330px), 1fr))",
+          "gap": "22px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptLabel",
+      "type": "text",
+      "config": {
+        "id": "conceptLabel",
+        "tag": "p",
+        "text": "Mapa de conceptos",
+        "styles": {
+          "margin": "0",
+          "width": "fit-content",
+          "textTransform": "uppercase",
+          "letterSpacing": "0.10em",
+          "fontSize": "0.72rem",
+          "lineHeight": "1.2",
+          "fontWeight": "900",
+          "color": "#7b3f24",
+          "border": "0",
+          "borderRadius": "0",
+          "padding": "0",
+          "background": "transparent",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptTitle",
+      "type": "text",
+      "config": {
+        "id": "conceptTitle",
+        "tag": "h2",
+        "text": "Lo que importa recordar",
+        "styles": {
+          "margin": "0 0 12px",
+          "color": "#101316",
+          "fontSize": "clamp(1.65rem, 3vw, 2.55rem)",
+          "lineHeight": "1.05",
+          "fontWeight": "930",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard0Title",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard0Title",
+        "tag": "h3",
+        "text": "Research playbook",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard0Desc",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard0Desc",
+        "tag": "p",
+        "text": "Inventario de fuentes, síntesis, citas y vacíos.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard0",
+      "type": "container",
+      "config": {
+        "id": "conceptGridCard0",
+        "tag": "article",
+        "components": [
+          "conceptGridCard0Title",
+          "conceptGridCard0Desc"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard1Title",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard1Title",
+        "tag": "h3",
+        "text": "Implementation playbook",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard1Desc",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard1Desc",
+        "tag": "p",
+        "text": "Plan corto, edits acotados, build/test y diff review.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard1",
+      "type": "container",
+      "config": {
+        "id": "conceptGridCard1",
+        "tag": "article",
+        "components": [
+          "conceptGridCard1Title",
+          "conceptGridCard1Desc"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard2Title",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard2Title",
+        "tag": "h3",
+        "text": "QA playbook",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard2Desc",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard2Desc",
+        "tag": "p",
+        "text": "Rutas, links, consola, capturas de QA y móvil.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard2",
+      "type": "container",
+      "config": {
+        "id": "conceptGridCard2",
+        "tag": "article",
+        "components": [
+          "conceptGridCard2Title",
+          "conceptGridCard2Desc"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard3Title",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard3Title",
+        "tag": "h3",
+        "text": "Publish playbook",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard3Desc",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard3Desc",
+        "tag": "p",
+        "text": "Safety audit, changelog, pack, build y evidencia.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard3",
+      "type": "container",
+      "config": {
+        "id": "conceptGridCard3",
+        "tag": "article",
+        "components": [
+          "conceptGridCard3Title",
+          "conceptGridCard3Desc"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard4Title",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard4Title",
+        "tag": "h3",
+        "text": "Delegation playbook",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard4Desc",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard4Desc",
+        "tag": "p",
+        "text": "Separar trabajo crítico, sidecars, ownership y evaluación final.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard4",
+      "type": "container",
+      "config": {
+        "id": "conceptGridCard4",
+        "tag": "article",
+        "components": [
+          "conceptGridCard4Title",
+          "conceptGridCard4Desc"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard5Title",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard5Title",
+        "tag": "h3",
+        "text": "Prompt repair playbook",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard5Desc",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard5Desc",
+        "tag": "p",
+        "text": "Convertir petición vaga en rol, tarea, contexto, restricciones, salida y criterio.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard5",
+      "type": "container",
+      "config": {
+        "id": "conceptGridCard5",
+        "tag": "article",
+        "components": [
+          "conceptGridCard5Title",
+          "conceptGridCard5Desc"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard6Title",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard6Title",
+        "tag": "h3",
+        "text": "RAG answer playbook",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard6Desc",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard6Desc",
+        "tag": "p",
+        "text": "Recuperar primero, citar después, separar inferencia y declarar vacío.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard6",
+      "type": "container",
+      "config": {
+        "id": "conceptGridCard6",
+        "tag": "article",
+        "components": [
+          "conceptGridCard6Title",
+          "conceptGridCard6Desc"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard7Title",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard7Title",
+        "tag": "h3",
+        "text": "Incident playbook",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard7Desc",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard7Desc",
+        "tag": "p",
+        "text": "Capturar síntoma, alcance, rollback o mitigación, causa y validación de fix.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard7",
+      "type": "container",
+      "config": {
+        "id": "conceptGridCard7",
+        "tag": "article",
+        "components": [
+          "conceptGridCard7Title",
+          "conceptGridCard7Desc"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGrid",
+      "type": "container",
+      "config": {
+        "id": "conceptGrid",
+        "tag": "div",
+        "components": [
+          "conceptGridCard0",
+          "conceptGridCard1",
+          "conceptGridCard2",
+          "conceptGridCard3",
+          "conceptGridCard4",
+          "conceptGridCard5",
+          "conceptGridCard6",
+          "conceptGridCard7"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 260px), 1fr))",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptInner",
+      "type": "container",
+      "config": {
+        "id": "conceptInner",
+        "tag": "div",
+        "components": [
+          "conceptLabel",
+          "conceptTitle",
+          "conceptGrid"
+        ],
+        "styles": {
+          "width": "100%",
+          "maxWidth": "1180px",
+          "display": "grid",
+          "gap": "24px",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptSection",
+      "type": "container",
+      "config": {
+        "id": "conceptSection",
+        "tag": "section",
+        "components": [
+          "conceptInner"
+        ],
+        "styles": {
+          "width": "100%",
+          "display": "flex",
+          "justifyContent": "center",
+          "padding": "34px 16px",
+          "boxSizing": "border-box",
+          "background": "#fbfaf6"
+        }
+      }
+    },
+    {
+      "id": "deepDiveLabel",
+      "type": "text",
+      "config": {
+        "id": "deepDiveLabel",
+        "tag": "p",
+        "text": "Biblioteca de recetas",
+        "styles": {
+          "margin": "0",
+          "width": "fit-content",
+          "textTransform": "uppercase",
+          "letterSpacing": "0.10em",
+          "fontSize": "0.72rem",
+          "lineHeight": "1.2",
+          "fontWeight": "900",
+          "color": "#7b3f24",
+          "border": "0",
+          "borderRadius": "0",
+          "padding": "0",
+          "background": "transparent",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveTitle",
+      "type": "text",
+      "config": {
+        "id": "deepDiveTitle",
+        "tag": "h2",
+        "text": "Playbooks que conviene tener a mano",
+        "styles": {
+          "margin": "0 0 12px",
+          "color": "#101316",
+          "fontSize": "clamp(1.65rem, 3vw, 2.55rem)",
+          "lineHeight": "1.05",
+          "fontWeight": "930",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveIntro",
+      "type": "text",
+      "config": {
+        "id": "deepDiveIntro",
+        "tag": "p",
+        "text": "Cada playbook transforma un tipo de tarea en una secuencia verificable. El valor está en saber cuál usar y cuándo detenerse.",
+        "styles": {
+          "margin": "0",
+          "color": "#35424c",
+          "fontSize": "0.98rem",
+          "lineHeight": "1.58",
+          "fontWeight": "620",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard0Title",
+      "type": "text",
+      "config": {
+        "id": "deepDiveGridCard0Title",
+        "tag": "h3",
+        "text": "Investigación",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard0Desc",
+      "type": "text",
+      "config": {
+        "id": "deepDiveGridCard0Desc",
+        "tag": "p",
+        "text": "Pregunta, fuentes, contraste, síntesis, límites y cita pública o declaración de falta de evidencia.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard0",
+      "type": "container",
+      "config": {
+        "id": "deepDiveGridCard0",
+        "tag": "article",
+        "components": [
+          "deepDiveGridCard0Title",
+          "deepDiveGridCard0Desc"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard1Title",
+      "type": "text",
+      "config": {
+        "id": "deepDiveGridCard1Title",
+        "tag": "h3",
+        "text": "Implementación",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard1Desc",
+      "type": "text",
+      "config": {
+        "id": "deepDiveGridCard1Desc",
+        "tag": "p",
+        "text": "Leer reglas, mapear archivos, editar scope mínimo, validar, revisar diff y documentar.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard1",
+      "type": "container",
+      "config": {
+        "id": "deepDiveGridCard1",
+        "tag": "article",
+        "components": [
+          "deepDiveGridCard1Title",
+          "deepDiveGridCard1Desc"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard2Title",
+      "type": "text",
+      "config": {
+        "id": "deepDiveGridCard2Title",
+        "tag": "h3",
+        "text": "Browser QA",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard2Desc",
+      "type": "text",
+      "config": {
+        "id": "deepDiveGridCard2Desc",
+        "tag": "p",
+        "text": "Ruta, acción, consola, red, viewport, captura y riesgo residual.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard2",
+      "type": "container",
+      "config": {
+        "id": "deepDiveGridCard2",
+        "tag": "article",
+        "components": [
+          "deepDiveGridCard2Title",
+          "deepDiveGridCard2Desc"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard3Title",
+      "type": "text",
+      "config": {
+        "id": "deepDiveGridCard3Title",
+        "tag": "h3",
+        "text": "Publicación",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard3Desc",
+      "type": "text",
+      "config": {
+        "id": "deepDiveGridCard3Desc",
+        "tag": "p",
+        "text": "Privacidad, assets, links, build, pack, auditoría pública y aprobación humana.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard3",
+      "type": "container",
+      "config": {
+        "id": "deepDiveGridCard3",
+        "tag": "article",
+        "components": [
+          "deepDiveGridCard3Title",
+          "deepDiveGridCard3Desc"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard4Title",
+      "type": "text",
+      "config": {
+        "id": "deepDiveGridCard4Title",
+        "tag": "h3",
+        "text": "Delegación",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard4Desc",
+      "type": "text",
+      "config": {
+        "id": "deepDiveGridCard4Desc",
+        "tag": "p",
+        "text": "Separar tareas sidecar, definir ownership, integrar resultados y evaluar final.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard4",
+      "type": "container",
+      "config": {
+        "id": "deepDiveGridCard4",
+        "tag": "article",
+        "components": [
+          "deepDiveGridCard4Title",
+          "deepDiveGridCard4Desc"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard5Title",
+      "type": "text",
+      "config": {
+        "id": "deepDiveGridCard5Title",
+        "tag": "h3",
+        "text": "Evals",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard5Desc",
+      "type": "text",
+      "config": {
+        "id": "deepDiveGridCard5Desc",
+        "tag": "p",
+        "text": "Casos, rubrica, grader, umbral, regression set y decisión de release.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard5",
+      "type": "container",
+      "config": {
+        "id": "deepDiveGridCard5",
+        "tag": "article",
+        "components": [
+          "deepDiveGridCard5Title",
+          "deepDiveGridCard5Desc"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard6Title",
+      "type": "text",
+      "config": {
+        "id": "deepDiveGridCard6Title",
+        "tag": "h3",
+        "text": "Repo desconocido",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard6Desc",
+      "type": "text",
+      "config": {
+        "id": "deepDiveGridCard6Desc",
+        "tag": "p",
+        "text": "AGENTS/README/docs, rg, arquitectura local, límites, cambios pequeños y closeout.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard6",
+      "type": "container",
+      "config": {
+        "id": "deepDiveGridCard6",
+        "tag": "article",
+        "components": [
+          "deepDiveGridCard6Title",
+          "deepDiveGridCard6Desc"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard7Title",
+      "type": "text",
+      "config": {
+        "id": "deepDiveGridCard7Title",
+        "tag": "h3",
+        "text": "Handoff",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard7Desc",
+      "type": "text",
+      "config": {
+        "id": "deepDiveGridCard7Desc",
+        "tag": "p",
+        "text": "Estado, archivos, comandos, evidencia, bloqueos y siguiente acción.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGridCard7",
+      "type": "container",
+      "config": {
+        "id": "deepDiveGridCard7",
+        "tag": "article",
+        "components": [
+          "deepDiveGridCard7Title",
+          "deepDiveGridCard7Desc"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveGrid",
+      "type": "container",
+      "config": {
+        "id": "deepDiveGrid",
+        "tag": "div",
+        "components": [
+          "deepDiveGridCard0",
+          "deepDiveGridCard1",
+          "deepDiveGridCard2",
+          "deepDiveGridCard3",
+          "deepDiveGridCard4",
+          "deepDiveGridCard5",
+          "deepDiveGridCard6",
+          "deepDiveGridCard7"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 260px), 1fr))",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveInner",
+      "type": "container",
+      "config": {
+        "id": "deepDiveInner",
+        "tag": "div",
+        "components": [
+          "deepDiveLabel",
+          "deepDiveTitle",
+          "deepDiveIntro",
+          "deepDiveGrid"
+        ],
+        "styles": {
+          "width": "100%",
+          "maxWidth": "1180px",
+          "display": "grid",
+          "gap": "24px",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "deepDiveSection",
+      "type": "container",
+      "config": {
+        "id": "deepDiveSection",
+        "tag": "section",
+        "components": [
+          "deepDiveInner"
+        ],
+        "styles": {
+          "width": "100%",
+          "display": "flex",
+          "justifyContent": "center",
+          "padding": "34px 16px",
+          "boxSizing": "border-box"
+        }
+      }
+    },
+    {
+      "id": "exampleLabel",
+      "type": "text",
+      "config": {
+        "id": "exampleLabel",
+        "tag": "p",
+        "text": "Ejemplo comparado",
+        "styles": {
+          "margin": "0",
+          "width": "fit-content",
+          "textTransform": "uppercase",
+          "letterSpacing": "0.10em",
+          "fontSize": "0.72rem",
+          "lineHeight": "1.2",
+          "fontWeight": "900",
+          "color": "#7b3f24",
+          "border": "0",
+          "borderRadius": "0",
+          "padding": "0",
+          "background": "transparent",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "exampleTitle",
+      "type": "text",
+      "config": {
+        "id": "exampleTitle",
+        "tag": "h2",
+        "text": "Tres formas de pasar de débil a operativo",
+        "styles": {
+          "margin": "0 0 12px",
+          "color": "#101316",
+          "fontSize": "clamp(1.65rem, 3vw, 2.55rem)",
+          "lineHeight": "1.05",
+          "fontWeight": "930",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "examplePair0Title",
+      "type": "text",
+      "config": {
+        "id": "examplePair0Title",
+        "tag": "h3",
+        "text": "Página nueva",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "weakTitle0",
+      "type": "text",
+      "config": {
+        "id": "weakTitle0",
+        "tag": "h4",
+        "text": "Débil",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "weakBody0",
+      "type": "text",
+      "config": {
+        "id": "weakBody0",
+        "tag": "p",
+        "text": "Improvisa cada tarea desde cero.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "weakExample0",
+      "type": "container",
+      "config": {
+        "id": "weakExample0",
+        "tag": "div",
+        "components": [
+          "weakTitle0",
+          "weakBody0"
+        ],
+        "styles": {
+          "background": "#fff1f2",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#f2c5cc"
+        }
+      }
+    },
+    {
+      "id": "strongTitle0",
+      "type": "text",
+      "config": {
+        "id": "strongTitle0",
+        "tag": "h4",
+        "text": "Operativo",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "strongBody0",
+      "type": "text",
+      "config": {
+        "id": "strongBody0",
+        "tag": "p",
+        "text": "Para página nueva: define objetivo -> crea contenido -> genera ruta -> link QA -> build -> browser QA -> notas -> riesgo residual.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "strongExample0",
+      "type": "container",
+      "config": {
+        "id": "strongExample0",
+        "tag": "div",
+        "components": [
+          "strongTitle0",
+          "strongBody0"
+        ],
+        "styles": {
+          "background": "#effaf1",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#b8dfc1"
+        }
+      }
+    },
+    {
+      "id": "examplePair0Grid",
+      "type": "container",
+      "config": {
+        "id": "examplePair0Grid",
+        "tag": "div",
+        "components": [
+          "weakExample0",
+          "strongExample0"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 300px), 1fr))",
+          "gap": "14px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "examplePair0Lesson",
+      "type": "text",
+      "config": {
+        "id": "examplePair0Lesson",
+        "tag": "p",
+        "text": "Una receta reduce olvidos y hace más fácil enseñar el proceso.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "marginTop": "2px"
+        }
+      }
+    },
+    {
+      "id": "examplePair0",
+      "type": "container",
+      "config": {
+        "id": "examplePair0",
+        "tag": "div",
+        "components": [
+          "examplePair0Title",
+          "examplePair0Grid",
+          "examplePair0Lesson"
+        ],
+        "styles": {
+          "display": "grid",
+          "gap": "12px",
+          "padding": "0",
+          "borderTop": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "examplePair1Title",
+      "type": "text",
+      "config": {
+        "id": "examplePair1Title",
+        "tag": "h3",
+        "text": "Investigación con fuentes",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "weakTitle1",
+      "type": "text",
+      "config": {
+        "id": "weakTitle1",
+        "tag": "h4",
+        "text": "Débil",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "weakBody1",
+      "type": "text",
+      "config": {
+        "id": "weakBody1",
+        "tag": "p",
+        "text": "Busca algo en internet y resume lo que parezca correcto.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "weakExample1",
+      "type": "container",
+      "config": {
+        "id": "weakExample1",
+        "tag": "div",
+        "components": [
+          "weakTitle1",
+          "weakBody1"
+        ],
+        "styles": {
+          "background": "#fff1f2",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#f2c5cc"
+        }
+      }
+    },
+    {
+      "id": "strongTitle1",
+      "type": "text",
+      "config": {
+        "id": "strongTitle1",
+        "tag": "h4",
+        "text": "Operativo",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "strongBody1",
+      "type": "text",
+      "config": {
+        "id": "strongBody1",
+        "tag": "p",
+        "text": "Define pregunta, elige fuentes primarias, cita links públicos, separa inferencia y declara falta de evidencia si aplica.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "strongExample1",
+      "type": "container",
+      "config": {
+        "id": "strongExample1",
+        "tag": "div",
+        "components": [
+          "strongTitle1",
+          "strongBody1"
+        ],
+        "styles": {
+          "background": "#effaf1",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#b8dfc1"
+        }
+      }
+    },
+    {
+      "id": "examplePair1Grid",
+      "type": "container",
+      "config": {
+        "id": "examplePair1Grid",
+        "tag": "div",
+        "components": [
+          "weakExample1",
+          "strongExample1"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 300px), 1fr))",
+          "gap": "14px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "examplePair1Lesson",
+      "type": "text",
+      "config": {
+        "id": "examplePair1Lesson",
+        "tag": "p",
+        "text": "El playbook de investigación protege contra inventar o mezclar fuentes.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "marginTop": "2px"
+        }
+      }
+    },
+    {
+      "id": "examplePair1",
+      "type": "container",
+      "config": {
+        "id": "examplePair1",
+        "tag": "div",
+        "components": [
+          "examplePair1Title",
+          "examplePair1Grid",
+          "examplePair1Lesson"
+        ],
+        "styles": {
+          "display": "grid",
+          "gap": "12px",
+          "padding": "20px 0 0",
+          "borderTop": "1px solid #d3dade",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "examplePair2Title",
+      "type": "text",
+      "config": {
+        "id": "examplePair2Title",
+        "tag": "h3",
+        "text": "Publicación",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "weakTitle2",
+      "type": "text",
+      "config": {
+        "id": "weakTitle2",
+        "tag": "h4",
+        "text": "Débil",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "weakBody2",
+      "type": "text",
+      "config": {
+        "id": "weakBody2",
+        "tag": "p",
+        "text": "Build pasó; publiquemos.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "weakExample2",
+      "type": "container",
+      "config": {
+        "id": "weakExample2",
+        "tag": "div",
+        "components": [
+          "weakTitle2",
+          "weakBody2"
+        ],
+        "styles": {
+          "background": "#fff1f2",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#f2c5cc"
+        }
+      }
+    },
+    {
+      "id": "strongTitle2",
+      "type": "text",
+      "config": {
+        "id": "strongTitle2",
+        "tag": "h4",
+        "text": "Operativo",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "strongBody2",
+      "type": "text",
+      "config": {
+        "id": "strongBody2",
+        "tag": "p",
+        "text": "Build + pack + links + browser QA + revisión de assets + auditoría pública + aprobación humana antes de publicar.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "strongExample2",
+      "type": "container",
+      "config": {
+        "id": "strongExample2",
+        "tag": "div",
+        "components": [
+          "strongTitle2",
+          "strongBody2"
+        ],
+        "styles": {
+          "background": "#effaf1",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#b8dfc1"
+        }
+      }
+    },
+    {
+      "id": "examplePair2Grid",
+      "type": "container",
+      "config": {
+        "id": "examplePair2Grid",
+        "tag": "div",
+        "components": [
+          "weakExample2",
+          "strongExample2"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 300px), 1fr))",
+          "gap": "14px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "examplePair2Lesson",
+      "type": "text",
+      "config": {
+        "id": "examplePair2Lesson",
+        "tag": "p",
+        "text": "Publicar requiere más que compilar porque cambia exposición y riesgo.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "marginTop": "2px"
+        }
+      }
+    },
+    {
+      "id": "examplePair2",
+      "type": "container",
+      "config": {
+        "id": "examplePair2",
+        "tag": "div",
+        "components": [
+          "examplePair2Title",
+          "examplePair2Grid",
+          "examplePair2Lesson"
+        ],
+        "styles": {
+          "display": "grid",
+          "gap": "12px",
+          "padding": "20px 0 0",
+          "borderTop": "1px solid #d3dade",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "exampleStack",
+      "type": "container",
+      "config": {
+        "id": "exampleStack",
+        "tag": "div",
+        "components": [
+          "examplePair0",
+          "examplePair1",
+          "examplePair2"
+        ],
+        "styles": {
+          "display": "grid",
+          "gap": "22px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "exampleInner",
+      "type": "container",
+      "config": {
+        "id": "exampleInner",
+        "tag": "div",
+        "components": [
+          "exampleLabel",
+          "exampleTitle",
+          "exampleStack"
+        ],
+        "styles": {
+          "width": "100%",
+          "maxWidth": "1180px",
+          "display": "grid",
+          "gap": "24px",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "exampleSection",
+      "type": "container",
+      "config": {
+        "id": "exampleSection",
+        "tag": "section",
+        "components": [
+          "exampleInner"
+        ],
+        "styles": {
+          "width": "100%",
+          "display": "flex",
+          "justifyContent": "center",
+          "padding": "34px 16px",
+          "boxSizing": "border-box"
+        }
+      }
+    },
+    {
+      "id": "practicePrepTitle",
+      "type": "text",
+      "config": {
+        "id": "practicePrepTitle",
+        "tag": "h3",
+        "text": "Antes de elegir un playbook",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practicePrepIntro",
+      "type": "text",
+      "config": {
+        "id": "practicePrepIntro",
+        "tag": "p",
+        "text": "Clasifica la tarea por resultado, riesgo y evidencia. Si eliges mal el playbook, la validación no probará lo importante.",
+        "styles": {
+          "margin": "0",
+          "color": "#35424c",
+          "fontSize": "0.98rem",
+          "lineHeight": "1.58",
+          "fontWeight": "620",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practicePrepCard0Title",
+      "type": "text",
+      "config": {
+        "id": "practicePrepCard0Title",
+        "tag": "h3",
+        "text": "Resultado",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practicePrepCard0Desc",
+      "type": "text",
+      "config": {
+        "id": "practicePrepCard0Desc",
+        "tag": "p",
+        "text": "Investigación, edición, QA, publicación, documentación o delegación.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practicePrepCard0",
+      "type": "container",
+      "config": {
+        "id": "practicePrepCard0",
+        "tag": "article",
+        "components": [
+          "practicePrepCard0Title",
+          "practicePrepCard0Desc"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "minHeight": "150px"
+        }
+      }
+    },
+    {
+      "id": "practicePrepCard1Title",
+      "type": "text",
+      "config": {
+        "id": "practicePrepCard1Title",
+        "tag": "h3",
+        "text": "Riesgo",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practicePrepCard1Desc",
+      "type": "text",
+      "config": {
+        "id": "practicePrepCard1Desc",
+        "tag": "p",
+        "text": "Privacidad, dinero, estado externo, repo, identidad o reversibilidad.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practicePrepCard1",
+      "type": "container",
+      "config": {
+        "id": "practicePrepCard1",
+        "tag": "article",
+        "components": [
+          "practicePrepCard1Title",
+          "practicePrepCard1Desc"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "minHeight": "150px"
+        }
+      }
+    },
+    {
+      "id": "practicePrepCard2Title",
+      "type": "text",
+      "config": {
+        "id": "practicePrepCard2Title",
+        "tag": "h3",
+        "text": "Entrada",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practicePrepCard2Desc",
+      "type": "text",
+      "config": {
+        "id": "practicePrepCard2Desc",
+        "tag": "p",
+        "text": "Fuentes, archivos, permisos, datos, diseño o criterio.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practicePrepCard2",
+      "type": "container",
+      "config": {
+        "id": "practicePrepCard2",
+        "tag": "article",
+        "components": [
+          "practicePrepCard2Title",
+          "practicePrepCard2Desc"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "minHeight": "150px"
+        }
+      }
+    },
+    {
+      "id": "practicePrepCard3Title",
+      "type": "text",
+      "config": {
+        "id": "practicePrepCard3Title",
+        "tag": "h3",
+        "text": "Evidencia",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practicePrepCard3Desc",
+      "type": "text",
+      "config": {
+        "id": "practicePrepCard3Desc",
+        "tag": "p",
+        "text": "Qué prueba que terminó.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practicePrepCard3",
+      "type": "container",
+      "config": {
+        "id": "practicePrepCard3",
+        "tag": "article",
+        "components": [
+          "practicePrepCard3Title",
+          "practicePrepCard3Desc"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "minHeight": "150px"
+        }
+      }
+    },
+    {
+      "id": "practicePrepCard4Title",
+      "type": "text",
+      "config": {
+        "id": "practicePrepCard4Title",
+        "tag": "h3",
+        "text": "Detención",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practicePrepCard4Desc",
+      "type": "text",
+      "config": {
+        "id": "practicePrepCard4Desc",
+        "tag": "p",
+        "text": "Qué condición obliga a pedir humano.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practicePrepCard4",
+      "type": "container",
+      "config": {
+        "id": "practicePrepCard4",
+        "tag": "article",
+        "components": [
+          "practicePrepCard4Title",
+          "practicePrepCard4Desc"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "minHeight": "150px"
+        }
+      }
+    },
+    {
+      "id": "practicePrepCard5Title",
+      "type": "text",
+      "config": {
+        "id": "practicePrepCard5Title",
+        "tag": "h3",
+        "text": "Cierre",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practicePrepCard5Desc",
+      "type": "text",
+      "config": {
+        "id": "practicePrepCard5Desc",
+        "tag": "p",
+        "text": "Qué notas y resultados deja.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practicePrepCard5",
+      "type": "container",
+      "config": {
+        "id": "practicePrepCard5",
+        "tag": "article",
+        "components": [
+          "practicePrepCard5Title",
+          "practicePrepCard5Desc"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "minHeight": "150px"
+        }
+      }
+    },
+    {
+      "id": "practicePrepGrid",
+      "type": "container",
+      "config": {
+        "id": "practicePrepGrid",
+        "tag": "div",
+        "components": [
+          "practicePrepCard0",
+          "practicePrepCard1",
+          "practicePrepCard2",
+          "practicePrepCard3",
+          "practicePrepCard4",
+          "practicePrepCard5"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 240px), 1fr))",
+          "gap": "14px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateTitle",
+      "type": "text",
+      "config": {
+        "id": "starterTemplateTitle",
+        "tag": "h3",
+        "text": "Template de playbook",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateIntro",
+      "type": "text",
+      "config": {
+        "id": "starterTemplateIntro",
+        "tag": "p",
+        "text": "Usa este formato para convertir la práctica en una salida revisable.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateField0Title",
+      "type": "text",
+      "config": {
+        "id": "starterTemplateField0Title",
+        "tag": "h4",
+        "text": "Nombre",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateField0Desc",
+      "type": "text",
+      "config": {
+        "id": "starterTemplateField0Desc",
+        "tag": "p",
+        "text": "Tipo de tarea que resuelve.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateField0",
+      "type": "container",
+      "config": {
+        "id": "starterTemplateField0",
+        "tag": "article",
+        "components": [
+          "starterTemplateField0Title",
+          "starterTemplateField0Desc"
+        ],
+        "styles": {
+          "background": "#fff4e6",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateField1Title",
+      "type": "text",
+      "config": {
+        "id": "starterTemplateField1Title",
+        "tag": "h4",
+        "text": "Cuándo usarlo",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateField1Desc",
+      "type": "text",
+      "config": {
+        "id": "starterTemplateField1Desc",
+        "tag": "p",
+        "text": "Señales de entrada.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateField1",
+      "type": "container",
+      "config": {
+        "id": "starterTemplateField1",
+        "tag": "article",
+        "components": [
+          "starterTemplateField1Title",
+          "starterTemplateField1Desc"
+        ],
+        "styles": {
+          "background": "#fff4e6",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateField2Title",
+      "type": "text",
+      "config": {
+        "id": "starterTemplateField2Title",
+        "tag": "h4",
+        "text": "Pasos",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateField2Desc",
+      "type": "text",
+      "config": {
+        "id": "starterTemplateField2Desc",
+        "tag": "p",
+        "text": "Secuencia mínima.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateField2",
+      "type": "container",
+      "config": {
+        "id": "starterTemplateField2",
+        "tag": "article",
+        "components": [
+          "starterTemplateField2Title",
+          "starterTemplateField2Desc"
+        ],
+        "styles": {
+          "background": "#fff4e6",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateField3Title",
+      "type": "text",
+      "config": {
+        "id": "starterTemplateField3Title",
+        "tag": "h4",
+        "text": "Checks",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateField3Desc",
+      "type": "text",
+      "config": {
+        "id": "starterTemplateField3Desc",
+        "tag": "p",
+        "text": "Validación obligatoria.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateField3",
+      "type": "container",
+      "config": {
+        "id": "starterTemplateField3",
+        "tag": "article",
+        "components": [
+          "starterTemplateField3Title",
+          "starterTemplateField3Desc"
+        ],
+        "styles": {
+          "background": "#fff4e6",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateField4Title",
+      "type": "text",
+      "config": {
+        "id": "starterTemplateField4Title",
+        "tag": "h4",
+        "text": "Stop gate",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateField4Desc",
+      "type": "text",
+      "config": {
+        "id": "starterTemplateField4Desc",
+        "tag": "p",
+        "text": "Cuándo pedir aprobación.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateField4",
+      "type": "container",
+      "config": {
+        "id": "starterTemplateField4",
+        "tag": "article",
+        "components": [
+          "starterTemplateField4Title",
+          "starterTemplateField4Desc"
+        ],
+        "styles": {
+          "background": "#fff4e6",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateField5Title",
+      "type": "text",
+      "config": {
+        "id": "starterTemplateField5Title",
+        "tag": "h4",
+        "text": "Evidencia",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateField5Desc",
+      "type": "text",
+      "config": {
+        "id": "starterTemplateField5Desc",
+        "tag": "p",
+        "text": "Qué se guarda al cerrar.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateField5",
+      "type": "container",
+      "config": {
+        "id": "starterTemplateField5",
+        "tag": "article",
+        "components": [
+          "starterTemplateField5Title",
+          "starterTemplateField5Desc"
+        ],
+        "styles": {
+          "background": "#fff4e6",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplateGrid",
+      "type": "container",
+      "config": {
+        "id": "starterTemplateGrid",
+        "tag": "div",
+        "components": [
+          "starterTemplateField0",
+          "starterTemplateField1",
+          "starterTemplateField2",
+          "starterTemplateField3",
+          "starterTemplateField4",
+          "starterTemplateField5"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 220px), 1fr))",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "starterTemplate",
+      "type": "container",
+      "config": {
+        "id": "starterTemplate",
+        "tag": "div",
+        "components": [
+          "starterTemplateTitle",
+          "starterTemplateIntro",
+          "starterTemplateGrid"
+        ],
+        "styles": {
+          "background": "#fffaf2",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "20px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "14px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practicePrepBlock",
+      "type": "container",
+      "config": {
+        "id": "practicePrepBlock",
+        "tag": "div",
+        "components": [
+          "practicePrepTitle",
+          "practicePrepIntro",
+          "practicePrepGrid",
+          "starterTemplate"
+        ],
+        "styles": {
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "checkObjective",
+      "type": "input",
+      "config": {
+        "fieldId": "checkObjective",
+        "controlType": "checkbox",
+        "label": "",
+        "helperText": "Puedo explicar el objetivo sin usar palabras vagas.",
+        "ariaLabel": "Puedo explicar el objetivo sin usar palabras vagas.",
+        "value": false,
+        "classes": "checkBlock",
+        "fieldClasses": "checkField",
+        "inputClasses": "checkInput"
+      }
+    },
+    {
+      "id": "checkEvidence",
+      "type": "input",
+      "config": {
+        "fieldId": "checkEvidence",
+        "controlType": "checkbox",
+        "label": "",
+        "helperText": "Puedo citar evidencia o decir que no existe.",
+        "ariaLabel": "Puedo citar evidencia o decir que no existe.",
+        "value": false,
+        "classes": "checkBlock",
+        "fieldClasses": "checkField",
+        "inputClasses": "checkInput"
+      }
+    },
+    {
+      "id": "checkRisk",
+      "type": "input",
+      "config": {
+        "fieldId": "checkRisk",
+        "controlType": "checkbox",
+        "label": "",
+        "helperText": "Identifiqué riesgo de seguridad, costo o publicación.",
+        "ariaLabel": "Identifiqué riesgo de seguridad, costo o publicación.",
+        "value": false,
+        "classes": "checkBlock",
+        "fieldClasses": "checkField",
+        "inputClasses": "checkInput"
+      }
+    },
+    {
+      "id": "checkValidation",
+      "type": "input",
+      "config": {
+        "fieldId": "checkValidation",
+        "controlType": "checkbox",
+        "label": "",
+        "helperText": "Definí cómo validar la salida.",
+        "ariaLabel": "Definí cómo validar la salida.",
+        "value": false,
+        "classes": "checkBlock",
+        "fieldClasses": "checkField",
+        "inputClasses": "checkInput"
+      }
+    },
+    {
+      "id": "practiceLabel",
+      "type": "text",
+      "config": {
+        "id": "practiceLabel",
+        "tag": "p",
+        "text": "Práctica guiada",
+        "styles": {
+          "margin": "0",
+          "width": "fit-content",
+          "textTransform": "uppercase",
+          "letterSpacing": "0.10em",
+          "fontSize": "0.72rem",
+          "lineHeight": "1.2",
+          "fontWeight": "900",
+          "color": "#7b3f24",
+          "border": "0",
+          "borderRadius": "0",
+          "padding": "0",
+          "background": "transparent",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practiceTitle",
+      "type": "text",
+      "config": {
+        "id": "practiceTitle",
+        "tag": "h2",
+        "text": "Tres prácticas para fijar criterio",
+        "styles": {
+          "margin": "0 0 12px",
+          "color": "#101316",
+          "fontSize": "clamp(1.65rem, 3vw, 2.55rem)",
+          "lineHeight": "1.05",
+          "fontWeight": "930",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practiceIntro",
+      "type": "text",
+      "config": {
+        "id": "practiceIntro",
+        "tag": "p",
+        "text": "Escribe un playbook de 7 pasos para crear una nueva página de estudio.",
+        "styles": {
+          "margin": "0",
+          "color": "#35424c",
+          "fontSize": "0.98rem",
+          "lineHeight": "1.58",
+          "fontWeight": "620",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practiceCard0Title",
+      "type": "text",
+      "config": {
+        "id": "practiceCard0Title",
+        "tag": "h3",
+        "text": "Playbook de página de estudio",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practiceCard0Body",
+      "type": "text",
+      "config": {
+        "id": "practiceCard0Body",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practiceCard0Check",
+      "type": "text",
+      "config": {
+        "id": "practiceCard0Check",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "marginTop": "auto",
+          "paddingTop": "10px",
+          "borderTop": "1px solid #d3dade"
+        }
+      }
+    },
+    {
+      "id": "practiceCard0",
+      "type": "container",
+      "config": {
+        "id": "practiceCard0",
+        "tag": "article",
+        "components": [
+          "practiceCard0Title",
+          "practiceCard0Body",
+          "practiceCard0Check"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "10px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "minHeight": "190px",
+          "alignContent": "start"
+        }
+      }
+    },
+    {
+      "id": "practiceCard1Title",
+      "type": "text",
+      "config": {
+        "id": "practiceCard1Title",
+        "tag": "h3",
+        "text": "Playbook de publicación segura",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practiceCard1Body",
+      "type": "text",
+      "config": {
+        "id": "practiceCard1Body",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practiceCard1Check",
+      "type": "text",
+      "config": {
+        "id": "practiceCard1Check",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "marginTop": "auto",
+          "paddingTop": "10px",
+          "borderTop": "1px solid #d3dade"
+        }
+      }
+    },
+    {
+      "id": "practiceCard1",
+      "type": "container",
+      "config": {
+        "id": "practiceCard1",
+        "tag": "article",
+        "components": [
+          "practiceCard1Title",
+          "practiceCard1Body",
+          "practiceCard1Check"
+        ],
+        "styles": {
+          "background": "#dff7e8",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "10px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "minHeight": "190px",
+          "alignContent": "start"
+        }
+      }
+    },
+    {
+      "id": "practiceCard2Title",
+      "type": "text",
+      "config": {
+        "id": "practiceCard2Title",
+        "tag": "h3",
+        "text": "Playbook de investigación",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practiceCard2Body",
+      "type": "text",
+      "config": {
+        "id": "practiceCard2Body",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practiceCard2Check",
+      "type": "text",
+      "config": {
+        "id": "practiceCard2Check",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "marginTop": "auto",
+          "paddingTop": "10px",
+          "borderTop": "1px solid #d3dade"
+        }
+      }
+    },
+    {
+      "id": "practiceCard2",
+      "type": "container",
+      "config": {
+        "id": "practiceCard2",
+        "tag": "article",
+        "components": [
+          "practiceCard2Title",
+          "practiceCard2Body",
+          "practiceCard2Check"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "10px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "minHeight": "190px",
+          "alignContent": "start"
+        }
+      }
+    },
+    {
+      "id": "practiceCards",
+      "type": "container",
+      "config": {
+        "id": "practiceCards",
+        "tag": "div",
+        "components": [
+          "practiceCard0",
+          "practiceCard1",
+          "practiceCard2"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 260px), 1fr))",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "mascotStudyLabel",
+      "type": "text",
+      "config": {
+        "id": "mascotStudyLabel",
+        "tag": "p",
+        "text": "Nota de Lynx Pardelle",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "mascotStudyBody",
+      "type": "text",
+      "config": {
+        "id": "mascotStudyBody",
+        "tag": "p",
+        "text": "Antes de ejecutar, convierte el tema en una decisión observable: qué delegas, qué evidencia esperas y qué revisarás tú.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "mascotStudyCopy",
+      "type": "container",
+      "config": {
+        "id": "mascotStudyCopy",
+        "tag": "div",
+        "components": [
+          "mascotStudyLabel",
+          "mascotStudyBody"
+        ],
+        "styles": {
+          "position": "relative",
+          "zIndex": "2",
+          "maxWidth": "82%",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "mascotStudyImage",
+      "type": "media",
+      "config": {
+        "id": "mascotStudyImage",
+        "tag": "image",
+        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-sticker-11-checklist.png",
+        "alt": "Sticker de Lynx Pardelle repasando Playbooks",
+        "width": 1200,
+        "height": 720,
+        "loading": "eager",
+        "fetchPriority": "auto",
+        "decoding": "async",
+        "sizes": "(max-width: 768px) 100vw, 48vw",
+        "classes": "mascotStudyImage"
+      }
+    },
+    {
+      "id": "mascotStudyFloat",
+      "type": "container",
+      "config": {
+        "id": "mascotStudyFloat",
+        "tag": "div",
+        "components": [
+          "mascotStudyImage"
+        ],
+        "styles": {
+          "position": "absolute",
+          "right": "8px",
+          "bottom": "-14px",
+          "width": "clamp(76px, 20vw, 118px)",
+          "pointerEvents": "none",
+          "zIndex": "1"
+        }
+      }
+    },
+    {
+      "id": "mascotStudyNote",
+      "type": "container",
+      "config": {
+        "id": "mascotStudyNote",
+        "tag": "div",
+        "components": [
+          "mascotStudyCopy",
+          "mascotStudyFloat"
+        ],
+        "styles": {
+          "background": "#fff4e6",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "20px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "position": "relative",
+          "overflow": "hidden",
+          "minHeight": "160px",
+          "paddingRight": "110px"
+        }
+      }
+    },
+    {
+      "id": "topicChecklistTitle",
+      "type": "text",
+      "config": {
+        "id": "topicChecklistTitle",
+        "tag": "h3",
+        "text": "Checklist de cierre",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicChecklistGrid",
+      "type": "container",
+      "config": {
+        "id": "topicChecklistGrid",
+        "tag": "div",
+        "components": [
+          "checkObjective",
+          "checkEvidence",
+          "checkRisk",
+          "checkValidation"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 300px), 1fr))",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicChecklistPanel",
+      "type": "container",
+      "config": {
+        "id": "topicChecklistPanel",
+        "tag": "div",
+        "components": [
+          "topicChecklistTitle",
+          "topicChecklistGrid"
+        ],
+        "styles": {
+          "background": "#dff7e8",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "20px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicChecklistScope",
+      "type": "interaction-scope",
+      "config": {
+        "id": "topicChecklistScope",
+        "scopeId": "playbooks-checklist",
+        "tag": "section",
+        "ariaLabel": "Checklist de Playbooks",
+        "classes": "practiceChecklistScope",
+        "components": [
+          "topicChecklistPanel"
+        ]
+      }
+    },
+    {
+      "id": "topicFlashLabel",
+      "type": "text",
+      "config": {
+        "id": "topicFlashLabel",
+        "tag": "p",
+        "text": "Repaso activo",
+        "styles": {
+          "margin": "0",
+          "width": "fit-content",
+          "textTransform": "uppercase",
+          "letterSpacing": "0.10em",
+          "fontSize": "0.72rem",
+          "lineHeight": "1.2",
+          "fontWeight": "900",
+          "color": "#7b3f24",
+          "border": "0",
+          "borderRadius": "0",
+          "padding": "0",
+          "background": "transparent",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlashTitle",
+      "type": "text",
+      "config": {
+        "id": "topicFlashTitle",
+        "tag": "h2",
+        "text": "Flashcards para fijar criterio",
+        "styles": {
+          "margin": "0 0 12px",
+          "color": "#101316",
+          "fontSize": "clamp(1.65rem, 3vw, 2.55rem)",
+          "lineHeight": "1.05",
+          "fontWeight": "930",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlashIntro",
+      "type": "text",
+      "config": {
+        "id": "topicFlashIntro",
+        "tag": "p",
+        "text": "Repasa estas tarjetas después de estudiar el tema. Si una respuesta sale vaga, vuelve al ejemplo y a la práctica guiada.",
+        "styles": {
+          "margin": "0",
+          "color": "#35424c",
+          "fontSize": "0.98rem",
+          "lineHeight": "1.58",
+          "fontWeight": "620",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlashQ0",
+      "type": "text",
+      "config": {
+        "id": "topicFlashQ0",
+        "tag": "h3",
+        "text": "¿Qué evita un playbook?",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlashA0",
+      "type": "text",
+      "config": {
+        "id": "topicFlashA0",
+        "tag": "p",
+        "text": "Olvidos repetidos y validaciones incompletas.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlash0",
+      "type": "container",
+      "config": {
+        "id": "topicFlash0",
+        "tag": "article",
+        "components": [
+          "topicFlashQ0",
+          "topicFlashA0"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "20px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "minHeight": "130px"
+        }
+      }
+    },
+    {
+      "id": "topicFlashQ1",
+      "type": "text",
+      "config": {
+        "id": "topicFlashQ1",
+        "tag": "h3",
+        "text": "¿Qué hace si aparece riesgo?",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlashA1",
+      "type": "text",
+      "config": {
+        "id": "topicFlashA1",
+        "tag": "p",
+        "text": "Pausa o pide aprobación antes de impacto.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlash1",
+      "type": "container",
+      "config": {
+        "id": "topicFlash1",
+        "tag": "article",
+        "components": [
+          "topicFlashQ1",
+          "topicFlashA1"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "20px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "minHeight": "130px"
+        }
+      }
+    },
+    {
+      "id": "topicFlashQ2",
+      "type": "text",
+      "config": {
+        "id": "topicFlashQ2",
+        "tag": "h3",
+        "text": "¿Qué cierra el playbook?",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlashA2",
+      "type": "text",
+      "config": {
+        "id": "topicFlashA2",
+        "tag": "p",
+        "text": "Evidencia, estado y riesgos restantes.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlash2",
+      "type": "container",
+      "config": {
+        "id": "topicFlash2",
+        "tag": "article",
+        "components": [
+          "topicFlashQ2",
+          "topicFlashA2"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "20px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "minHeight": "130px"
+        }
+      }
+    },
+    {
+      "id": "flashGrid",
+      "type": "container",
+      "config": {
+        "id": "flashGrid",
+        "tag": "div",
+        "components": [
+          "topicFlash0",
+          "topicFlash1",
+          "topicFlash2"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 220px), 1fr))",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlashSection",
+      "type": "container",
+      "config": {
+        "id": "topicFlashSection",
+        "tag": "div",
+        "components": [
+          "topicFlashLabel",
+          "topicFlashTitle",
+          "topicFlashIntro",
+          "flashGrid"
+        ],
+        "styles": {
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practiceInner",
+      "type": "container",
+      "config": {
+        "id": "practiceInner",
+        "tag": "div",
+        "components": [
+          "practiceLabel",
+          "practiceTitle",
+          "practiceIntro",
+          "practicePrepBlock",
+          "practiceCards",
+          "mascotStudyNote",
+          "topicChecklistScope",
+          "topicFlashSection"
+        ],
+        "styles": {
+          "width": "100%",
+          "maxWidth": "1180px",
+          "display": "grid",
+          "gap": "24px",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practiceSection",
+      "type": "container",
+      "config": {
+        "id": "practiceSection",
+        "tag": "section",
+        "components": [
+          "practiceInner"
+        ],
+        "styles": {
+          "width": "100%",
+          "display": "flex",
+          "justifyContent": "center",
+          "padding": "34px 16px",
+          "boxSizing": "border-box",
+          "background": "#fbfaf6"
+        }
+      }
+    },
+    {
+      "id": "sourceLabel",
+      "type": "text",
+      "config": {
+        "id": "sourceLabel",
+        "tag": "p",
+        "text": "Recursos públicos",
+        "styles": {
+          "margin": "0",
+          "width": "fit-content",
+          "textTransform": "uppercase",
+          "letterSpacing": "0.10em",
+          "fontSize": "0.72rem",
+          "lineHeight": "1.2",
+          "fontWeight": "900",
+          "color": "#7b3f24",
+          "border": "0",
+          "borderRadius": "0",
+          "padding": "0",
+          "background": "transparent",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "sourceTitle",
+      "type": "text",
+      "config": {
+        "id": "sourceTitle",
+        "tag": "h2",
+        "text": "Documentación relacionada",
+        "styles": {
+          "margin": "0 0 12px",
+          "color": "#101316",
+          "fontSize": "clamp(1.65rem, 3vw, 2.55rem)",
+          "lineHeight": "1.05",
+          "fontWeight": "930",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "sourceIntro",
+      "type": "text",
+      "config": {
+        "id": "sourceIntro",
+        "tag": "p",
+        "text": "Esta página enlaza documentación pública para profundizar. La guía resume el aprendizaje en lenguaje propio y no depende de material no publicable.",
+        "styles": {
+          "margin": "0",
+          "color": "#35424c",
+          "fontSize": "0.98rem",
+          "lineHeight": "1.58",
+          "fontWeight": "620",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "source0",
+      "type": "link",
+      "config": {
+        "id": "source0",
+        "href": "https://platform.openai.com/docs/guides/code-generation",
+        "text": "OpenAI Codex y generación de código",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        },
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "id": "source1",
+      "type": "link",
+      "config": {
+        "id": "source1",
+        "href": "https://code.claude.com/docs",
+        "text": "Claude Code documentation",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        },
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "id": "source2",
+      "type": "link",
+      "config": {
+        "id": "source2",
+        "href": "https://modelcontextprotocol.io/docs",
+        "text": "Model Context Protocol",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        },
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "id": "sourceGrid",
+      "type": "container",
+      "config": {
+        "id": "sourceGrid",
+        "tag": "div",
+        "components": [
+          "source0",
+          "source1",
+          "source2"
+        ],
+        "styles": {
+          "display": "grid",
+          "gap": "8px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "prevTopicLink",
+      "type": "link",
+      "config": {
+        "id": "prevTopicLink",
+        "href": "/seguridad-publicacion?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Tema anterior",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "nextTopicLink",
+      "type": "link",
+      "config": {
+        "id": "nextTopicLink",
+        "href": "/evaluaciones-agenticas?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Siguiente tema",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#ffffff",
+          "background": "#101316",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#101316"
+        }
+      }
+    },
+    {
+      "id": "pageNav",
+      "type": "container",
+      "config": {
+        "id": "pageNav",
+        "tag": "div",
+        "components": [
+          "prevTopicLink",
+          "nextTopicLink"
+        ],
+        "styles": {
+          "display": "flex",
+          "flexWrap": "wrap",
+          "gap": "10px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "sourceInner",
+      "type": "container",
+      "config": {
+        "id": "sourceInner",
+        "tag": "div",
+        "components": [
+          "sourceLabel",
+          "sourceTitle",
+          "sourceIntro",
+          "sourceGrid",
+          "pageNav"
+        ],
+        "styles": {
+          "width": "100%",
+          "maxWidth": "1180px",
+          "display": "grid",
+          "gap": "24px",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "sourceSection",
+      "type": "container",
+      "config": {
+        "id": "sourceSection",
+        "tag": "section",
+        "components": [
+          "sourceInner"
+        ],
+        "styles": {
+          "width": "100%",
+          "display": "flex",
+          "justifyContent": "center",
+          "padding": "34px 16px",
+          "boxSizing": "border-box"
+        }
+      }
+    },
+    {
+      "id": "relatedTitle",
+      "type": "text",
+      "config": {
+        "id": "relatedTitle",
+        "tag": "h2",
+        "text": "Otras páginas de estudio",
+        "styles": {
+          "margin": "0 0 12px",
+          "color": "#101316",
+          "fontSize": "clamp(1.65rem, 3vw, 2.55rem)",
+          "lineHeight": "1.05",
+          "fontWeight": "930",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedindice",
+      "type": "link",
+      "config": {
+        "id": "relatedindice",
+        "href": "/indice?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Índice",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedfundamentos",
+      "type": "link",
+      "config": {
+        "id": "relatedfundamentos",
+        "href": "/fundamentos?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Fundamentos",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedprompting",
+      "type": "link",
+      "config": {
+        "id": "relatedprompting",
+        "href": "/prompting?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Prompting",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedevaluaciones",
+      "type": "link",
+      "config": {
+        "id": "relatedevaluaciones",
+        "href": "/evaluaciones?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Evaluaciones",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedtool-use",
+      "type": "link",
+      "config": {
+        "id": "relatedtool-use",
+        "href": "/tool-use?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Tool Use",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedrag",
+      "type": "link",
+      "config": {
+        "id": "relatedrag",
+        "href": "/rag?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "RAG",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedmcp",
+      "type": "link",
+      "config": {
+        "id": "relatedmcp",
+        "href": "/mcp?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "MCP",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedGrid",
+      "type": "container",
+      "config": {
+        "id": "relatedGrid",
+        "tag": "div",
+        "components": [
+          "relatedindice",
+          "relatedfundamentos",
+          "relatedprompting",
+          "relatedevaluaciones",
+          "relatedtool-use",
+          "relatedrag",
+          "relatedmcp"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 180px), 1fr))",
+          "gap": "10px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedInner",
+      "type": "container",
+      "config": {
+        "id": "relatedInner",
+        "tag": "div",
+        "components": [
+          "relatedTitle",
+          "relatedGrid"
+        ],
+        "styles": {
+          "width": "100%",
+          "maxWidth": "1180px",
+          "display": "grid",
+          "gap": "24px",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedSection",
+      "type": "container",
+      "config": {
+        "id": "relatedSection",
+        "tag": "section",
+        "components": [
+          "relatedInner"
+        ],
+        "styles": {
+          "width": "100%",
+          "display": "flex",
+          "justifyContent": "center",
+          "padding": "34px 16px",
+          "boxSizing": "border-box",
+          "background": "#fbfaf6"
+        }
+      }
+    },
+    {
+      "id": "topbarBrand",
+      "type": "link",
+      "config": {
+        "id": "topbarBrand",
+        "href": "/?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Claude/Codex Agent Lab",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "1rem",
+          "fontWeight": "950",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#202326"
+        }
+      }
+    },
+    {
+      "id": "topRoute0",
+      "type": "link",
+      "config": {
+        "id": "topRoute0",
+        "href": "/indice?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Índice",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "topbarLinks",
+      "type": "container",
+      "config": {
+        "id": "topbarLinks",
+        "tag": "div",
+        "components": [
+          "topRoute0"
+        ],
+        "styles": {
+          "display": "flex",
+          "flexWrap": "nowrap",
+          "justifyContent": "flex-end",
+          "gap": "8px",
+          "overflowX": "auto",
+          "flexShrink": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topbarInner",
+      "type": "container",
+      "config": {
+        "id": "topbarInner",
+        "tag": "div",
+        "components": [
+          "topbarBrand",
+          "topbarLinks"
+        ],
+        "styles": {
+          "width": "100%",
+          "maxWidth": "1180px",
+          "display": "flex",
+          "flexWrap": "nowrap",
+          "alignItems": "center",
+          "justifyContent": "space-between",
+          "gap": "10px",
+          "overflowX": "auto",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topbar",
+      "type": "container",
+      "config": {
+        "id": "topbar",
+        "tag": "header",
+        "components": [
+          "topbarInner"
+        ],
+        "styles": {
+          "position": "sticky",
+          "top": "0",
+          "zIndex": "1000",
+          "width": "100%",
+          "display": "flex",
+          "justifyContent": "center",
+          "padding": "8px 12px",
+          "borderBottom": "1px solid #202326",
+          "background": "rgba(247,245,238,0.96)",
+          "backdropFilter": "blur(14px)",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicHeroGrid",
+      "type": "container",
+      "config": {
+        "id": "topicHeroGrid",
+        "tag": "div",
+        "components": [
+          "topicHero",
+          "topicMascotOpenImage"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 330px), 1fr))",
+          "gap": "24px",
+          "alignItems": "start",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicHeroInner",
+      "type": "container",
+      "config": {
+        "id": "topicHeroInner",
+        "tag": "div",
+        "components": [
+          "topicHeroGrid",
+          "topicVisualOpenImage",
+          "overviewGrid"
+        ],
+        "styles": {
+          "width": "100%",
+          "maxWidth": "1180px",
+          "display": "grid",
+          "gap": "24px",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicHeroBand",
+      "type": "container",
+      "config": {
+        "id": "topicHeroBand",
+        "tag": "section",
+        "components": [
+          "topicHeroInner"
+        ],
+        "styles": {
+          "width": "100%",
+          "display": "flex",
+          "justifyContent": "center",
+          "padding": "34px 16px",
+          "boxSizing": "border-box"
+        }
+      }
+    },
+    {
+      "id": "studyPage",
+      "type": "container",
+      "config": {
+        "id": "study-main",
+        "tag": "main",
+        "components": [
+          "topbar",
+          "topicHeroBand",
+          "conceptSection",
+          "deepDiveSection",
+          "exampleSection",
+          "practiceSection",
+          "sourceSection",
+          "relatedSection"
+        ],
+        "styles": {
+          "minHeight": "100vh",
+          "background": "#f7f5ee",
+          "color": "#101316",
+          "fontFamily": "Inter, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+        }
+      }
+    },
+    {
+      "id": "skipToMainLink",
+      "type": "link",
+      "eventInstructions": "skipToMain:study-main",
+      "config": {
+        "id": "skipToMainLink",
+        "href": "#study-main",
+        "text": "Saltar al contenido principal",
+        "ariaLabel": "Saltar al contenido principal",
+        "classes": "ank-d-none"
+      }
+    }
+  ]
+}

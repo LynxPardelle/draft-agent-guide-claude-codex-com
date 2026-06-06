@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "pageId": "mcp-avanzado",
+  "domain": "agent-guide-claude-codex.com",
+  "combos": {
+    "infographicImage": [
+      "ank-display-block ank-width-100per ank-height-auto ank-borderRadius-12px ank-bg-bgColor"
+    ],
+    "imageLightboxButton": [
+      "ank-display-block ank-width-100per ank-p-0 ank-m-0 ank-border-0 ank-bg-transparent ank-textAlign-left"
+    ],
+    "lightboxImage": [
+      "ank-display-block ank-width-100per ank-height-auto ank-maxHeight-75vh ank-objectFit-contain ank-borderRadius-12px"
+    ],
+    "topicVisualImage": [
+      "ank-display-block ank-width-100per ank-height-auto ank-objectFit-contain"
+    ],
+    "mascotTopicImage": [
+      "ank-display-block ank-width-100per ank-height-auto ank-objectFit-contain"
+    ],
+    "mascotStudyImage": [
+      "ank-display-block ank-width-100per ank-height-auto ank-objectFit-contain"
+    ],
+    "practiceChecklistScope": [
+      "ank-display-block ank-width-100per"
+    ],
+    "checkBlock": [
+      "ank-display-block ank-width-100per ank-minWidth-0"
+    ],
+    "checkField": [
+      "ank-display-flex ank-alignItems-flexStart ank-gap-10px ank-bg-bgColor ank-border-1px__solid__borderColor ank-borderRadius-10px ank-padding-12px ank-color-titleColor ank-minHeight-54px ank-cursor-pointer"
+    ],
+    "checkInput": [
+      "ank-marginTop-3px ank-flexShrink-0"
+    ],
+    "checkText": [
+      "ank-color-titleColor ank-fontSize-0_88rem ank-lineHeight-1_45 ank-fontWeight-760 ank-overflowWrap-anywhere"
+    ]
+  }
+}

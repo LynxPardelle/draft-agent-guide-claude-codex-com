@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Repo workflow closeout</title>
+  <desc id="desc">Repository workflow: read, map, scope, edit, validate and close out.</desc>
+  <rect width="1200" height="720" rx="28" fill="#f8f4ea"/>
+  <rect x="80" y="76" width="1040" height="548" rx="28" fill="#ffffff" stroke="#102638" stroke-width="6"/>
+  <text x="120" y="145" font-family="Arial, sans-serif" font-size="48" font-weight="800" fill="#111820">Repo workflow</text>
+  <text x="120" y="187" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#536171">Read, map, edit, validate and close</text>
+  <g font-family="Arial, sans-serif" font-weight="800" text-anchor="middle">
+    <rect x="120" y="285" width="145" height="86" rx="16" fill="#dff3ff" stroke="#7bb8d5"/>
+    <text x="192" y="336" font-size="22" fill="#12324a">Read</text>
+    <rect x="315" y="285" width="145" height="86" rx="16" fill="#d7f3e4" stroke="#91c8a7"/>
+    <text x="387" y="336" font-size="22" fill="#12324a">Map</text>
+    <rect x="510" y="285" width="145" height="86" rx="16" fill="#fff0d8" stroke="#e0b56a"/>
+    <text x="582" y="336" font-size="22" fill="#12324a">Scope</text>
+    <rect x="705" y="285" width="145" height="86" rx="16" fill="#f5e5f0" stroke="#d7a9c7"/>
+    <text x="777" y="336" font-size="22" fill="#12324a">Edit</text>
+    <rect x="900" y="285" width="145" height="86" rx="16" fill="#102638"/>
+    <text x="972" y="336" font-size="22" fill="#ffffff">Validate</text>
+  </g>
+  <g stroke="#102638" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M265 328h50M460 328h50M655 328h50M850 328h50"/>
+  </g>
+  <rect x="220" y="450" width="760" height="82" rx="18" fill="#eef8fb" stroke="#9dcde4"/>
+  <text x="600" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="800" fill="#12324a">Closeout</text>
+  <text x="600" y="518" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#426276">diff, commands, browser QA, notes and residual risk</text>
+</svg>

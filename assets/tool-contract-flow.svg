@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Contrato de herramienta segura</title>
+  <desc id="desc">Diagrama de tool use seguro: input, permisos, ejecución, salida, evidencia y aprobación.</desc>
+  <rect width="1200" height="720" rx="34" fill="#fff8ef"/>
+  <rect x="50" y="46" width="1100" height="628" rx="30" fill="#ffffff" stroke="#111820" stroke-width="4"/>
+
+  <text x="88" y="120" fill="#111820" font-family="Inter, Arial, sans-serif" font-size="46" font-weight="900">Tool como contrato</text>
+  <text x="90" y="166" fill="#42515c" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700">El modelo pide; la tool valida, ejecuta y devuelve evidencia.</text>
+
+  <g font-family="Inter, Arial, sans-serif" font-weight="900" fill="#111820">
+    <rect x="90" y="232" width="210" height="122" rx="22" fill="#eaf8ff" stroke="#97c7dd" stroke-width="2"/>
+    <text x="126" y="286" font-size="32">Input</text>
+    <text x="126" y="324" font-size="18" font-weight="700" fill="#425462">tipos y límites</text>
+
+    <rect x="348" y="232" width="210" height="122" rx="22" fill="#dff7e8" stroke="#93d4af" stroke-width="2"/>
+    <text x="384" y="286" font-size="32">Permisos</text>
+    <text x="384" y="324" font-size="18" font-weight="700" fill="#425462">alcance mínimo</text>
+
+    <rect x="606" y="232" width="210" height="122" rx="22" fill="#fff4e6" stroke="#dfbc8a" stroke-width="2"/>
+    <text x="642" y="286" font-size="32">Ejecución</text>
+    <text x="642" y="324" font-size="18" font-weight="700" fill="#425462">acción acotada</text>
+
+    <rect x="864" y="232" width="246" height="122" rx="22" fill="#f4f0ff" stroke="#bcaee1" stroke-width="2"/>
+    <text x="902" y="286" font-size="32">Salida</text>
+    <text x="902" y="324" font-size="18" font-weight="700" fill="#425462">datos + evidencia</text>
+  </g>
+
+  <g stroke="#111820" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M300 293h48"/>
+    <path d="M558 293h48"/>
+    <path d="M816 293h48"/>
+  </g>
+  <g fill="#111820">
+    <path d="M336 279l20 14-20 14z"/>
+    <path d="M594 279l20 14-20 14z"/>
+    <path d="M852 279l20 14-20 14z"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="90" y="444" width="318" height="112" rx="22" fill="#111820"/>
+    <text x="124" y="488" fill="#ffffff" font-size="28" font-weight="900">Gate humano</text>
+    <text x="124" y="524" fill="#d9e6ed" font-size="20" font-weight="700">Publicar, borrar, enviar.</text>
+
+    <rect x="442" y="444" width="318" height="112" rx="22" fill="#eaf8ff" stroke="#97c7dd" stroke-width="3"/>
+    <text x="476" y="488" fill="#111820" font-size="28" font-weight="900">Errores útiles</text>
+    <text x="476" y="524" fill="#425462" font-size="20" font-weight="700">Rechaza y explica.</text>
+
+    <rect x="794" y="444" width="316" height="112" rx="22" fill="#dff7e8" stroke="#93d4af" stroke-width="3"/>
+    <text x="828" y="488" fill="#111820" font-size="28" font-weight="900">Dry-run</text>
+    <text x="828" y="524" fill="#425462" font-size="20" font-weight="700">Simula antes de actuar.</text>
+  </g>
+
+  <rect x="90" y="604" width="1020" height="42" rx="16" fill="#111820"/>
+  <text x="124" y="633" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="850">Regla: si puede causar daño, primero devuelve plan y pide aprobación.</text>
+</svg>

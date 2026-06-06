@@ -1,0 +1,5068 @@
+{
+  "version": 1,
+  "domain": "agent-guide-claude-codex.com",
+  "pageId": "indice",
+  "components": [
+    {
+      "id": "topicLabel",
+      "type": "text",
+      "config": {
+        "id": "topicLabel",
+        "tag": "p",
+        "text": "Índice",
+        "styles": {
+          "margin": "0",
+          "width": "fit-content",
+          "textTransform": "uppercase",
+          "letterSpacing": "0.10em",
+          "fontSize": "0.72rem",
+          "lineHeight": "1.2",
+          "fontWeight": "900",
+          "color": "#7b3f24",
+          "border": "0",
+          "borderRadius": "0",
+          "padding": "0",
+          "background": "transparent",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicTitle",
+      "type": "text",
+      "config": {
+        "id": "topicTitle",
+        "tag": "h1",
+        "text": "Índice maestro de la guía",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "clamp(2.1rem, 5vw, 4.3rem)",
+          "lineHeight": "0.96",
+          "fontWeight": "950",
+          "letterSpacing": "0",
+          "maxWidth": "15ch",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicSummary",
+      "type": "text",
+      "config": {
+        "id": "topicSummary",
+        "tag": "p",
+        "text": "Mapa completo para estudiar la guía por ruta, por problema o por herramienta. Úsalo como tabla de contenidos viva antes de saltar a un tema avanzado.",
+        "styles": {
+          "margin": "0",
+          "color": "#35424c",
+          "fontSize": "1.05rem",
+          "lineHeight": "1.58",
+          "fontWeight": "620",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "maxWidth": "780px"
+        }
+      }
+    },
+    {
+      "id": "backHomeLink",
+      "type": "link",
+      "config": {
+        "id": "backHomeLink",
+        "href": "/?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Volver al inicio",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#ffffff",
+          "background": "#101316",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#101316"
+        }
+      }
+    },
+    {
+      "id": "labLink",
+      "type": "link",
+      "config": {
+        "id": "labLink",
+        "href": "/laboratorios?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Practicar en laboratorios",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "flashcardsLink",
+      "type": "link",
+      "config": {
+        "id": "flashcardsLink",
+        "href": "/flashcards?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Repasar flashcards",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicHeroActions",
+      "type": "container",
+      "config": {
+        "id": "topicHeroActions",
+        "tag": "div",
+        "components": [
+          "backHomeLink",
+          "labLink",
+          "flashcardsLink"
+        ],
+        "styles": {
+          "display": "flex",
+          "flexWrap": "wrap",
+          "gap": "10px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicHero",
+      "type": "container",
+      "config": {
+        "id": "topicHero",
+        "tag": "div",
+        "components": [
+          "topicLabel",
+          "topicTitle",
+          "topicSummary",
+          "topicHeroActions"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "clamp(24px,4vw,36px)",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "alignContent": "start"
+        }
+      }
+    },
+    {
+      "id": "topicVisual",
+      "type": "media",
+      "config": {
+        "id": "topicVisual",
+        "tag": "image",
+        "src": "/drafts/agent-guide-claude-codex.com/assets/tool-choice-matrix.svg",
+        "alt": "Infografía para Índice",
+        "width": 1200,
+        "height": 720,
+        "loading": "eager",
+        "fetchPriority": "auto",
+        "decoding": "async",
+        "sizes": "(max-width: 768px) 100vw, 48vw",
+        "classes": "topicVisualImage"
+      }
+    },
+    {
+      "id": "topicVisualModalRootImage",
+      "type": "media",
+      "config": {
+        "id": "topicVisualModalRootImage",
+        "tag": "image",
+        "src": "/drafts/agent-guide-claude-codex.com/assets/tool-choice-matrix.svg",
+        "alt": "Infografía para Índice",
+        "width": 1200,
+        "height": 720,
+        "loading": "eager",
+        "fetchPriority": "auto",
+        "decoding": "async",
+        "sizes": "(max-width: 768px) 100vw, 48vw",
+        "classes": "lightboxImage"
+      }
+    },
+    {
+      "id": "topicVisualModalRootCaption",
+      "type": "text",
+      "config": {
+        "id": "topicVisualModalRootCaption",
+        "tag": "figcaption",
+        "text": "Infografía para Índice",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "textAlign": "center"
+        }
+      }
+    },
+    {
+      "id": "topicVisualModalRoot",
+      "type": "container",
+      "condition": "all:modalRefId,topicVisual-image",
+      "config": {
+        "id": "topicVisualModalRoot",
+        "tag": "figure",
+        "components": [
+          "topicVisualModalRootImage",
+          "topicVisualModalRootCaption"
+        ],
+        "styles": {
+          "margin": "0",
+          "display": "grid",
+          "gap": "12px",
+          "width": "min(92vw, 1040px)",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicVisualOpenImage",
+      "type": "button",
+      "eventInstructions": "openModal:topicVisual-image,topicVisual,image_lightbox,topic",
+      "config": {
+        "id": "topicVisualOpenImage",
+        "label": "",
+        "components": [
+          "topicVisual"
+        ],
+        "styles": {
+          "display": "block",
+          "width": "100%",
+          "padding": "0",
+          "margin": "0",
+          "border": "0",
+          "background": "transparent",
+          "cursor": "zoom-in",
+          "textAlign": "left",
+          "borderRadius": "12px"
+        },
+        "ariaLabel": "Ampliar imagen: Infografía para Índice",
+        "classes": "imageLightboxButton"
+      }
+    },
+    {
+      "id": "topicMascotImage",
+      "type": "media",
+      "config": {
+        "id": "topicMascotImage",
+        "tag": "image",
+        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-guide-welcome.webp",
+        "alt": "Lynx Pardelle explicando Índice",
+        "width": 1200,
+        "height": 720,
+        "loading": "eager",
+        "fetchPriority": "auto",
+        "decoding": "async",
+        "sizes": "(max-width: 768px) 100vw, 48vw",
+        "classes": "infographicImage"
+      }
+    },
+    {
+      "id": "topicMascotModalRootImage",
+      "type": "media",
+      "config": {
+        "id": "topicMascotModalRootImage",
+        "tag": "image",
+        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-guide-welcome.webp",
+        "alt": "Lynx Pardelle explicando Índice",
+        "width": 1200,
+        "height": 720,
+        "loading": "eager",
+        "fetchPriority": "auto",
+        "decoding": "async",
+        "sizes": "(max-width: 768px) 100vw, 48vw",
+        "classes": "lightboxImage"
+      }
+    },
+    {
+      "id": "topicMascotModalRootCaption",
+      "type": "text",
+      "config": {
+        "id": "topicMascotModalRootCaption",
+        "tag": "figcaption",
+        "text": "Lynx Pardelle explicando Índice",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "textAlign": "center"
+        }
+      }
+    },
+    {
+      "id": "topicMascotModalRoot",
+      "type": "container",
+      "condition": "all:modalRefId,topicMascot-image",
+      "config": {
+        "id": "topicMascotModalRoot",
+        "tag": "figure",
+        "components": [
+          "topicMascotModalRootImage",
+          "topicMascotModalRootCaption"
+        ],
+        "styles": {
+          "margin": "0",
+          "display": "grid",
+          "gap": "12px",
+          "width": "min(92vw, 1040px)",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicMascotOpenImage",
+      "type": "button",
+      "eventInstructions": "openModal:topicMascot-image,topicMascot,image_lightbox,topic",
+      "config": {
+        "id": "topicMascotOpenImage",
+        "label": "",
+        "components": [
+          "topicMascotImage"
+        ],
+        "styles": {
+          "display": "block",
+          "width": "100%",
+          "padding": "0",
+          "margin": "0",
+          "border": "0",
+          "background": "transparent",
+          "cursor": "zoom-in",
+          "textAlign": "left",
+          "borderRadius": "12px"
+        },
+        "ariaLabel": "Ampliar imagen: Lynx Pardelle explicando Índice",
+        "classes": "imageLightboxButton"
+      }
+    },
+    {
+      "id": "outcomesTitle",
+      "type": "text",
+      "config": {
+        "id": "outcomesTitle",
+        "tag": "h2",
+        "text": "Qué debes poder hacer",
+        "styles": {
+          "margin": "0 0 12px",
+          "color": "#101316",
+          "fontSize": "clamp(1.65rem, 3vw, 2.55rem)",
+          "lineHeight": "1.05",
+          "fontWeight": "930",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard0Title",
+      "type": "text",
+      "config": {
+        "id": "outcomesGridCard0Title",
+        "tag": "h3",
+        "text": "1",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard0Desc",
+      "type": "text",
+      "config": {
+        "id": "outcomesGridCard0Desc",
+        "tag": "p",
+        "text": "Elegir una ruta de estudio según objetivo real.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard0",
+      "type": "container",
+      "config": {
+        "id": "outcomesGridCard0",
+        "tag": "article",
+        "components": [
+          "outcomesGridCard0Title",
+          "outcomesGridCard0Desc"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard1Title",
+      "type": "text",
+      "config": {
+        "id": "outcomesGridCard1Title",
+        "tag": "h3",
+        "text": "2",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard1Desc",
+      "type": "text",
+      "config": {
+        "id": "outcomesGridCard1Desc",
+        "tag": "p",
+        "text": "Encontrar páginas por tema, herramienta o riesgo.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard1",
+      "type": "container",
+      "config": {
+        "id": "outcomesGridCard1",
+        "tag": "article",
+        "components": [
+          "outcomesGridCard1Title",
+          "outcomesGridCard1Desc"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard2Title",
+      "type": "text",
+      "config": {
+        "id": "outcomesGridCard2Title",
+        "tag": "h3",
+        "text": "3",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard2Desc",
+      "type": "text",
+      "config": {
+        "id": "outcomesGridCard2Desc",
+        "tag": "p",
+        "text": "Conectar cursos fuente con prácticas de Codex.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard2",
+      "type": "container",
+      "config": {
+        "id": "outcomesGridCard2",
+        "tag": "article",
+        "components": [
+          "outcomesGridCard2Title",
+          "outcomesGridCard2Desc"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard3Title",
+      "type": "text",
+      "config": {
+        "id": "outcomesGridCard3Title",
+        "tag": "h3",
+        "text": "4",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard3Desc",
+      "type": "text",
+      "config": {
+        "id": "outcomesGridCard3Desc",
+        "tag": "p",
+        "text": "Usar el sitio como checklist antes de delegar trabajo.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGridCard3",
+      "type": "container",
+      "config": {
+        "id": "outcomesGridCard3",
+        "tag": "article",
+        "components": [
+          "outcomesGridCard3Title",
+          "outcomesGridCard3Desc"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesGrid",
+      "type": "container",
+      "config": {
+        "id": "outcomesGrid",
+        "tag": "div",
+        "components": [
+          "outcomesGridCard0",
+          "outcomesGridCard1",
+          "outcomesGridCard2",
+          "outcomesGridCard3"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 260px), 1fr))",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "outcomesPanel",
+      "type": "container",
+      "config": {
+        "id": "outcomesPanel",
+        "tag": "div",
+        "components": [
+          "outcomesTitle",
+          "outcomesGrid"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "20px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsTitle",
+      "type": "text",
+      "config": {
+        "id": "stepsTitle",
+        "tag": "h2",
+        "text": "Secuencia de práctica",
+        "styles": {
+          "margin": "0 0 12px",
+          "color": "#101316",
+          "fontSize": "clamp(1.65rem, 3vw, 2.55rem)",
+          "lineHeight": "1.05",
+          "fontWeight": "930",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard0Title",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard0Title",
+        "tag": "h3",
+        "text": "1.",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard0Desc",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard0Desc",
+        "tag": "p",
+        "text": "Empieza por la página que coincide con tu tarea actual.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard0",
+      "type": "container",
+      "config": {
+        "id": "stepsGridCard0",
+        "tag": "article",
+        "components": [
+          "stepsGridCard0Title",
+          "stepsGridCard0Desc"
+        ],
+        "styles": {
+          "background": "#dff7e8",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard1Title",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard1Title",
+        "tag": "h3",
+        "text": "2.",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard1Desc",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard1Desc",
+        "tag": "p",
+        "text": "Lee el ejemplo débil/operativo.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard1",
+      "type": "container",
+      "config": {
+        "id": "stepsGridCard1",
+        "tag": "article",
+        "components": [
+          "stepsGridCard1Title",
+          "stepsGridCard1Desc"
+        ],
+        "styles": {
+          "background": "#dff7e8",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard2Title",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard2Title",
+        "tag": "h3",
+        "text": "3.",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard2Desc",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard2Desc",
+        "tag": "p",
+        "text": "Marca el checklist de cierre.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard2",
+      "type": "container",
+      "config": {
+        "id": "stepsGridCard2",
+        "tag": "article",
+        "components": [
+          "stepsGridCard2Title",
+          "stepsGridCard2Desc"
+        ],
+        "styles": {
+          "background": "#dff7e8",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard3Title",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard3Title",
+        "tag": "h3",
+        "text": "4.",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard3Desc",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard3Desc",
+        "tag": "p",
+        "text": "Abre dos páginas relacionadas antes de ejecutar.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard3",
+      "type": "container",
+      "config": {
+        "id": "stepsGridCard3",
+        "tag": "article",
+        "components": [
+          "stepsGridCard3Title",
+          "stepsGridCard3Desc"
+        ],
+        "styles": {
+          "background": "#dff7e8",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard4Title",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard4Title",
+        "tag": "h3",
+        "text": "5.",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard4Desc",
+      "type": "text",
+      "config": {
+        "id": "stepsGridCard4Desc",
+        "tag": "p",
+        "text": "Cita recursos públicos si conviertes una lección en trabajo real.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGridCard4",
+      "type": "container",
+      "config": {
+        "id": "stepsGridCard4",
+        "tag": "article",
+        "components": [
+          "stepsGridCard4Title",
+          "stepsGridCard4Desc"
+        ],
+        "styles": {
+          "background": "#dff7e8",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsGrid",
+      "type": "container",
+      "config": {
+        "id": "stepsGrid",
+        "tag": "div",
+        "components": [
+          "stepsGridCard0",
+          "stepsGridCard1",
+          "stepsGridCard2",
+          "stepsGridCard3",
+          "stepsGridCard4"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 260px), 1fr))",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "stepsPanel",
+      "type": "container",
+      "config": {
+        "id": "stepsPanel",
+        "tag": "div",
+        "components": [
+          "stepsTitle",
+          "stepsGrid"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "20px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "overviewGrid",
+      "type": "container",
+      "config": {
+        "id": "overviewGrid",
+        "tag": "div",
+        "components": [
+          "outcomesPanel",
+          "stepsPanel"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 330px), 1fr))",
+          "gap": "22px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptLabel",
+      "type": "text",
+      "config": {
+        "id": "conceptLabel",
+        "tag": "p",
+        "text": "Mapa de conceptos",
+        "styles": {
+          "margin": "0",
+          "width": "fit-content",
+          "textTransform": "uppercase",
+          "letterSpacing": "0.10em",
+          "fontSize": "0.72rem",
+          "lineHeight": "1.2",
+          "fontWeight": "900",
+          "color": "#7b3f24",
+          "border": "0",
+          "borderRadius": "0",
+          "padding": "0",
+          "background": "transparent",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptTitle",
+      "type": "text",
+      "config": {
+        "id": "conceptTitle",
+        "tag": "h2",
+        "text": "Lo que importa recordar",
+        "styles": {
+          "margin": "0 0 12px",
+          "color": "#101316",
+          "fontSize": "clamp(1.65rem, 3vw, 2.55rem)",
+          "lineHeight": "1.05",
+          "fontWeight": "930",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard0Title",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard0Title",
+        "tag": "h3",
+        "text": "Ruta base",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard0Desc",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard0Desc",
+        "tag": "p",
+        "text": "Fundamentos, prompting, evaluaciones, tool use, RAG, MCP, workflows y Claude Code/Codex.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard0",
+      "type": "container",
+      "config": {
+        "id": "conceptGridCard0",
+        "tag": "article",
+        "components": [
+          "conceptGridCard0Title",
+          "conceptGridCard0Desc"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard1Title",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard1Title",
+        "tag": "h3",
+        "text": "Ruta avanzada",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard1Desc",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard1Desc",
+        "tag": "p",
+        "text": "Subagentes, skills, handoffs, QA, seguridad, browser/computer use y playbooks.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard1",
+      "type": "container",
+      "config": {
+        "id": "conceptGridCard1",
+        "tag": "article",
+        "components": [
+          "conceptGridCard1Title",
+          "conceptGridCard1Desc"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard2Title",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard2Title",
+        "tag": "h3",
+        "text": "Biblioteca",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard2Desc",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard2Desc",
+        "tag": "p",
+        "text": "Inventario de temas, preguntas de repaso y recursos públicos usados como material de estudio.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard2",
+      "type": "container",
+      "config": {
+        "id": "conceptGridCard2",
+        "tag": "article",
+        "components": [
+          "conceptGridCard2Title",
+          "conceptGridCard2Desc"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard3Title",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard3Title",
+        "tag": "h3",
+        "text": "Navegación relacionada",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard3Desc",
+      "type": "text",
+      "config": {
+        "id": "conceptGridCard3Desc",
+        "tag": "p",
+        "text": "Cada página apunta a páginas vecinas y temas que conviene repasar juntos.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGridCard3",
+      "type": "container",
+      "config": {
+        "id": "conceptGridCard3",
+        "tag": "article",
+        "components": [
+          "conceptGridCard3Title",
+          "conceptGridCard3Desc"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptGrid",
+      "type": "container",
+      "config": {
+        "id": "conceptGrid",
+        "tag": "div",
+        "components": [
+          "conceptGridCard0",
+          "conceptGridCard1",
+          "conceptGridCard2",
+          "conceptGridCard3"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 260px), 1fr))",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptInner",
+      "type": "container",
+      "config": {
+        "id": "conceptInner",
+        "tag": "div",
+        "components": [
+          "conceptLabel",
+          "conceptTitle",
+          "conceptGrid"
+        ],
+        "styles": {
+          "width": "100%",
+          "maxWidth": "1180px",
+          "display": "grid",
+          "gap": "24px",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "conceptSection",
+      "type": "container",
+      "config": {
+        "id": "conceptSection",
+        "tag": "section",
+        "components": [
+          "conceptInner"
+        ],
+        "styles": {
+          "width": "100%",
+          "display": "flex",
+          "justifyContent": "center",
+          "padding": "34px 16px",
+          "boxSizing": "border-box",
+          "background": "#fbfaf6"
+        }
+      }
+    },
+    {
+      "id": "exampleLabel",
+      "type": "text",
+      "config": {
+        "id": "exampleLabel",
+        "tag": "p",
+        "text": "Ejemplo comparado",
+        "styles": {
+          "margin": "0",
+          "width": "fit-content",
+          "textTransform": "uppercase",
+          "letterSpacing": "0.10em",
+          "fontSize": "0.72rem",
+          "lineHeight": "1.2",
+          "fontWeight": "900",
+          "color": "#7b3f24",
+          "border": "0",
+          "borderRadius": "0",
+          "padding": "0",
+          "background": "transparent",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "exampleTitle",
+      "type": "text",
+      "config": {
+        "id": "exampleTitle",
+        "tag": "h2",
+        "text": "Débil vs operativo",
+        "styles": {
+          "margin": "0 0 12px",
+          "color": "#101316",
+          "fontSize": "clamp(1.65rem, 3vw, 2.55rem)",
+          "lineHeight": "1.05",
+          "fontWeight": "930",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "examplePair0Title",
+      "type": "text",
+      "config": {
+        "id": "examplePair0Title",
+        "tag": "h3",
+        "text": "Caso base",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "weakTitle0",
+      "type": "text",
+      "config": {
+        "id": "weakTitle0",
+        "tag": "h4",
+        "text": "Débil",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "weakBody0",
+      "type": "text",
+      "config": {
+        "id": "weakBody0",
+        "tag": "p",
+        "text": "Leer todo en orden sin conectar con una tarea concreta.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "weakExample0",
+      "type": "container",
+      "config": {
+        "id": "weakExample0",
+        "tag": "div",
+        "components": [
+          "weakTitle0",
+          "weakBody0"
+        ],
+        "styles": {
+          "background": "#fff1f2",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#f2c5cc"
+        }
+      }
+    },
+    {
+      "id": "strongTitle0",
+      "type": "text",
+      "config": {
+        "id": "strongTitle0",
+        "tag": "h4",
+        "text": "Operativo",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "strongBody0",
+      "type": "text",
+      "config": {
+        "id": "strongBody0",
+        "tag": "p",
+        "text": "Seleccionar una ruta: necesito delegar trabajo en repo -> Fundamentos, contexto, skills, handoffs, QA y seguridad.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "strongExample0",
+      "type": "container",
+      "config": {
+        "id": "strongExample0",
+        "tag": "div",
+        "components": [
+          "strongTitle0",
+          "strongBody0"
+        ],
+        "styles": {
+          "background": "#effaf1",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#b8dfc1"
+        }
+      }
+    },
+    {
+      "id": "examplePair0Grid",
+      "type": "container",
+      "config": {
+        "id": "examplePair0Grid",
+        "tag": "div",
+        "components": [
+          "weakExample0",
+          "strongExample0"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 300px), 1fr))",
+          "gap": "14px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "examplePair0Lesson",
+      "type": "text",
+      "config": {
+        "id": "examplePair0Lesson",
+        "tag": "p",
+        "text": "La versión operativa reduce ambigüedad y deja una forma de revisar el resultado.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "marginTop": "2px"
+        }
+      }
+    },
+    {
+      "id": "examplePair0",
+      "type": "container",
+      "config": {
+        "id": "examplePair0",
+        "tag": "div",
+        "components": [
+          "examplePair0Title",
+          "examplePair0Grid",
+          "examplePair0Lesson"
+        ],
+        "styles": {
+          "display": "grid",
+          "gap": "12px",
+          "padding": "0",
+          "borderTop": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "exampleStack",
+      "type": "container",
+      "config": {
+        "id": "exampleStack",
+        "tag": "div",
+        "components": [
+          "examplePair0"
+        ],
+        "styles": {
+          "display": "grid",
+          "gap": "22px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "exampleInner",
+      "type": "container",
+      "config": {
+        "id": "exampleInner",
+        "tag": "div",
+        "components": [
+          "exampleLabel",
+          "exampleTitle",
+          "exampleStack"
+        ],
+        "styles": {
+          "width": "100%",
+          "maxWidth": "1180px",
+          "display": "grid",
+          "gap": "24px",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "exampleSection",
+      "type": "container",
+      "config": {
+        "id": "exampleSection",
+        "tag": "section",
+        "components": [
+          "exampleInner"
+        ],
+        "styles": {
+          "width": "100%",
+          "display": "flex",
+          "justifyContent": "center",
+          "padding": "34px 16px",
+          "boxSizing": "border-box"
+        }
+      }
+    },
+    {
+      "id": "checkObjective",
+      "type": "input",
+      "config": {
+        "fieldId": "checkObjective",
+        "controlType": "checkbox",
+        "label": "",
+        "helperText": "Puedo explicar el objetivo sin usar palabras vagas.",
+        "ariaLabel": "Puedo explicar el objetivo sin usar palabras vagas.",
+        "value": false,
+        "classes": "checkBlock",
+        "fieldClasses": "checkField",
+        "inputClasses": "checkInput"
+      }
+    },
+    {
+      "id": "checkEvidence",
+      "type": "input",
+      "config": {
+        "fieldId": "checkEvidence",
+        "controlType": "checkbox",
+        "label": "",
+        "helperText": "Puedo citar evidencia o decir que no existe.",
+        "ariaLabel": "Puedo citar evidencia o decir que no existe.",
+        "value": false,
+        "classes": "checkBlock",
+        "fieldClasses": "checkField",
+        "inputClasses": "checkInput"
+      }
+    },
+    {
+      "id": "checkRisk",
+      "type": "input",
+      "config": {
+        "fieldId": "checkRisk",
+        "controlType": "checkbox",
+        "label": "",
+        "helperText": "Identifiqué riesgo de seguridad, costo o publicación.",
+        "ariaLabel": "Identifiqué riesgo de seguridad, costo o publicación.",
+        "value": false,
+        "classes": "checkBlock",
+        "fieldClasses": "checkField",
+        "inputClasses": "checkInput"
+      }
+    },
+    {
+      "id": "checkValidation",
+      "type": "input",
+      "config": {
+        "fieldId": "checkValidation",
+        "controlType": "checkbox",
+        "label": "",
+        "helperText": "Definí cómo validar la salida.",
+        "ariaLabel": "Definí cómo validar la salida.",
+        "value": false,
+        "classes": "checkBlock",
+        "fieldClasses": "checkField",
+        "inputClasses": "checkInput"
+      }
+    },
+    {
+      "id": "practiceLabel",
+      "type": "text",
+      "config": {
+        "id": "practiceLabel",
+        "tag": "p",
+        "text": "Práctica guiada",
+        "styles": {
+          "margin": "0",
+          "width": "fit-content",
+          "textTransform": "uppercase",
+          "letterSpacing": "0.10em",
+          "fontSize": "0.72rem",
+          "lineHeight": "1.2",
+          "fontWeight": "900",
+          "color": "#7b3f24",
+          "border": "0",
+          "borderRadius": "0",
+          "padding": "0",
+          "background": "transparent",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practiceTitle",
+      "type": "text",
+      "config": {
+        "id": "practiceTitle",
+        "tag": "h2",
+        "text": "Elige una tarea real y traza una ruta de cinco páginas que deberías revisar antes de pedirle a un agente que actúe.",
+        "styles": {
+          "margin": "0 0 12px",
+          "color": "#101316",
+          "fontSize": "clamp(1.65rem, 3vw, 2.55rem)",
+          "lineHeight": "1.05",
+          "fontWeight": "930",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practiceCard0Title",
+      "type": "text",
+      "config": {
+        "id": "practiceCard0Title",
+        "tag": "h3",
+        "text": "Práctica principal",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practiceCard0Body",
+      "type": "text",
+      "config": {
+        "id": "practiceCard0Body",
+        "tag": "p",
+        "text": "Elige una tarea real y traza una ruta de cinco páginas que deberías revisar antes de pedirle a un agente que actúe.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practiceCard0Check",
+      "type": "text",
+      "config": {
+        "id": "practiceCard0Check",
+        "tag": "p",
+        "text": "Cierra con evidencia concreta y una decisión sobre revisión humana.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "marginTop": "auto",
+          "paddingTop": "10px",
+          "borderTop": "1px solid #d3dade"
+        }
+      }
+    },
+    {
+      "id": "practiceCard0",
+      "type": "container",
+      "config": {
+        "id": "practiceCard0",
+        "tag": "article",
+        "components": [
+          "practiceCard0Title",
+          "practiceCard0Body",
+          "practiceCard0Check"
+        ],
+        "styles": {
+          "background": "#eaf8ff",
+          "border": "1px solid #d3dade",
+          "borderRadius": "12px",
+          "padding": "16px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "10px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "minHeight": "190px",
+          "alignContent": "start"
+        }
+      }
+    },
+    {
+      "id": "practiceCards",
+      "type": "container",
+      "config": {
+        "id": "practiceCards",
+        "tag": "div",
+        "components": [
+          "practiceCard0"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 260px), 1fr))",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "mascotStudyLabel",
+      "type": "text",
+      "config": {
+        "id": "mascotStudyLabel",
+        "tag": "p",
+        "text": "Nota de Lynx Pardelle",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "mascotStudyBody",
+      "type": "text",
+      "config": {
+        "id": "mascotStudyBody",
+        "tag": "p",
+        "text": "Antes de ejecutar, convierte el tema en una decisión observable: qué delegas, qué evidencia esperas y qué revisarás tú.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "mascotStudyCopy",
+      "type": "container",
+      "config": {
+        "id": "mascotStudyCopy",
+        "tag": "div",
+        "components": [
+          "mascotStudyLabel",
+          "mascotStudyBody"
+        ],
+        "styles": {
+          "position": "relative",
+          "zIndex": "2",
+          "maxWidth": "82%",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "mascotStudyImage",
+      "type": "media",
+      "config": {
+        "id": "mascotStudyImage",
+        "tag": "image",
+        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-sticker-12-inspect.png",
+        "alt": "Sticker de Lynx Pardelle repasando Índice",
+        "width": 1200,
+        "height": 720,
+        "loading": "eager",
+        "fetchPriority": "auto",
+        "decoding": "async",
+        "sizes": "(max-width: 768px) 100vw, 48vw",
+        "classes": "mascotStudyImage"
+      }
+    },
+    {
+      "id": "mascotStudyFloat",
+      "type": "container",
+      "config": {
+        "id": "mascotStudyFloat",
+        "tag": "div",
+        "components": [
+          "mascotStudyImage"
+        ],
+        "styles": {
+          "position": "absolute",
+          "right": "8px",
+          "bottom": "-14px",
+          "width": "clamp(76px, 20vw, 118px)",
+          "pointerEvents": "none",
+          "zIndex": "1"
+        }
+      }
+    },
+    {
+      "id": "mascotStudyNote",
+      "type": "container",
+      "config": {
+        "id": "mascotStudyNote",
+        "tag": "div",
+        "components": [
+          "mascotStudyCopy",
+          "mascotStudyFloat"
+        ],
+        "styles": {
+          "background": "#fff4e6",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "20px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "position": "relative",
+          "overflow": "hidden",
+          "minHeight": "160px",
+          "paddingRight": "110px"
+        }
+      }
+    },
+    {
+      "id": "topicChecklistTitle",
+      "type": "text",
+      "config": {
+        "id": "topicChecklistTitle",
+        "tag": "h3",
+        "text": "Checklist de cierre",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicChecklistGrid",
+      "type": "container",
+      "config": {
+        "id": "topicChecklistGrid",
+        "tag": "div",
+        "components": [
+          "checkObjective",
+          "checkEvidence",
+          "checkRisk",
+          "checkValidation"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 300px), 1fr))",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicChecklistPanel",
+      "type": "container",
+      "config": {
+        "id": "topicChecklistPanel",
+        "tag": "div",
+        "components": [
+          "topicChecklistTitle",
+          "topicChecklistGrid"
+        ],
+        "styles": {
+          "background": "#dff7e8",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "20px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicChecklistScope",
+      "type": "interaction-scope",
+      "config": {
+        "id": "topicChecklistScope",
+        "scopeId": "indice-checklist",
+        "tag": "section",
+        "ariaLabel": "Checklist de Índice",
+        "classes": "practiceChecklistScope",
+        "components": [
+          "topicChecklistPanel"
+        ]
+      }
+    },
+    {
+      "id": "topicFlashLabel",
+      "type": "text",
+      "config": {
+        "id": "topicFlashLabel",
+        "tag": "p",
+        "text": "Repaso activo",
+        "styles": {
+          "margin": "0",
+          "width": "fit-content",
+          "textTransform": "uppercase",
+          "letterSpacing": "0.10em",
+          "fontSize": "0.72rem",
+          "lineHeight": "1.2",
+          "fontWeight": "900",
+          "color": "#7b3f24",
+          "border": "0",
+          "borderRadius": "0",
+          "padding": "0",
+          "background": "transparent",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlashTitle",
+      "type": "text",
+      "config": {
+        "id": "topicFlashTitle",
+        "tag": "h2",
+        "text": "Flashcards para fijar criterio",
+        "styles": {
+          "margin": "0 0 12px",
+          "color": "#101316",
+          "fontSize": "clamp(1.65rem, 3vw, 2.55rem)",
+          "lineHeight": "1.05",
+          "fontWeight": "930",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlashIntro",
+      "type": "text",
+      "config": {
+        "id": "topicFlashIntro",
+        "tag": "p",
+        "text": "Repasa estas tarjetas después de estudiar el tema. Si una respuesta sale vaga, vuelve al ejemplo y a la práctica guiada.",
+        "styles": {
+          "margin": "0",
+          "color": "#35424c",
+          "fontSize": "0.98rem",
+          "lineHeight": "1.58",
+          "fontWeight": "620",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlashQ0",
+      "type": "text",
+      "config": {
+        "id": "topicFlashQ0",
+        "tag": "h3",
+        "text": "¿Para qué sirve el índice?",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlashA0",
+      "type": "text",
+      "config": {
+        "id": "topicFlashA0",
+        "tag": "p",
+        "text": "Para decidir qué estudiar según objetivo, riesgo y herramienta, no solo por orden lineal.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlash0",
+      "type": "container",
+      "config": {
+        "id": "topicFlash0",
+        "tag": "article",
+        "components": [
+          "topicFlashQ0",
+          "topicFlashA0"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "20px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "minHeight": "130px"
+        }
+      }
+    },
+    {
+      "id": "topicFlashQ1",
+      "type": "text",
+      "config": {
+        "id": "topicFlashQ1",
+        "tag": "h3",
+        "text": "¿Qué ruta usar para trabajo en repo?",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlashA1",
+      "type": "text",
+      "config": {
+        "id": "topicFlashA1",
+        "tag": "p",
+        "text": "Contexto/memoria, Claude Code/Codex, skills recomendados, handoffs, QA y seguridad.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlash1",
+      "type": "container",
+      "config": {
+        "id": "topicFlash1",
+        "tag": "article",
+        "components": [
+          "topicFlashQ1",
+          "topicFlashA1"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "20px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "minHeight": "130px"
+        }
+      }
+    },
+    {
+      "id": "topicFlashQ2",
+      "type": "text",
+      "config": {
+        "id": "topicFlashQ2",
+        "tag": "h3",
+        "text": "¿Qué ruta usar para apps con datos?",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlashA2",
+      "type": "text",
+      "config": {
+        "id": "topicFlashA2",
+        "tag": "p",
+        "text": "RAG, tool schemas, MCP avanzado, evaluaciones agenticas y seguridad.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlash2",
+      "type": "container",
+      "config": {
+        "id": "topicFlash2",
+        "tag": "article",
+        "components": [
+          "topicFlashQ2",
+          "topicFlashA2"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "20px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "minHeight": "130px"
+        }
+      }
+    },
+    {
+      "id": "flashGrid",
+      "type": "container",
+      "config": {
+        "id": "flashGrid",
+        "tag": "div",
+        "components": [
+          "topicFlash0",
+          "topicFlash1",
+          "topicFlash2"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 220px), 1fr))",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicFlashSection",
+      "type": "container",
+      "config": {
+        "id": "topicFlashSection",
+        "tag": "div",
+        "components": [
+          "topicFlashLabel",
+          "topicFlashTitle",
+          "topicFlashIntro",
+          "flashGrid"
+        ],
+        "styles": {
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practiceInner",
+      "type": "container",
+      "config": {
+        "id": "practiceInner",
+        "tag": "div",
+        "components": [
+          "practiceLabel",
+          "practiceTitle",
+          "practiceCards",
+          "mascotStudyNote",
+          "topicChecklistScope",
+          "topicFlashSection"
+        ],
+        "styles": {
+          "width": "100%",
+          "maxWidth": "1180px",
+          "display": "grid",
+          "gap": "24px",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "practiceSection",
+      "type": "container",
+      "config": {
+        "id": "practiceSection",
+        "tag": "section",
+        "components": [
+          "practiceInner"
+        ],
+        "styles": {
+          "width": "100%",
+          "display": "flex",
+          "justifyContent": "center",
+          "padding": "34px 16px",
+          "boxSizing": "border-box",
+          "background": "#fbfaf6"
+        }
+      }
+    },
+    {
+      "id": "sourceLabel",
+      "type": "text",
+      "config": {
+        "id": "sourceLabel",
+        "tag": "p",
+        "text": "Recursos públicos",
+        "styles": {
+          "margin": "0",
+          "width": "fit-content",
+          "textTransform": "uppercase",
+          "letterSpacing": "0.10em",
+          "fontSize": "0.72rem",
+          "lineHeight": "1.2",
+          "fontWeight": "900",
+          "color": "#7b3f24",
+          "border": "0",
+          "borderRadius": "0",
+          "padding": "0",
+          "background": "transparent",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "sourceTitle",
+      "type": "text",
+      "config": {
+        "id": "sourceTitle",
+        "tag": "h2",
+        "text": "Documentación relacionada",
+        "styles": {
+          "margin": "0 0 12px",
+          "color": "#101316",
+          "fontSize": "clamp(1.65rem, 3vw, 2.55rem)",
+          "lineHeight": "1.05",
+          "fontWeight": "930",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "sourceIntro",
+      "type": "text",
+      "config": {
+        "id": "sourceIntro",
+        "tag": "p",
+        "text": "Esta página enlaza documentación pública para profundizar. La guía resume el aprendizaje en lenguaje propio y no depende de material no publicable.",
+        "styles": {
+          "margin": "0",
+          "color": "#35424c",
+          "fontSize": "0.98rem",
+          "lineHeight": "1.58",
+          "fontWeight": "620",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "source0",
+      "type": "link",
+      "config": {
+        "id": "source0",
+        "href": "https://platform.openai.com/docs/guides/code-generation",
+        "text": "OpenAI Codex y generación de código",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        },
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "id": "source1",
+      "type": "link",
+      "config": {
+        "id": "source1",
+        "href": "https://code.claude.com/docs/en/mcp",
+        "text": "Claude Code y MCP",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        },
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "id": "source2",
+      "type": "link",
+      "config": {
+        "id": "source2",
+        "href": "https://modelcontextprotocol.io/docs",
+        "text": "Model Context Protocol",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        },
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "id": "sourceGrid",
+      "type": "container",
+      "config": {
+        "id": "sourceGrid",
+        "tag": "div",
+        "components": [
+          "source0",
+          "source1",
+          "source2"
+        ],
+        "styles": {
+          "display": "grid",
+          "gap": "8px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "prevTopicLink",
+      "type": "link",
+      "config": {
+        "id": "prevTopicLink",
+        "href": "/?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Tema anterior",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "nextTopicLink",
+      "type": "link",
+      "config": {
+        "id": "nextTopicLink",
+        "href": "/biblioteca?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Siguiente tema",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#ffffff",
+          "background": "#101316",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#101316"
+        }
+      }
+    },
+    {
+      "id": "pageNav",
+      "type": "container",
+      "config": {
+        "id": "pageNav",
+        "tag": "div",
+        "components": [
+          "prevTopicLink",
+          "nextTopicLink"
+        ],
+        "styles": {
+          "display": "flex",
+          "flexWrap": "wrap",
+          "gap": "10px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "sourceInner",
+      "type": "container",
+      "config": {
+        "id": "sourceInner",
+        "tag": "div",
+        "components": [
+          "sourceLabel",
+          "sourceTitle",
+          "sourceIntro",
+          "sourceGrid",
+          "pageNav"
+        ],
+        "styles": {
+          "width": "100%",
+          "maxWidth": "1180px",
+          "display": "grid",
+          "gap": "24px",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "sourceSection",
+      "type": "container",
+      "config": {
+        "id": "sourceSection",
+        "tag": "section",
+        "components": [
+          "sourceInner"
+        ],
+        "styles": {
+          "width": "100%",
+          "display": "flex",
+          "justifyContent": "center",
+          "padding": "34px 16px",
+          "boxSizing": "border-box"
+        }
+      }
+    },
+    {
+      "id": "relatedTitle",
+      "type": "text",
+      "config": {
+        "id": "relatedTitle",
+        "tag": "h2",
+        "text": "Otras páginas de estudio",
+        "styles": {
+          "margin": "0 0 12px",
+          "color": "#101316",
+          "fontSize": "clamp(1.65rem, 3vw, 2.55rem)",
+          "lineHeight": "1.05",
+          "fontWeight": "930",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedfundamentos",
+      "type": "link",
+      "config": {
+        "id": "relatedfundamentos",
+        "href": "/fundamentos?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Fundamentos",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedprompting",
+      "type": "link",
+      "config": {
+        "id": "relatedprompting",
+        "href": "/prompting?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Prompting",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedevaluaciones",
+      "type": "link",
+      "config": {
+        "id": "relatedevaluaciones",
+        "href": "/evaluaciones?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Evaluaciones",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedtool-use",
+      "type": "link",
+      "config": {
+        "id": "relatedtool-use",
+        "href": "/tool-use?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Tool Use",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedrag",
+      "type": "link",
+      "config": {
+        "id": "relatedrag",
+        "href": "/rag?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "RAG",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedmcp",
+      "type": "link",
+      "config": {
+        "id": "relatedmcp",
+        "href": "/mcp?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "MCP",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedworkflows-agentes",
+      "type": "link",
+      "config": {
+        "id": "relatedworkflows-agentes",
+        "href": "/workflows-agentes?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Workflows",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedGrid",
+      "type": "container",
+      "config": {
+        "id": "relatedGrid",
+        "tag": "div",
+        "components": [
+          "relatedfundamentos",
+          "relatedprompting",
+          "relatedevaluaciones",
+          "relatedtool-use",
+          "relatedrag",
+          "relatedmcp",
+          "relatedworkflows-agentes"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 180px), 1fr))",
+          "gap": "10px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedInner",
+      "type": "container",
+      "config": {
+        "id": "relatedInner",
+        "tag": "div",
+        "components": [
+          "relatedTitle",
+          "relatedGrid"
+        ],
+        "styles": {
+          "width": "100%",
+          "maxWidth": "1180px",
+          "display": "grid",
+          "gap": "24px",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "relatedSection",
+      "type": "container",
+      "config": {
+        "id": "relatedSection",
+        "tag": "section",
+        "components": [
+          "relatedInner"
+        ],
+        "styles": {
+          "width": "100%",
+          "display": "flex",
+          "justifyContent": "center",
+          "padding": "34px 16px",
+          "boxSizing": "border-box",
+          "background": "#fbfaf6"
+        }
+      }
+    },
+    {
+      "id": "indexAllPagesTitle",
+      "type": "text",
+      "config": {
+        "id": "indexAllPagesTitle",
+        "tag": "h2",
+        "text": "Todas las páginas",
+        "styles": {
+          "margin": "0 0 12px",
+          "color": "#101316",
+          "fontSize": "clamp(1.65rem, 3vw, 2.55rem)",
+          "lineHeight": "1.05",
+          "fontWeight": "930",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexAllPagesIntro",
+      "type": "text",
+      "config": {
+        "id": "indexAllPagesIntro",
+        "tag": "p",
+        "text": "Salta directamente a cualquier módulo, laboratorio o página avanzada.",
+        "styles": {
+          "margin": "0",
+          "color": "#35424c",
+          "fontSize": "0.98rem",
+          "lineHeight": "1.58",
+          "fontWeight": "620",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage0",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage0",
+        "href": "/?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Inicio",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage1",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage1",
+        "href": "/indice?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Índice",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#ffffff",
+          "background": "#101316",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#101316"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage2",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage2",
+        "href": "/fundamentos?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Fundamentos",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage3",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage3",
+        "href": "/prompting?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Prompting",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage4",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage4",
+        "href": "/evaluaciones?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Evaluaciones",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage5",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage5",
+        "href": "/tool-use?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Tool Use",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage6",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage6",
+        "href": "/rag?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "RAG",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage7",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage7",
+        "href": "/mcp?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "MCP",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage8",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage8",
+        "href": "/workflows-agentes?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Workflows",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage9",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage9",
+        "href": "/claude-code-codex?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Claude Code / Codex",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage10",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage10",
+        "href": "/laboratorios?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Laboratorios",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage11",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage11",
+        "href": "/flashcards?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Flashcards",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage12",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage12",
+        "href": "/biblioteca?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Biblioteca",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage13",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage13",
+        "href": "/fluidez-4d?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "4D Fluency",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage14",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage14",
+        "href": "/contexto-memoria?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Contexto",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage15",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage15",
+        "href": "/tool-schemas?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Schemas",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage16",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage16",
+        "href": "/rag-contextual?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "RAG avanzado",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage17",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage17",
+        "href": "/mcp-avanzado?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "MCP avanzado",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage18",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage18",
+        "href": "/subagentes?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Subagentes",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage19",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage19",
+        "href": "/skills-recomendados?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Skills",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage20",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage20",
+        "href": "/skills-recomendados-casos?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Skills recomendados",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage21",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage21",
+        "href": "/apps-complementos?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Apps Codex",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage22",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage22",
+        "href": "/browser-computer-use?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Browser QA",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage23",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage23",
+        "href": "/handoffs-coordinacion?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Handoffs",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage24",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage24",
+        "href": "/qa-dogfood?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "QA",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage25",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage25",
+        "href": "/seguridad-publicacion?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Seguridad",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage26",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage26",
+        "href": "/playbooks?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Playbooks",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage27",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage27",
+        "href": "/evaluaciones-agenticas?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Evals agenticas",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage28",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage28",
+        "href": "/workflows-repo?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Repo workflow",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPage29",
+      "type": "link",
+      "config": {
+        "id": "indexAllPage29",
+        "href": "/decision-router?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Router",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "minHeight": "48px",
+          "padding": "12px 14px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "left",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#d3dade"
+        }
+      }
+    },
+    {
+      "id": "indexAllPagesGrid",
+      "type": "container",
+      "config": {
+        "id": "indexAllPagesGrid",
+        "tag": "div",
+        "components": [
+          "indexAllPage0",
+          "indexAllPage1",
+          "indexAllPage2",
+          "indexAllPage3",
+          "indexAllPage4",
+          "indexAllPage5",
+          "indexAllPage6",
+          "indexAllPage7",
+          "indexAllPage8",
+          "indexAllPage9",
+          "indexAllPage10",
+          "indexAllPage11",
+          "indexAllPage12",
+          "indexAllPage13",
+          "indexAllPage14",
+          "indexAllPage15",
+          "indexAllPage16",
+          "indexAllPage17",
+          "indexAllPage18",
+          "indexAllPage19",
+          "indexAllPage20",
+          "indexAllPage21",
+          "indexAllPage22",
+          "indexAllPage23",
+          "indexAllPage24",
+          "indexAllPage25",
+          "indexAllPage26",
+          "indexAllPage27",
+          "indexAllPage28",
+          "indexAllPage29"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 190px), 1fr))",
+          "gap": "12px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexAllPages",
+      "type": "container",
+      "config": {
+        "id": "indexAllPages",
+        "tag": "div",
+        "components": [
+          "indexAllPagesTitle",
+          "indexAllPagesIntro",
+          "indexAllPagesGrid"
+        ],
+        "styles": {
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteFastTitle",
+      "type": "text",
+      "config": {
+        "id": "indexRouteFastTitle",
+        "tag": "h3",
+        "text": "Inicio rápido",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteFastBody",
+      "type": "text",
+      "config": {
+        "id": "indexRouteFastBody",
+        "tag": "p",
+        "text": "Para entender el sistema completo sin perderse.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteFast1",
+      "type": "link",
+      "config": {
+        "id": "indexRouteFast1",
+        "href": "/fundamentos?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Fundamentos",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteFast2",
+      "type": "link",
+      "config": {
+        "id": "indexRouteFast2",
+        "href": "/prompting?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Prompting",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteFast3",
+      "type": "link",
+      "config": {
+        "id": "indexRouteFast3",
+        "href": "/evaluaciones?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Evaluaciones",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteFast",
+      "type": "container",
+      "config": {
+        "id": "indexRouteFast",
+        "tag": "div",
+        "components": [
+          "indexRouteFastTitle",
+          "indexRouteFastBody",
+          "indexRouteFast1",
+          "indexRouteFast2",
+          "indexRouteFast3"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "20px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteRepoTitle",
+      "type": "text",
+      "config": {
+        "id": "indexRouteRepoTitle",
+        "tag": "h3",
+        "text": "Trabajo en repo",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteRepoBody",
+      "type": "text",
+      "config": {
+        "id": "indexRouteRepoBody",
+        "tag": "p",
+        "text": "Para delegar edición, revisión y QA con evidencia.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteRepo1",
+      "type": "link",
+      "config": {
+        "id": "indexRouteRepo1",
+        "href": "/contexto-memoria?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Contexto y memoria",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteRepo2",
+      "type": "link",
+      "config": {
+        "id": "indexRouteRepo2",
+        "href": "/claude-code-codex?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Claude Code / Codex",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteRepo3",
+      "type": "link",
+      "config": {
+        "id": "indexRouteRepo3",
+        "href": "/qa-dogfood?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "QA y dogfood",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteRepo",
+      "type": "container",
+      "config": {
+        "id": "indexRouteRepo",
+        "tag": "div",
+        "components": [
+          "indexRouteRepoTitle",
+          "indexRouteRepoBody",
+          "indexRouteRepo1",
+          "indexRouteRepo2",
+          "indexRouteRepo3"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "20px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteToolsTitle",
+      "type": "text",
+      "config": {
+        "id": "indexRouteToolsTitle",
+        "tag": "h3",
+        "text": "Datos y tools",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteToolsBody",
+      "type": "text",
+      "config": {
+        "id": "indexRouteToolsBody",
+        "tag": "p",
+        "text": "Para conectar conocimiento, recursos y acciones con límites.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteTools1",
+      "type": "link",
+      "config": {
+        "id": "indexRouteTools1",
+        "href": "/rag?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "RAG",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteTools2",
+      "type": "link",
+      "config": {
+        "id": "indexRouteTools2",
+        "href": "/tool-schemas?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Tool schemas",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteTools3",
+      "type": "link",
+      "config": {
+        "id": "indexRouteTools3",
+        "href": "/mcp-avanzado?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "MCP avanzado",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteTools",
+      "type": "container",
+      "config": {
+        "id": "indexRouteTools",
+        "tag": "div",
+        "components": [
+          "indexRouteToolsTitle",
+          "indexRouteToolsBody",
+          "indexRouteTools1",
+          "indexRouteTools2",
+          "indexRouteTools3"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "20px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRoutePublishTitle",
+      "type": "text",
+      "config": {
+        "id": "indexRoutePublishTitle",
+        "tag": "h3",
+        "text": "Publicación segura",
+        "styles": {
+          "margin": "0",
+          "color": "#101316",
+          "fontSize": "1.14rem",
+          "lineHeight": "1.18",
+          "fontWeight": "900",
+          "letterSpacing": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRoutePublishBody",
+      "type": "text",
+      "config": {
+        "id": "indexRoutePublishBody",
+        "tag": "p",
+        "text": "Para preparar handoffs, auditoría y salida pública.",
+        "styles": {
+          "margin": "0",
+          "color": "#5d6870",
+          "fontSize": "0.85rem",
+          "lineHeight": "1.45",
+          "fontWeight": "650",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRoutePublish1",
+      "type": "link",
+      "config": {
+        "id": "indexRoutePublish1",
+        "href": "/handoffs-coordinacion?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Handoffs",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRoutePublish2",
+      "type": "link",
+      "config": {
+        "id": "indexRoutePublish2",
+        "href": "/playbooks?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Playbooks",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRoutePublish3",
+      "type": "link",
+      "config": {
+        "id": "indexRoutePublish3",
+        "href": "/seguridad-publicacion?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Seguridad",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRoutePublish",
+      "type": "container",
+      "config": {
+        "id": "indexRoutePublish",
+        "tag": "div",
+        "components": [
+          "indexRoutePublishTitle",
+          "indexRoutePublishBody",
+          "indexRoutePublish1",
+          "indexRoutePublish2",
+          "indexRoutePublish3"
+        ],
+        "styles": {
+          "background": "#ffffff",
+          "border": "1px solid #202326",
+          "borderRadius": "14px",
+          "padding": "20px",
+          "boxSizing": "border-box",
+          "display": "grid",
+          "gap": "16px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteGrid",
+      "type": "container",
+      "config": {
+        "id": "indexRouteGrid",
+        "tag": "div",
+        "components": [
+          "indexRouteFast",
+          "indexRouteRepo",
+          "indexRouteTools",
+          "indexRoutePublish"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 260px), 1fr))",
+          "gap": "22px",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteInner",
+      "type": "container",
+      "config": {
+        "id": "indexRouteInner",
+        "tag": "div",
+        "components": [
+          "indexAllPages",
+          "indexRouteGrid"
+        ],
+        "styles": {
+          "width": "100%",
+          "maxWidth": "1180px",
+          "display": "grid",
+          "gap": "24px",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "indexRouteSection",
+      "type": "container",
+      "config": {
+        "id": "indexRouteSection",
+        "tag": "section",
+        "components": [
+          "indexRouteInner"
+        ],
+        "styles": {
+          "width": "100%",
+          "display": "flex",
+          "justifyContent": "center",
+          "padding": "34px 16px",
+          "boxSizing": "border-box",
+          "background": "#fbfaf6"
+        }
+      }
+    },
+    {
+      "id": "topbarBrand",
+      "type": "link",
+      "config": {
+        "id": "topbarBrand",
+        "href": "/?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Claude/Codex Agent Lab",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#101316",
+          "background": "#ffffff",
+          "textDecoration": "none",
+          "fontSize": "1rem",
+          "fontWeight": "950",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#202326"
+        }
+      }
+    },
+    {
+      "id": "topRoute0",
+      "type": "link",
+      "config": {
+        "id": "topRoute0",
+        "href": "/indice?draftDomain=agent-guide-claude-codex.com&debugWorkspace=false",
+        "text": "Índice",
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "minHeight": "38px",
+          "padding": "9px 11px",
+          "borderRadius": "10px",
+          "border": "1px solid #d3dade",
+          "color": "#ffffff",
+          "background": "#101316",
+          "textDecoration": "none",
+          "fontSize": "0.82rem",
+          "fontWeight": "850",
+          "lineHeight": "1.2",
+          "textAlign": "center",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal",
+          "borderColor": "#101316"
+        }
+      }
+    },
+    {
+      "id": "topbarLinks",
+      "type": "container",
+      "config": {
+        "id": "topbarLinks",
+        "tag": "div",
+        "components": [
+          "topRoute0"
+        ],
+        "styles": {
+          "display": "flex",
+          "flexWrap": "nowrap",
+          "justifyContent": "flex-end",
+          "gap": "8px",
+          "overflowX": "auto",
+          "flexShrink": "0",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topbarInner",
+      "type": "container",
+      "config": {
+        "id": "topbarInner",
+        "tag": "div",
+        "components": [
+          "topbarBrand",
+          "topbarLinks"
+        ],
+        "styles": {
+          "width": "100%",
+          "maxWidth": "1180px",
+          "display": "flex",
+          "flexWrap": "nowrap",
+          "alignItems": "center",
+          "justifyContent": "space-between",
+          "gap": "10px",
+          "overflowX": "auto",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topbar",
+      "type": "container",
+      "config": {
+        "id": "topbar",
+        "tag": "header",
+        "components": [
+          "topbarInner"
+        ],
+        "styles": {
+          "position": "sticky",
+          "top": "0",
+          "zIndex": "1000",
+          "width": "100%",
+          "display": "flex",
+          "justifyContent": "center",
+          "padding": "8px 12px",
+          "borderBottom": "1px solid #202326",
+          "background": "rgba(247,245,238,0.96)",
+          "backdropFilter": "blur(14px)",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicHeroGrid",
+      "type": "container",
+      "config": {
+        "id": "topicHeroGrid",
+        "tag": "div",
+        "components": [
+          "topicHero"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 330px), 1fr))",
+          "gap": "24px",
+          "alignItems": "start",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicHeroInner",
+      "type": "container",
+      "config": {
+        "id": "topicHeroInner",
+        "tag": "div",
+        "components": [
+          "topicHeroGrid"
+        ],
+        "styles": {
+          "width": "100%",
+          "maxWidth": "1180px",
+          "display": "grid",
+          "gap": "24px",
+          "boxSizing": "border-box",
+          "minWidth": "0",
+          "overflowWrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      }
+    },
+    {
+      "id": "topicHeroBand",
+      "type": "container",
+      "config": {
+        "id": "topicHeroBand",
+        "tag": "section",
+        "components": [
+          "topicHeroInner"
+        ],
+        "styles": {
+          "width": "100%",
+          "display": "flex",
+          "justifyContent": "center",
+          "padding": "34px 16px",
+          "boxSizing": "border-box"
+        }
+      }
+    },
+    {
+      "id": "studyPage",
+      "type": "container",
+      "config": {
+        "id": "study-main",
+        "tag": "main",
+        "components": [
+          "topbar",
+          "topicHeroBand",
+          "indexRouteSection",
+          "conceptSection",
+          "exampleSection",
+          "practiceSection",
+          "sourceSection",
+          "relatedSection"
+        ],
+        "styles": {
+          "minHeight": "100vh",
+          "background": "#f7f5ee",
+          "color": "#101316",
+          "fontFamily": "Inter, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+        }
+      }
+    },
+    {
+      "id": "skipToMainLink",
+      "type": "link",
+      "eventInstructions": "skipToMain:study-main",
+      "config": {
+        "id": "skipToMainLink",
+        "href": "#study-main",
+        "text": "Saltar al contenido principal",
+        "ariaLabel": "Saltar al contenido principal",
+        "classes": "ank-d-none"
+      }
+    }
+  ]
+}

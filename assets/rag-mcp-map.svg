@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa RAG MCP contexto</title>
+  <desc id="desc">Mapa conceptual de recursos, tools, prompts, retrieval y contexto util.</desc>
+  <rect width="1200" height="720" rx="36" fill="#f7f5ee"/>
+  <circle cx="600" cy="360" r="150" fill="#ffffff" stroke="#111820" stroke-width="3"/>
+  <text x="522" y="344" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="850" fill="#111820">Contexto</text>
+  <text x="548" y="380" font-family="Inter, Arial, sans-serif" font-size="18" fill="#44515c">util y citado</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#111820">
+    <rect x="72" y="118" width="260" height="116" rx="22" fill="#eaf8ff" stroke="#111820" stroke-width="2"/>
+    <text x="112" y="168">Resources</text>
+    <text x="112" y="198" font-size="15" font-weight="500">datos que el modelo lee</text>
+    <rect x="868" y="118" width="260" height="116" rx="22" fill="#dff7e8" stroke="#111820" stroke-width="2"/>
+    <text x="916" y="168">Tools</text>
+    <text x="916" y="198" font-size="15" font-weight="500">acciones que ejecuta</text>
+    <rect x="72" y="486" width="260" height="116" rx="22" fill="#fff4e6" stroke="#111820" stroke-width="2"/>
+    <text x="112" y="536">Prompts</text>
+    <text x="112" y="566" font-size="15" font-weight="500">workflows iniciados por usuario</text>
+    <rect x="868" y="486" width="260" height="116" rx="22" fill="#ffffff" stroke="#111820" stroke-width="2"/>
+    <text x="916" y="536">Retrieval</text>
+    <text x="916" y="566" font-size="15" font-weight="500">buscar antes de generar</text>
+  </g>
+  <g stroke="#111820" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M332 176C430 210 485 255 520 284"/>
+    <path d="M868 176C770 210 715 255 680 284"/>
+    <path d="M332 544C430 510 485 465 520 436"/>
+    <path d="M868 544C770 510 715 465 680 436"/>
+  </g>
+  <text x="72" y="78" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="850" fill="#111820">RAG + MCP: traer contexto antes de actuar</text>
+  <text x="72" y="660" font-family="Inter, Arial, sans-serif" font-size="20" fill="#44515c">Regla practica: si la respuesta depende de datos externos, primero recupera, cita y luego ejecuta.</text>
+</svg>

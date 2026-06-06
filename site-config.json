@@ -1,0 +1,296 @@
+{
+  "version": 1,
+  "domain": "agent-guide-claude-codex.com",
+  "defaultPageId": "default",
+  "notFoundPageId": "default",
+  "routes": [
+    {
+      "path": "/",
+      "pageId": "default",
+      "label": "Inicio"
+    },
+    {
+      "path": "/indice",
+      "pageId": "indice",
+      "label": "Índice"
+    },
+    {
+      "path": "/fundamentos",
+      "pageId": "fundamentos",
+      "label": "Fundamentos"
+    },
+    {
+      "path": "/prompting",
+      "pageId": "prompting",
+      "label": "Prompting"
+    },
+    {
+      "path": "/evaluaciones",
+      "pageId": "evaluaciones",
+      "label": "Evaluaciones"
+    },
+    {
+      "path": "/tool-use",
+      "pageId": "tool-use",
+      "label": "Tool Use"
+    },
+    {
+      "path": "/rag",
+      "pageId": "rag",
+      "label": "RAG"
+    },
+    {
+      "path": "/mcp",
+      "pageId": "mcp",
+      "label": "MCP"
+    },
+    {
+      "path": "/workflows-agentes",
+      "pageId": "workflows-agentes",
+      "label": "Workflows"
+    },
+    {
+      "path": "/claude-code-codex",
+      "pageId": "claude-code-codex",
+      "label": "Claude Code / Codex"
+    },
+    {
+      "path": "/laboratorios",
+      "pageId": "laboratorios",
+      "label": "Laboratorios"
+    },
+    {
+      "path": "/flashcards",
+      "pageId": "flashcards",
+      "label": "Flashcards"
+    },
+    {
+      "path": "/biblioteca",
+      "pageId": "biblioteca",
+      "label": "Biblioteca"
+    },
+    {
+      "path": "/fluidez-4d",
+      "pageId": "fluidez-4d",
+      "label": "4D Fluency"
+    },
+    {
+      "path": "/contexto-memoria",
+      "pageId": "contexto-memoria",
+      "label": "Contexto"
+    },
+    {
+      "path": "/tool-schemas",
+      "pageId": "tool-schemas",
+      "label": "Schemas"
+    },
+    {
+      "path": "/rag-contextual",
+      "pageId": "rag-contextual",
+      "label": "RAG avanzado"
+    },
+    {
+      "path": "/mcp-avanzado",
+      "pageId": "mcp-avanzado",
+      "label": "MCP avanzado"
+    },
+    {
+      "path": "/subagentes",
+      "pageId": "subagentes",
+      "label": "Subagentes"
+    },
+    {
+      "path": "/skills-recomendados",
+      "pageId": "skills-recomendados",
+      "label": "Skills"
+    },
+    {
+      "path": "/skills-recomendados-casos",
+      "pageId": "skills-recomendados-casos",
+      "label": "Skills recomendados"
+    },
+    {
+      "path": "/apps-complementos",
+      "pageId": "apps-complementos",
+      "label": "Apps Codex"
+    },
+    {
+      "path": "/browser-computer-use",
+      "pageId": "browser-computer-use",
+      "label": "Browser QA"
+    },
+    {
+      "path": "/handoffs-coordinacion",
+      "pageId": "handoffs-coordinacion",
+      "label": "Handoffs"
+    },
+    {
+      "path": "/qa-dogfood",
+      "pageId": "qa-dogfood",
+      "label": "QA"
+    },
+    {
+      "path": "/seguridad-publicacion",
+      "pageId": "seguridad-publicacion",
+      "label": "Seguridad"
+    },
+    {
+      "path": "/playbooks",
+      "pageId": "playbooks",
+      "label": "Playbooks"
+    },
+    {
+      "path": "/evaluaciones-agenticas",
+      "pageId": "evaluaciones-agenticas",
+      "label": "Evals agenticas"
+    },
+    {
+      "path": "/workflows-repo",
+      "pageId": "workflows-repo",
+      "label": "Repo workflow"
+    },
+    {
+      "path": "/decision-router",
+      "pageId": "decision-router",
+      "label": "Router"
+    }
+  ],
+  "sitemap": {
+    "excludePaths": []
+  },
+  "site": {
+    "theme": {
+      "defaultMode": "light",
+      "palettes": {
+        "light": {
+          "bgColor": "#f4f6f8",
+          "textColor": "#22303c",
+          "titleColor": "#0f1720",
+          "linkColor": "#245f8f",
+          "accentColor": "#2d8a7a",
+          "secondaryBgColor": "#ffffff",
+          "secondaryTextColor": "#374151",
+          "secondaryTitleColor": "#111827",
+          "secondaryLinkColor": "#7c3f58",
+          "secondaryAccentColor": "#d89b37",
+          "successColor": "#1f8f63",
+          "onSuccessColor": "#f5fff9",
+          "errorColor": "#b42318",
+          "onErrorColor": "#fff7f6",
+          "warningColor": "#b7791f",
+          "onWarningColor": "#201300",
+          "infoColor": "#245f8f",
+          "onInfoColor": "#f5fbff"
+        },
+        "dark": {
+          "bgColor": "#101418",
+          "textColor": "#e5edf4",
+          "titleColor": "#f8fafc",
+          "linkColor": "#79b7e8",
+          "accentColor": "#54c5ae",
+          "secondaryBgColor": "#19212a",
+          "secondaryTextColor": "#d2dce5",
+          "secondaryTitleColor": "#ffffff",
+          "secondaryLinkColor": "#d18aa6",
+          "secondaryAccentColor": "#e4b766",
+          "successColor": "#65c38f",
+          "onSuccessColor": "#062014",
+          "errorColor": "#ff8a7a",
+          "onErrorColor": "#300703",
+          "warningColor": "#f0c05f",
+          "onWarningColor": "#251800",
+          "infoColor": "#79b7e8",
+          "onInfoColor": "#07192a"
+        }
+      }
+    },
+    "appIdentity": {
+      "identifier": "agentlearningclaudecodex",
+      "name": "Claude/Codex Agent Lab",
+      "version": "1.0.0",
+      "description": "Sitio de estudio multipagina para aprender trabajo practico con agentes, herramientas, RAG, MCP, evaluaciones, Claude Code y Codex."
+    },
+    "seo": {
+      "siteName": "Claude/Codex Agent Lab",
+      "title": "Claude/Codex Agent Lab",
+      "description": "Sitio practico multipagina de estudio en espanol para aprender agentes, workflows, tool use, RAG, MCP, evaluaciones, Claude Code y Codex.",
+      "canonicalOrigin": "https://agent-guide-claude-codex.com",
+      "openGraph": {
+        "type": "website",
+        "site_name": "Ruta Claude/Codex para agentes"
+      },
+      "twitter": {
+        "card": "summary"
+      },
+      "keywords": [
+        "Claude",
+        "Codex",
+        "agentes de IA",
+        "MCP",
+        "RAG",
+        "tool use",
+        "prompt evaluation",
+        "Claude Code"
+      ],
+      "robots": "noindex,nofollow"
+    },
+    "i18n": {
+      "defaultLanguage": "es",
+      "supportedLanguages": [
+        {
+          "code": "es",
+          "label": "ES"
+        }
+      ]
+    }
+  },
+  "defaults": {
+    "brand": {
+      "displayName": "Ruta Claude/Codex para agentes"
+    },
+    "ui": {
+      "loadingCurtain": {
+        "enabled": true,
+        "title": "Ruta Claude/Codex",
+        "subtitle": "Cargando herramienta de estudio",
+        "exitDurationMs": 260,
+        "minVisibleMs": 0,
+        "background": "#f4f6f8",
+        "foreground": "#0f1720",
+        "accent": "#2d8a7a"
+      }
+    }
+  },
+  "runtime": {
+    "localStorage": {
+      "theme": "agent-learning-theme",
+      "language": "agent-learning-language",
+      "userPreferences": "agent-learning-preferences",
+      "id": "agent-learning-id",
+      "sessionId": "agent-learning-session-id",
+      "allowAnalytics": "agent-learning-allow-analytics",
+      "analyticsConsentSnooze": "agent-learning-analytics-snooze",
+      "pageViewCount": "agent-learning-page-view-count"
+    },
+    "features": {
+      "debugMode": false
+    },
+    "navigation": {
+      "scrollRestoration": {
+        "mode": "top",
+        "behavior": "auto"
+      }
+    },
+    "analytics": {
+      "enabled": false,
+      "consentUI": "none",
+      "track": []
+    }
+  },
+  "aliases": [],
+  "environments": {
+    "test": {
+      "aliases": []
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Publication safety gate</title>
+  <desc id="desc">Safety gate for public drafts: secrets, PII, assets, links, QA and audit.</desc>
+  <rect width="1200" height="720" rx="28" fill="#101820"/>
+  <rect x="84" y="76" width="1032" height="548" rx="28" fill="#132f4a" stroke="#dff3ff" stroke-width="4"/>
+  <text x="125" y="145" font-family="Arial, sans-serif" font-size="48" font-weight="800" fill="#ffffff">Publication gate</text>
+  <text x="125" y="187" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#bfe5f7">No public release without privacy, QA and audit</text>
+  <g font-family="Arial, sans-serif" font-weight="800">
+    <rect x="130" y="245" width="250" height="92" rx="18" fill="#ffe1e1" stroke="#ff9b9b"/>
+    <text x="160" y="285" font-size="24" fill="#4b1111">Secrets</text>
+    <text x="160" y="315" font-size="17" fill="#4b1111">keys, cookies, tokens</text>
+    <rect x="430" y="245" width="250" height="92" rx="18" fill="#ffe1e1" stroke="#ff9b9b"/>
+    <text x="460" y="285" font-size="24" fill="#4b1111">Private data</text>
+    <text x="460" y="315" font-size="17" fill="#4b1111">identity, account, PII</text>
+    <rect x="730" y="245" width="250" height="92" rx="18" fill="#fff0d8" stroke="#e0b56a"/>
+    <text x="760" y="285" font-size="24" fill="#12324a">Assets</text>
+    <text x="760" y="315" font-size="17" fill="#12324a">images and docs</text>
+    <rect x="130" y="405" width="250" height="92" rx="18" fill="#dff3ff" stroke="#7bb8d5"/>
+    <text x="160" y="445" font-size="24" fill="#12324a">Links</text>
+    <text x="160" y="475" font-size="17" fill="#12324a">public and valid</text>
+    <rect x="430" y="405" width="250" height="92" rx="18" fill="#d7f3e4" stroke="#91c8a7"/>
+    <text x="460" y="445" font-size="24" fill="#12324a">QA</text>
+    <text x="460" y="475" font-size="17" fill="#12324a">build, browser, pack</text>
+    <rect x="730" y="405" width="250" height="92" rx="18" fill="#d7f3e4" stroke="#91c8a7"/>
+    <text x="760" y="445" font-size="24" fill="#12324a">Audit</text>
+    <text x="760" y="475" font-size="17" fill="#12324a">run before public</text>
+  </g>
+  <rect x="220" y="550" width="760" height="45" rx="14" fill="#ffffff"/>
+  <text x="600" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#132f4a">If any red item appears, stop and sanitize.</text>
+</svg>
