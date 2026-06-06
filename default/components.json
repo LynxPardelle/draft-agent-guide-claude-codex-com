@@ -1104,7 +1104,7 @@
       "config": {
         "id": "activeLabMascotImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-sticker-10-workflow.png",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/lynx-sticker-10-workflow.png",
         "alt": "Sticker de Lynx Pardelle explicando workflows y delegación",
         "width": 1200,
         "height": 720,
@@ -1243,7 +1243,7 @@
       "config": {
         "id": "coachMascotImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/lynx-sticker-01-wave.png",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/lynx-sticker-01-wave.png",
         "alt": "Sticker de Lynx Pardelle saludando",
         "width": 1200,
         "height": 720,
@@ -9975,7 +9975,7 @@
       "config": {
         "id": "infoLoopMedia",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/agent-tool-loop.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/agent-tool-loop.svg",
         "alt": "Loop agente-tool-evaluación-humano",
         "width": 1200,
         "height": 720,
@@ -9992,7 +9992,7 @@
       "config": {
         "id": "infoLoopModalRootImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/agent-tool-loop.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/agent-tool-loop.svg",
         "alt": "Loop agente-tool-evaluación-humano",
         "width": 1200,
         "height": 720,
@@ -10140,7 +10140,7 @@
       "config": {
         "id": "infoEvalMedia",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/eval-pipeline.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/eval-pipeline.svg",
         "alt": "Pipeline de evaluaciones",
         "width": 1200,
         "height": 720,
@@ -10157,7 +10157,7 @@
       "config": {
         "id": "infoEvalModalRootImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/eval-pipeline.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/eval-pipeline.svg",
         "alt": "Pipeline de evaluaciones",
         "width": 1200,
         "height": 720,
@@ -10305,7 +10305,7 @@
       "config": {
         "id": "infoRagMedia",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/rag-mcp-map.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/rag-mcp-map.svg",
         "alt": "Mapa RAG/MCP/contexto",
         "width": 1200,
         "height": 720,
@@ -10322,7 +10322,7 @@
       "config": {
         "id": "infoRagModalRootImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/rag-mcp-map.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/rag-mcp-map.svg",
         "alt": "Mapa RAG/MCP/contexto",
         "width": 1200,
         "height": 720,
@@ -10470,7 +10470,7 @@
       "config": {
         "id": "infoMatrixMedia",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/tool-choice-matrix.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/tool-choice-matrix.svg",
         "alt": "Matriz de elección",
         "width": 1200,
         "height": 720,
@@ -10487,7 +10487,7 @@
       "config": {
         "id": "infoMatrixModalRootImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/tool-choice-matrix.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/tool-choice-matrix.svg",
         "alt": "Matriz de elección",
         "width": 1200,
         "height": 720,
@@ -10635,7 +10635,7 @@
       "config": {
         "id": "infoSkillStackMedia",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/skill-stack-map.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/skill-stack-map.svg",
         "alt": "Stack de skills",
         "width": 1200,
         "height": 720,
@@ -10652,7 +10652,7 @@
       "config": {
         "id": "infoSkillStackModalRootImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/skill-stack-map.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/skill-stack-map.svg",
         "alt": "Stack de skills",
         "width": 1200,
         "height": 720,
@@ -10800,7 +10800,7 @@
       "config": {
         "id": "infoSchemaContractMedia",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/tool-schema-contract.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/tool-schema-contract.svg",
         "alt": "Contrato de herramienta",
         "width": 1200,
         "height": 720,
@@ -10817,7 +10817,7 @@
       "config": {
         "id": "infoSchemaContractModalRootImage",
         "tag": "image",
-        "src": "/drafts/agent-guide-claude-codex.com/assets/tool-schema-contract.svg",
+        "src": "https://assets.zoolandingpage.com.mx/agent-guide-claude-codex.com/shared/draft-assets/tool-schema-contract.svg",
         "alt": "Contrato de herramienta",
         "width": 1200,
         "height": 720,
