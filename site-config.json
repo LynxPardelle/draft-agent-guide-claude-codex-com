@@ -290,7 +290,10 @@
   "aliases": [],
   "environments": {
     "test": {
-      "aliases": []
+      "aliases": [
+        "test.agent-guide-claude-codex.com",
+        "test.agent-guide-claude-codex.zoolandingpage.com.mx"
+      ]
     }
   }
 }
