@@ -287,13 +287,5 @@
       "track": []
     }
   },
-  "aliases": [],
-  "environments": {
-    "test": {
-      "aliases": [
-        "test.agent-guide-claude-codex.com",
-        "test.agent-guide-claude-codex.zoolandingpage.com.mx"
-      ]
-    }
-  }
+  "aliases": []
 }
