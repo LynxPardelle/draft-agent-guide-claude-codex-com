@@ -2,7 +2,6 @@
   "version": 1,
   "domain": "agent-guide-claude-codex.com",
   "defaultPageId": "default",
-  "notFoundPageId": "default",
   "routes": [
     {
       "path": "/",
