@@ -4976,7 +4976,8 @@
         "id": "topicHeroGrid",
         "tag": "div",
         "components": [
-          "topicHero"
+          "topicHero",
+          "topicMascotOpenImage"
         ],
         "styles": {
           "display": "grid",
@@ -4996,7 +4997,8 @@
         "id": "topicHeroInner",
         "tag": "div",
         "components": [
-          "topicHeroGrid"
+          "topicHeroGrid",
+          "topicVisualOpenImage"
         ],
         "styles": {
           "width": "100%",
